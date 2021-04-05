@@ -1,4 +1,3 @@
-
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -34,25 +33,37 @@ public class Interpreter extends fileObject {
 
     public void interpretSentence() {
         String path = "parts-of-speech-word-files" + File.separator;
-        int size = 4;
+        int size = 7;
         readSentence("SentenceBuilder.txt", path, size);
-        if (sentenceCreator.contains("(noun)")) {
-            int i = sentenceCreator.indexOf("(noun)");
-            String noun = wordFetcher.getNoun();
-            sentenceCreator.set(i, noun);
-        }
-        if (sentenceCreator.contains("(ingword)")) {
-            int i = sentenceCreator.indexOf("(ingword)");
-            String ingword = wordFetcher.getIngWord();
-            sentenceCreator.set(i, ingword);
-        }
-        if (sentenceCreator.contains("(verb)")) {
-            int i = sentenceCreator.indexOf("(verb)");
-            String verb = wordFetcher.getVerb();
-            sentenceCreator.set(i, verb);
+        for (int i = 0; i < sentenceCreator.size(); i++) {
+            wordFiller(sentenceCreator.get(i), i);
         }
         firstWordToUpper();
         toString();
+    }
+
+    public ArrayList<String> wordFiller(String word, int i){
+        if (word.equals("(noun)")) {
+            String noun = wordFetcher.getNoun();
+            sentenceCreator.set(i, noun);
+        }
+        if (word.equals("(ingword)")) {
+            String ingword = wordFetcher.getIngWord();
+            sentenceCreator.set(i, ingword);
+        }
+        if (word.equals("(verb)")) {
+            String verb = wordFetcher.getVerb();
+            sentenceCreator.set(i, verb);
+        }
+        if (word.equals("(adjective)")) {
+            String adjective = wordFetcher.getAdjective();
+            sentenceCreator.set(i, adjective);
+        }
+        if (word.equals("(adverb)")) {
+            String adverb = wordFetcher.getAdverb();
+            sentenceCreator.set(i, adverb);
+        }
+        return sentenceCreator;
     }
 
     public ArrayList<String> firstWordToUpper() {
@@ -83,3 +94,4 @@ public class Interpreter extends fileObject {
 }
 
 // https://stackoverflow.com/questions/26642860/capitalize-the-first-letter-in-a-arraylist-of-names
+
