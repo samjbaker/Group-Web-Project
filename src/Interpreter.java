@@ -57,14 +57,11 @@ public class Interpreter extends fileObject {
 
     public ArrayList<String> firstWordToUpper() {
         String firstWord = sentenceCreator.get(0);
-        String[] names = firstWord.split("\\s+");
+        String[] wordArray = firstWord.split("\\s+");
         StringBuilder builder = new StringBuilder();
-        for (int i = 0; i < names.length; i++) {
-            if (i != 0) {
-                builder.append(' ');
-            }
-            builder.append(Character.toUpperCase(names[i].charAt(0)));
-            builder.append(names[i].substring(1).toLowerCase());
+        for (int i = 0; i < wordArray.length; i++) {
+            builder.append(Character.toUpperCase(wordArray[i].charAt(0)));
+            builder.append(wordArray[i].substring(1));
         }
         sentenceCreator.set(0, builder.toString());
         return sentenceCreator;
