@@ -58,15 +58,15 @@ public class Interpreter extends fileObject {
     public ArrayList<String> firstWordToUpper() {
         String firstWord = sentenceCreator.get(0);
         String[] names = firstWord.split("\\s+");
-        StringBuilder sb = new StringBuilder();
+        StringBuilder builder = new StringBuilder();
         for (int i = 0; i < names.length; i++) {
             if (i != 0) {
-                sb.append(' ');
+                builder.append(' ');
             }
-            sb.append(Character.toUpperCase(names[i].charAt(0)));
-            sb.append(names[i].substring(1).toLowerCase());
+            builder.append(Character.toUpperCase(names[i].charAt(0)));
+            builder.append(names[i].substring(1).toLowerCase());
         }
-        sentenceCreator.set(0, sb.toString());
+        sentenceCreator.set(0, builder.toString());
         return sentenceCreator;
     }
 
@@ -84,3 +84,5 @@ public class Interpreter extends fileObject {
         return sentenceString;
     }
 }
+
+// https://stackoverflow.com/questions/26642860/capitalize-the-first-letter-in-a-arraylist-of-names
