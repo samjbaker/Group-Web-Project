@@ -17,9 +17,6 @@ services:
       - MONGO_DB=$MONGO_DB
     ports:
       - "3000:3000"
-    volumes:
-      - .:/home/node/app
-      - node_modules:/home/node/app/node_modules
     networks:
       - app-network
     command: ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon server.js
@@ -32,6 +29,8 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=$MONGO_USERNAME
       - MONGO_INITDB_ROOT_PASSWORD=$MONGO_PASSWORD
+    ports:             # <==
+      - "27018:27017"  # <==  THIS IS THE ONLY CHANGE
     volumes:
       - dbdata:/data/db
     networks:
@@ -44,3 +43,5 @@ networks:
 volumes:
   dbdata:
   node_modules:
+
+
