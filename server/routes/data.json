@@ -1,4 +1,5 @@
-{
-	
-	"RandomlyGeneratedSentence":["Hello this is a test"]
-}
+[
+   {
+      "randomSentence": "This is some test text"
+    }
+]

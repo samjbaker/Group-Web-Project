@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from './data.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-sentence-class',
+  templateUrl: './sentence-class.component.html',
+  styleUrls: ['./sentence-class.component.css']
 })
-export class AppComponent implements OnInit {
+
+export class SentenceClassComponent implements OnInit {
 sentenceList: any = [];
-public randomSentence = ['Default sentence'];
+public randomSentence = ['This is a test'];
 
   constructor(private dataService: DataService) { }
 
