@@ -7,16 +7,19 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<div class="container">
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-            <a class="nav-link" routerLink="/sentence-class">Sentence class</a>
-        </li>
-    </ul>
-    <div>
-        <router-outlet></router-outlet>
-    </div>
-</div>
+<h1>Our Web Project</h1>
+<table class="table" id='tab'>
+    <thead>
+    <tr>
+        <th scope="col">Names</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let i of dataList;">
+        <td>{{ i.name }}</td>
+    </tr>
+    </tbody>
+</table>   
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 

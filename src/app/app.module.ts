@@ -5,13 +5,10 @@ import { DataService } from './data.service';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { SentenceClassComponent } from './sentence-class/sentence-class.component';
-
 
 @NgModule({
    declarations: [
      AppComponent,
-     SentenceClassComponent
    ],
    imports: [
      BrowserModule,

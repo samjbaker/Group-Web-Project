@@ -7,8 +7,8 @@ import { DataService } from './data.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-sentenceList: any = [];
-public randomSentence = ['Default sentence'];
+  public name = ['default'];
+dataList: any = [];
 
   constructor(private dataService: DataService) { }
 
@@ -19,8 +19,8 @@ public randomSentence = ['Default sentence'];
   retrieveData() {
     this.dataService.getAll().subscribe(
         data => {
-          this.sentenceList = data;
-          this.randomSentence = this.sentenceList.randomSentence;
+          this.dataList = data;
+          this.name = this.dataList.name;
         },
         error => {
           console.log(error);
