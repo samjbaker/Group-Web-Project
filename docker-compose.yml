@@ -42,6 +42,5 @@ networks:
 
 volumes:
   dbdata:
-  node_modules:
 
 
