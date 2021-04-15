@@ -1,0 +1,20 @@
+<div
+  infinite-scroll
+  [infiniteScrollDistance]="distance"
+  [infiniteScrollThrottle]="throttle"
+  (scrolled)="onScroll()"
+>
+  <mat-card *ngFor="let brewery of breweries">
+    <mat-card-title>
+      <h1>
+        <a [href]="brewery.website_url">{{ brewery.name }}</a>
+      </h1>
+    </mat-card-title>
+    <mat-card-subtitle>
+      <h2>{{ brewery.city }}, {{ brewery.state }}, {{ brewery.country }}</h2>
+    </mat-card-subtitle>
+    <mat-card-content>
+      <h3>Type: {{ brewery.brewery_type }}</h3>
+    </mat-card-content>
+  </mat-card>
+</div>
