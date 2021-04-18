@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fb-clone-eeb93": {
+      "hosting": {
+        "fb-clone": [
+          "fb-clone-eeb93"
+        ]
+      }
+    }
+  }
+}
