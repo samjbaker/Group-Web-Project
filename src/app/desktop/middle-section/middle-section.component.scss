@@ -1,0 +1,33 @@
+.writePost {
+  border: 1px solid black;
+  border-radius: 1vh;
+  height: 25%;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  textarea {
+    width: 96%;
+    font-size: 4vh;
+    background-color: #F0F2F5;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    border:none;
+    resize: none;
+  }
+  input[value="post"] {
+    background-color: rgb(67, 91, 238);
+    color: white;
+    font-size: 4vh;
+    border: none;
+    border-radius: 0.7vh;
+    margin-top: 0%;
+    margin-left: 90%;
+    cursor: pointer;
+  }
+}
+
+.number {
+  
+}
+
