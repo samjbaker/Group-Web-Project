@@ -33,7 +33,7 @@
 
               <div class="feed_content_footer">
                 <div class="heart-container">
-                  <button class="heartButton" (click)="onClick()" [style.color]="heartColor">
+                  <button class="heartButton" (click)="updateButtonColor()" [style.color]="heartColor">
                     <fa-icon [icon]="faHeart" class="heart"></fa-icon>
                   </button>
                   <p class="heart_number">{{feedbox.noOfLikes}}</p>

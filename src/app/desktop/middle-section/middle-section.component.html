@@ -1,7 +1,7 @@
 <div class="writePost">
-  <form action="">
-    <textarea rows="2" placeholder="What's happening"></textarea>
-    <input type="button" value="post">
+  <form #form="ngForm" (ngSubmit)="postMessage(form)">
+    <textarea rows="2" ngModel name="message" placeholder="What's happening"></textarea>
+    <input type="submit" value="post">
   </form>
 </div>
 

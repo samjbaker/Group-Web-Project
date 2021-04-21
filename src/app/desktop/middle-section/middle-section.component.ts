@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import {NgForm} from '@angular/forms';
 
 @Component({
   selector: 'app-middle-section',
@@ -12,4 +13,7 @@ export class MiddleSectionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  postMessage(form: NgForm): void {
+    form.resetForm();
+  }
 }

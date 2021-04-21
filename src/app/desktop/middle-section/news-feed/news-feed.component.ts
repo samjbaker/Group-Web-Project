@@ -37,7 +37,7 @@ export class NewsFeedComponent implements OnInit {
       });
   }
 
-  onClick(): void {
+  updateButtonColor(): void {
     this.colorflag++;
     this.colorflag = this.colorflag % 2;
     if (this.colorflag == 0) {
