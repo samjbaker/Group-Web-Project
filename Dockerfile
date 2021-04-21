@@ -24,4 +24,8 @@ RUN ./node_modules/.bin/ng build
 EXPOSE 3000
 
 # Run the specified command within the container.
-CMD [ "node", "server.js" ]
+#CMD [ "node", "seed.js" ]
+
+#CMD ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon server.js
+
+#RUN ./wait-for.sh db:27017 -- node seed.js
