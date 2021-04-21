@@ -1,8 +1,10 @@
 <div class="trendingBarContainer">
-  <h1>
+  <div class="title">
     Trending for you
-  </h1>
-  <h2 *ngFor="let i of trends">
-    #{{i}}
-  </h2>
+  </div>
+  <div class="trends">
+    <div *ngFor="let i of trends" class="individualTrend">
+      #{{i}}
+    </div>
+  </div>
 </div>

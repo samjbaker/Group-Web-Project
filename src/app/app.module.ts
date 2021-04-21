@@ -11,6 +11,7 @@ import { NewsFeedComponent } from './desktop/middle-section/news-feed/news-feed.
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule }   from '@angular/forms';
+import { AboutComponent } from './desktop/about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule }   from '@angular/forms';
     LeftsidebarComponent,
     TrendingbarComponent,
     MiddleSectionComponent,
-    NewsFeedComponent
+    NewsFeedComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { FormsModule }   from '@angular/forms';
     LeftsidebarComponent,
     TrendingbarComponent,
     MiddleSectionComponent,
-    NewsFeedComponent
+    NewsFeedComponent,
+    AboutComponent
   ]
 })
 export class AppModule { }
