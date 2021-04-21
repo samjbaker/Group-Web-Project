@@ -10,8 +10,6 @@
 - Tony Fang
 - Sam Baker
 
-*Add roles*
-
 
 #### Introduction [10 marks]
 - Abstract. Motivation for the project, framing of the problem and a high-level overview of the system.
