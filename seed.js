@@ -3,8 +3,8 @@ var fs = require('fs');
 var postPath = './db_build/posts.json';
 var userPath = './db_build/users.json';
 var data;
-var Post = require('./models/post_model')
-var User = require('./models/user_model')
+var Post = require('./models/post_model.js')
+var User = require('./models/user_model.js')
 
 const {
   MONGO_USERNAME,
@@ -62,7 +62,7 @@ conn.db.listCollections({name: 'users'})
          });
         } else {
             let user_data = fs.readFileSync(userPath);
-            let user_insert = JSON.parse(post_data);
+            let user_insert = JSON.parse(user_data);
             User.insertMany(user_insert).then(function(){
                 console.log("Data inserted")  // Success
             }).catch(function(error){
