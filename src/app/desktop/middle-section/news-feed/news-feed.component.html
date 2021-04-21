@@ -1,6 +1,5 @@
 <div class="newsFeed"
-  infinite-scroll
-  (scrolled)="onScroll()">
+  (scroll)="onScroll()">
   <div class="box" *ngFor="let feedbox of feeds">
     <div *ngIf="feedbox.noOfLikes==''; else elseBlock" class="feed">
         <div class="feed_left">

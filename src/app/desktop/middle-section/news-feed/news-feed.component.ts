@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy,HostListener } from '@angular/core';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faComment } from '@fortawesome/free-solid-svg-icons';
 import { NewsFeedService } from './news-feed.service';
@@ -15,7 +15,7 @@ export class NewsFeedComponent implements OnInit {
   faComment = faComment;
 
   throttle:number = 0;
-  distance:number = 2;
+  distance:number = 3;
   feeds: Feedbox[] | any[] = [];
 
   constructor(private newsFeedService: NewsFeedService) { }
@@ -28,6 +28,7 @@ export class NewsFeedComponent implements OnInit {
       });
   }
 
+  @HostListener('scroll', ['$event'])
   onScroll(): void {
     this.newsFeedService
       .getFeeds()
