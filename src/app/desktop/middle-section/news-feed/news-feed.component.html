@@ -1,7 +1,7 @@
 <div class="newsFeed"
   (scroll)="onScroll()">
   <div class="box" *ngFor="let feedbox of feeds">
-    <div *ngIf="feedbox.noOfLikes==''; else elseBlock" class="feed">
+    <div *ngIf="feedbox.fact==true; else elseBlock" class="feed">
         <div class="feed_left">
           <img src="assets/profile_pic.png" alt="little_keanu">
         </div>
@@ -24,25 +24,25 @@
 
           <div class="feed_right">
             <div class="username">
-              @Elon
+              @{{feedbox.username}}
             </div>
             <div class="feed_content_post">
               <div class="feed_content_text">
-                Time to take Tesla private. I will pay $420 a share.
+                {{feedbox.sentence}}
               </div>
 
               <div class="feed_content_footer">
                 <div class="heart-container">
-                  <button class="heartButton">
+                  <button class="heartButton" (click)="onClick()" [style.color]="heartColor">
                     <fa-icon [icon]="faHeart" class="heart"></fa-icon>
                   </button>
-                  <p class="heart_number">56</p>
+                  <p class="heart_number">{{feedbox.noOfLikes}}</p>
                 </div>
                 <div class="comment-container">
                   <button class="commentButton">
                     <fa-icon [icon]="faComment" class="comment"></fa-icon>
                   </button>
-                  <p class="comment_number">128</p>
+                  <p class="comment_number">{{feedbox.noOfComments}}</p>
                 </div>
               </div>
             </div>

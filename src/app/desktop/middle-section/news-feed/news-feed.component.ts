@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy,HostListener } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faComment } from '@fortawesome/free-solid-svg-icons';
 import { NewsFeedService } from './news-feed.service';
@@ -13,12 +13,13 @@ import { Feedbox } from './feedbox.model';
 export class NewsFeedComponent implements OnInit {
   faHeart = faHeart;
   faComment = faComment;
-
-  throttle:number = 0;
-  distance:number = 3;
   feeds: Feedbox[] | any[] = [];
-
-  constructor(private newsFeedService: NewsFeedService) { }
+  colorflag: number;
+  heartColor: string;
+  constructor(private newsFeedService: NewsFeedService) {
+    this.colorflag = 0;
+    this.heartColor = "rgb(150, 165, 255)";
+  }
 
   ngOnInit(): void {
     this.newsFeedService
@@ -28,12 +29,21 @@ export class NewsFeedComponent implements OnInit {
       });
   }
 
-  @HostListener('scroll', ['$event'])
   onScroll(): void {
     this.newsFeedService
       .getFeeds()
       .subscribe((feeds: Feedbox[]) => {
         this.feeds.push(...feeds);
       });
+  }
+
+  onClick(): void {
+    this.colorflag++;
+    this.colorflag = this.colorflag % 2;
+    if (this.colorflag == 0) {
+      this.heartColor = "rgb(150, 165, 255)";
+    } else {
+      this.heartColor = "red";
+    }
   }
 }

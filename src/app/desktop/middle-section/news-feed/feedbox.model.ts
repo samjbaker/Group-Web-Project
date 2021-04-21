@@ -1,6 +1,7 @@
 export interface Feedbox  {
   username: string;
   sentence: string;
-  noOfLikes: string;
-  noOfComments: string;
+  noOfLikes: number;
+  noOfComments: number;
+  fact: boolean;
 }

@@ -11,26 +11,30 @@ export class NewsFeedService {
       {
         "username": "David",
         "sentence": "U shall not pass",
-        "noOfLikes": "32",
-        "noOfComments": "47"
+        "noOfLikes": 32,
+        "noOfComments": 47,
+        "fact": false
       },
       {
         "username": "tony",
         "sentence": "I hate html",
-        "noOfLikes": "89",
-        "noOfComments": "11"
+        "noOfLikes": 69,
+        "noOfComments": 11,
+        "fact": false
       },
       {
         "username": "",
         "sentence": "Do you know that blah blah blah",
-        "noOfLikes": "",
-        "noOfComments": ""
+        "noOfLikes": 3,
+        "noOfComments": 1,
+        "fact": true
       },
       {
         "username": "Kanye",
         "sentence": "I am a creative genius",
-        "noOfLikes": "89",
-        "noOfComments": "11"
+        "noOfLikes": 14189,
+        "noOfComments": 1122,
+        "fact": false
       }]);
   }
 }

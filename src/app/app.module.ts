@@ -10,7 +10,6 @@ import { MiddleSectionComponent } from './desktop/middle-section/middle-section.
 import { NewsFeedComponent } from './desktop/middle-section/news-feed/news-feed.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NewsFeedModule } from './desktop/middle-section/news-feed/news-feed.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,8 +24,7 @@ import { NewsFeedModule } from './desktop/middle-section/news-feed/news-feed.mod
     AppRoutingModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    ReactiveFormsModule,
-    NewsFeedModule
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
