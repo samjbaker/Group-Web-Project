@@ -7,7 +7,7 @@ import { DataService } from './data.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  public name = ['default'];
+  public post_text = ['default'];
 dataList: any = [];
 
   constructor(private dataService: DataService) { }
@@ -18,9 +18,9 @@ dataList: any = [];
 
   retrieveData() {
     this.dataService.getAll().subscribe(
-        data => {
-          this.dataList = data;
-          this.name = this.dataList.name;
+        Sentence => {
+          this.dataList = Sentence;
+          this.post_text = this.dataList.post_text;
         },
         error => {
           console.log(error);

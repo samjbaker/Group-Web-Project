@@ -1,13 +1,15 @@
-// Get dependencies
 const express = require('express');
-const path = require('path');
-const http = require('http');
 const bodyParser = require('body-parser');
+const path = require('path');
+//const mongoose = require('mongoose');
+const db = require('./db');
 
-// Get our API routes
-const api = require('./server/routes/api');
-
+// set up express app
 const app = express();
+
+//connect to MongoDB
+//mongoose.connect('mongodb://localhost/sentencedata');
+//mongoose.Promise = global.Promise;
 
 // Parsers for POST data
 app.use(bodyParser.json());
@@ -16,26 +18,21 @@ app.use(bodyParser.urlencoded({extended: false}));
 // Point static path to dist (folder where build files are located)
 app.use(express.static(path.join(__dirname, 'dist/testsite')));
 
-// Set our api routes
-app.use('/api', api);
+// initialise routes 
+app.use('/api', require('./server/routes/api'));
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/testsite/index.html'));
 });
 
-/**
- * Get port from environment and store in Express.
- */
-const port = process.env.PORT || '3000';
-app.set('port', port);
+// error handling middleware
+app.use(function(err, req, res, next){
+  //console.log(err);
+  res.status(422).send({error: err.message});
+});
 
-/**
- * Create HTTP server.
- */
-const server = http.createServer(app);
-
-/**
- * Listen on provided port, on all network interfaces.
- */
-server.listen(port, () => console.log(`API running on localhost:${port}`));
+// listen for requests 
+app.listen(process.env.port || 3000, function(){
+  console.log('now listening for requests');
+});
