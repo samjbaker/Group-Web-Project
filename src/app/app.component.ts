@@ -18,8 +18,8 @@ dataList: any = [];
 
   retrieveData() {
     this.dataService.getAll().subscribe(
-        Sentence => {
-          this.dataList = Sentence;
+        posts => {
+          this.dataList = posts;
           this.post_text = this.dataList.post_text;
         },
         error => {
