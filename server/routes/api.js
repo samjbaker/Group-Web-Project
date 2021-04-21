@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const posts = require('../../models/posts_model');
+const posts = require('../../models/post_model');
 //const data = require('./data.json')
 
 // Get a sentence from the database 
