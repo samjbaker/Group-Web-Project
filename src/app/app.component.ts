@@ -1,30 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { DataService } from './data.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
-  public post_text = ['default'];
-dataList: any = [];
-
-  constructor(private dataService: DataService) { }
-
-  ngOnInit() {
-    this.retrieveData();
-  }
-
-  retrieveData() {
-    this.dataService.getAll().subscribe(
-        posts => {
-          this.dataList = posts;
-          this.post_text = this.dataList.post_text;
-        },
-        error => {
-          console.log(error);
-        });
-  }
-
+export class AppComponent {
+  title = 'fakebook';
 }
