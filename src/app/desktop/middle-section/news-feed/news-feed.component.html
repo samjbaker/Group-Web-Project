@@ -1,3 +1,10 @@
+<div class="writePost">
+  <form #form="ngForm" (ngSubmit)="postMessage(form)">
+    <textarea rows="2" required ngModel name="sentence" placeholder="What's happening"></textarea>
+    <input type="submit" value="post">
+  </form>
+</div>
+
 <div class="newsFeed"
   (scroll)="onScroll()">
   <div class="box" *ngFor="let feedbox of feeds">

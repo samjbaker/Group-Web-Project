@@ -3,7 +3,12 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faComment } from '@fortawesome/free-solid-svg-icons';
 import { NewsFeedService } from './news-feed.service';
 import { Feedbox } from './feedbox.model';
-
+import { Injectable } from '@angular/core';
+import {NgForm} from '@angular/forms';
+import { JsonPipe } from '@angular/common';
+@Injectable({
+  providedIn: 'root',
+})
 @Component({
   selector: 'app-news-feed',
   templateUrl: './news-feed.component.html',
@@ -45,5 +50,21 @@ export class NewsFeedComponent implements OnInit {
     } else {
       this.heartColor = "red";
     }
+  }
+
+  postMessage(form: NgForm): void {
+    var message:string = form.controls['sentence'].value;
+    if (message != null && message.length > 0) {
+      this.feeds.unshift(
+        {
+          "username": "You",
+          "sentence": "" + message,
+          "noOfLikes": 0,
+          "noOfComments": 0,
+          "fact": false
+        }
+      );
+    }
+    form.resetForm();
   }
 }
