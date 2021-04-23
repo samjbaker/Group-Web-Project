@@ -183,6 +183,7 @@ public class SentenceTree {
         PlNouns.add("cats");
         PlNouns.add("owls");
         PlNouns.add("students");
+        PlNouns.add("crypto currency miners");
         PlNouns.add("policemen");
         PlNouns.add("foxes");
         PlNouns.add("robots");
@@ -207,6 +208,8 @@ public class SentenceTree {
     {
         Adj.add("big");
         Adj.add("blatant");
+        Adj.add("English");
+        Adj.add("ironic");
         Adj.add("fat");
         Adj.add("stunning");
         Adj.add("gorgeous");
@@ -235,6 +238,8 @@ public class SentenceTree {
         Adj.add("electronic");
         Adj.add("fine");
         Adj.add("colourless");
+        Adj.add("noble");
+        Adj.add("efficient");
     }
 
     //====================================================
@@ -250,9 +255,10 @@ public class SentenceTree {
         PropNouns.add("my uncle");
         PropNouns.add("Beyonce");
         PropNouns.add("Shrek");
+        PropNouns.add("Shakespeare");
         PropNouns.add("Elton John");
         PropNouns.add("Brad Pitt");
-        PropNouns.add("Scarlett Johanson");
+        PropNouns.add("Scarlett Johansson");
         PropNouns.add("Mo Salah");
         PropNouns.add("David Beckham");
         PropNouns.add("Charles Dickens");
@@ -280,14 +286,14 @@ public class SentenceTree {
         PropNounsPl.add("The Tate Modern");
         PropNounsPl.add("Londoners");
         PropNounsPl.add("Parisians");
-        PropNounsPl.add("The Kardashians");
+        PropNounsPl.add("the Kardashians");
         PropNounsPl.add("New Yorkers");
         PropNounsPl.add("Maroon 5");
         PropNounsPl.add("Backstreet Boys");
         PropNounsPl.add("the Alps");
         PropNounsPl.add("the Spice Girls");
         PropNounsPl.add("The Beatles");
-        PropNounsPl.add("The people of Slough");
+        PropNounsPl.add("the people of Slough");
         PropNounsPl.add("Glastonbury festival");
     }
 
@@ -375,6 +381,9 @@ public class SentenceTree {
         QAdverb.add("often");
         QAdverb.add("frequently");
         QAdverb.add("repeatedly");
+        QAdverb.add("supposedly");
+        QAdverb.add("allegedly");
+        QAdverb.add("covertly");
         QAdverb.add("continuously");
         QAdverb.add("continually");
         QAdverb.add("casually");
@@ -407,15 +416,16 @@ public class SentenceTree {
     public String sentenceToString()
     {
         String output = "";
+        /*
         for(int i = 0; i < sentence.size() -1; i++){
             output += sentence.get(i) + " ";
         }
+
         output += sentence.get(sentence.size()-1);
-        /*
+         */
         for(String s : sentence){
             output += s + " ";
         }
-         */
         return output;
     }
 }

@@ -11,7 +11,8 @@ var PostSchema = new Schema({
     timestamp: { type: String },
     likes: { type: Number },
     is_fact: { type: Boolean },
-    fact_ref: { type: String }
+    fact_ref: { type: String },
+    no_comments: { type: Number }
 });
 
 module.exports = mongoose.model('posts', PostSchema );

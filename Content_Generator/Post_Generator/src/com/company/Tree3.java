@@ -14,20 +14,85 @@ public class Tree3 extends SentenceTree {
         sentence.add(question.get(rand.nextInt(question.size())));
         cw++;
         boolean plural = rand.nextBoolean();
-        if(plural){
-            if(rand.nextBoolean()) {
-                sentence.add("do");
+        if(!sentence.get(0).contains("why")){
+            if(plural){
+                if(sentence.get(0).contains("Why")) {
+                    sentence.add("do");
+                }
+                else{
+                    if(rand.nextBoolean()){
+                        sentence.add("can");
+                    }
+                    else {
+                        sentence.add("should");
+                    }
+                }
             }
             else {
+                if(sentence.get(0).contains("Why")) {
+                    sentence.add("does");
+                }
+                else {
+                    if(rand.nextBoolean()){
+                        sentence.add("could");
+                    }
+                    else {
+                        sentence.add("can");
+                    }
+                }
+            }
+        }
+        cw++;
+        PNQ(plural);
+        cw++;
+        if(rand.nextBoolean()){
+            sentence.add(QAdverb.get(rand.nextInt(QAdverb.size())));
+            cw++;
+        }
+        if(sentence.get(0).contains("why") && !plural){
+            sentence.add(opverbSing.get(rand.nextInt(opverbSing.size())));
+        }
+        else {
+            sentence.add(opverb.get(rand.nextInt(opverb.size())));
+        }
+        cw++;
+        NP(true);
+    }
+
+/*
+    private void construct()
+    {
+        sentence.add(question.get(rand.nextInt(question.size())));
+        cw++;
+        boolean plural = rand.nextBoolean();
+        if(plural){
+            if(sentence.get(0).contains("Why")) {
+                sentence.add("do");
+            }
+            else if(sentence.get(0).contains("why")){
+                //Do nada
+            }
+            else if(rand.nextBoolean()){
                 sentence.add("can");
+            }
+            else {
+                sentence.add("should");
             }
         }
         else {
-            if(rand.nextBoolean()) {
+            if(sentence.get(0).contains("Why")) {
                 sentence.add("does");
             }
+            else if(sentence.get(0).contains("why")){
+                //sentence.add("should");
+            }
             else {
-                sentence.add("can");
+                if(rand.nextBoolean()){
+                    sentence.add("could");
+                }
+                else {
+                    sentence.add("can");
+                }
             }
         }
         cw++;
@@ -43,4 +108,6 @@ public class Tree3 extends SentenceTree {
         //sentence.add("?");
         //cw++;
     }
+
+ */
 }

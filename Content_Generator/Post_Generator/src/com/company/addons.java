@@ -32,6 +32,8 @@ public class addons {
         a.add("Bonk!");
         a.add("#soup");
         a.add("#hashtag");
+        a.add("#fakebook");
+        a.add("One like = one prayer");
         a.add("It's ridiculous!");
         a.add("Haters gonna hate.");
         a.add("Count me out!");
@@ -42,6 +44,9 @@ public class addons {
         a.add("Not on my watch!");
         a.add("Not if I have anything to say about it!");
         a.add("Damn right!");
+        a.add("*sigh*");
+        a.add("You go gurl!");
+        a.add("It's all nonsense!");
     }
 
     private void construct()

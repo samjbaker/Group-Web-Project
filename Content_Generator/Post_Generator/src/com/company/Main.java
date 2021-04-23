@@ -20,7 +20,7 @@ public class Main {
     {
         setUpFacts();
         setupFile();
-        for(int i = 0; i < 50; i++){
+        for(int i = 0; i < 100; i++){
             seeder();
             JSONify(true, i,false,"null");
         }
@@ -74,20 +74,25 @@ public class Main {
         seed1 = rand.nextInt(3);
         output = choose(seed1);
         if((seed1 < 2) && (rand.nextInt(3)  < 1)){
-            output += " and ";
+            output += "and ";
             seed2 = rand.nextInt(2);
             output += choose(seed2);
         }
+                /*
         if(seed1 != 2) {
             output += ".";
         }
-        /*
+                 */
         if(seed1 != 2){
             StringBuilder out = new StringBuilder(output);
             out.setCharAt(out.lastIndexOf(" "),'.');
             output = out.toString();
         }
-        */
+        else {
+            StringBuilder out = new StringBuilder(output);
+            out.setCharAt(out.lastIndexOf(" "),'?');
+            output = out.toString();
+        }
         if(rand.nextInt(6) < 1){
             output += additional();
         }
@@ -116,7 +121,7 @@ public class Main {
             case 2:
                 t = new Tree3();
                 out += t.sentenceToString();
-                out += "?";
+                //out += "?";
         }
         return out;
     }
@@ -139,6 +144,7 @@ public class Main {
         json.put("post_number",post_num);
         json.put("is_fact",fact);
         json.put("fact_ref",fact_ref);
+        json.put("no_comments",rand.nextInt(7));
         String jsonString = json.toString();
         //next, saves the file:
         BufferedWriter bw = null;
