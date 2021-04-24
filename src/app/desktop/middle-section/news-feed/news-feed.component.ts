@@ -67,6 +67,17 @@ export class NewsFeedComponent implements OnInit {
           "username": "You"
         }
       );
+      this.newsFeedService.addPost({
+        "user_id": 0,
+        "post_number":0,
+        "post_text": "" + message,
+        "timestamp": "blah",
+        "likes": 0,
+        "is_fact": false,
+        "fact_ref": "blah",
+        "no_comments": 0,
+        "username": "You"
+      });
     }
     form.resetForm();
   }
