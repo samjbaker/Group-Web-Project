@@ -1,0 +1,38 @@
+Fakebook.com
+
+Generative nonsense social media feed.
+
+The nonsense social media feed is a novel way of
+engaging people with fact about social media and use
+and the impact it has in society. The site will use
+social media’s tricks against them- both pointing
+out the destructive influence of social media and
+encouraging self-awareness about the way those
+tricks are used.
+
+The site will be targeting young people who are very
+reliant on social media without necessarily knowing
+its negative impacts- both on a personal and societal level.
+
+The site’s concept is that it will provide an infinite
+feed of randomly generated posts- simulating the
+seemingly ‘endless’ scroll of information that we
+engage with every day. You also have the ability to
+interact with internet bots who will like and comment
+on your posts in real time. The gameified features
+will simulate the ‘reward’ element of social media and
+draw attention to the ‘random’ or superficial nature
+of a lot of the content we consume. All of this serves
+to make a point about how much time we waste on
+social media & how addictive it is.
+
+The technical challenges we anticipate are parsing
+/ generating grammatically correct sentences for
+the bot’s social media posts. We will also have to
+set up an appropriate database to store all the real
+and fake accounts. It’s important to make sure that
+the sentences we construct are appropriate to the 
+subject matter- we will need a vetting process to make
+sure that none of the social media posts generated are
+inappropriate or offensive. We also need to make sure
+the ‘facts’ we are sharing are correct.
