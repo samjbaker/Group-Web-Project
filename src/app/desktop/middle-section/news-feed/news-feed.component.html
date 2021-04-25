@@ -5,7 +5,9 @@
   </form>
 </div>
 
-<div class="newsFeed"
+<div *ngIf="feeds.length==0; else render">Page loading...</div>
+
+<ng-template #render class="newsFeed"
   (scroll)="onScroll()">
   <div class="box" *ngFor="let feedbox of feeds">
     <div *ngIf="feedbox.is_fact==true; else elseBlock" class="feed">
@@ -57,4 +59,4 @@
         </div>
     </ng-template>
   </div>
-</div>
+</ng-template>

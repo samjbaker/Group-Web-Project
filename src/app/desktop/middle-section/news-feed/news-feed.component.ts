@@ -75,9 +75,8 @@ export class NewsFeedComponent implements OnInit {
         "likes": 0,
         "is_fact": false,
         "fact_ref": "blah",
-        "no_comments": 0,
-        "username": "You"
-      });
+        "no_comments": 0
+      }).subscribe();
     }
     form.resetForm();
   }

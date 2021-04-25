@@ -25,16 +25,16 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "angular-font-awesome": "^3.1.2",
-    "font-awesome": "^4.7.0",
-    "ngx-infinite-scroll": "^10.0.1",
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
     "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "mongoose": "^5.4.10",
+    "ngx-infinite-scroll": "^10.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.3",
-    "ejs": "^2.6.1",
-    "mongoose": "^5.4.10"
+    "zone.js": "~0.11.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1102.8",
