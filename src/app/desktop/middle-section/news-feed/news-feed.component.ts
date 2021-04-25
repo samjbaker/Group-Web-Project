@@ -1,10 +1,11 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy,HostListener } from '@angular/core';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { faComment } from '@fortawesome/free-solid-svg-icons';
 import { NewsFeedService } from './news-feed.service';
 import { Feedbox } from './feedbox.model';
 import { Injectable } from '@angular/core';
 import {NgForm} from '@angular/forms';
+import {ActivatedRoute} from '@angular/router';
 @Injectable({
   providedIn: 'root',
 })
@@ -20,25 +21,28 @@ export class NewsFeedComponent implements OnInit {
   feeds: Feedbox[] | any[] = [];
   colorflag: number;
   heartColor: string;
-  constructor(private newsFeedService: NewsFeedService) {
+  constructor(
+    private activatedRoute: ActivatedRoute,
+    private newsFeedService: NewsFeedService) {
     this.colorflag = 0;
     this.heartColor = "rgb(150, 165, 255)";
   }
 
   ngOnInit(): void {
-    this.newsFeedService
-      .getFeeds()
-      .subscribe((feeds: Feedbox[]) => {
-        this.feeds = feeds;
-      });
+    this.activatedRoute.data.subscribe(data => {
+        this.feeds = data.feeds;
+    });
   }
 
-  onScroll(): void {
-    this.newsFeedService
+  @HostListener('scroll', ['$event'])
+  onScroll(event: any): void {
+    if (event.target.offsetHeight + event.target.scrollTop >= event.target.scrollHeight) {
+      this.newsFeedService
       .getFeeds()
       .subscribe((feeds: Feedbox[]) => {
         this.feeds.push(...feeds);
       });
+    }
   }
 
   updateButtonColor(): void {
