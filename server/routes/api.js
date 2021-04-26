@@ -1,15 +1,15 @@
 const express = require('express');
 const router = express.Router();
-posts = require('../../models/post_model');
-//const data = require('./data.json')
+const posts = require('../../models/post_model.js');
+const users = require('../../models/user_model.js');
 
 // Get a sentence from the database
+
 router.get('/', function (req, res, next) {
-  posts.aggregate([{ $sample: {size: 4}}]).then(function(posts){
-    posts[0].username = 'tony';
-    posts[1].username = 'tony';
-    posts[2].username = 'tony';
-    posts[3].username = 'tony';
+  posts.aggregate([{ $sample: {size: 4}}, { $lookup: {from: 'users', localField: 'user_id', foreignField: 'user_id', as: 'user_info'} }]).then(function(posts){
+    for(i in posts) {
+      posts[i].username = posts[i].user_info[0].user_name;
+    }
     res.send(posts);
   });
 });

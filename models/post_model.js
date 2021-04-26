@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var PostSchema = new Schema({
-    user_id: { type: Number },
+    user_id: { type: Number, ref: 'users' },
     post_number: { type: Number },
     post_text: { type: String },
     timestamp: { type: String },
