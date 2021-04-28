@@ -36,7 +36,7 @@ export class NewsFeedComponent implements OnInit {
 
   @HostListener('scroll', ['$event'])
   onScroll(event: any): void {
-    if (event.target.offsetHeight + event.target.scrollTop >= event.target.scrollHeight) {
+    if (event.target.offsetHeight + event.target.scrollTop >= (event.target.scrollHeight * 0.75)) {
       this.newsFeedService
       .getFeeds()
       .subscribe((feeds: Feedbox[]) => {

@@ -8,7 +8,7 @@
 <div class="newsFeed"
   (scroll)="onScroll($event)">
   <div class="box" *ngFor="let feedbox of feeds">
-    <div *ngIf="feedbox.is_fact==true; else elseBlock" class="feed">
+    <div *ngIf="feedbox.is_fact==true; else elseBlock" class="feed" style="background-color:rgb(224, 228, 255);border-radius: 1vh;">
         <div class="feed_left">
           <img src="assets/profile_pic.png" alt="little_keanu">
         </div>
