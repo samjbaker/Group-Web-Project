@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { DesktopComponent } from './desktop.component';
 
 describe('DesktopComponent', () => {
@@ -8,7 +8,8 @@ describe('DesktopComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DesktopComponent ]
+      declarations: [ DesktopComponent ],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
     .compileComponents();
   });
@@ -22,4 +23,14 @@ describe('DesktopComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  
+  it('should render title', () => {
+    const fixture = TestBed.createComponent(DesktopComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('.title').textContent).toContain('FAKEBOOK');
+    expect(compiled.querySelector('.description').textContent).toContain('a generative nonsense social media feed');
+  });
+  
 });

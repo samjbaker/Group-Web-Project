@@ -499,7 +499,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       __webpack_require__(
-      /*! C:\Users\Abby\Documents\Uni\Sem2\WebProject\Group-Web-Project\node_modules\@angular-devkit\build-angular\src\webpack\es5-polyfills.js */
+      /*! /Users/xuyangfang/Desktop/Computer_Science/Term2/segp/Group-Web-Project/node_modules/@angular-devkit/build-angular/src/webpack/es5-polyfills.js */
       "voQr");
 
       __webpack_require__(
@@ -507,7 +507,7 @@
       "R0gw");
 
       module.exports = __webpack_require__(
-      /*! C:\Users\Abby\Documents\Uni\Sem2\WebProject\Group-Web-Project\src\polyfills.ts */
+      /*! /Users/xuyangfang/Desktop/Computer_Science/Term2/segp/Group-Web-Project/src/polyfills.ts */
       "hN/g");
       /***/
     },
@@ -7852,7 +7852,7 @@
       (module.exports = function (key, value) {
         return store[key] || (store[key] = value !== undefined ? value : {});
       })('versions', []).push({
-        version: '3.8.2',
+        version: '3.8.3',
         mode: IS_PURE ? 'pure' : 'global',
         copyright: '© 2021 Denis Pushkarev (zloirock.ru)'
       });
@@ -16840,6 +16840,10 @@
     function rpNk(module, exports, __webpack_require__) {
       "use strict";
 
+      var fails = __webpack_require__(
+      /*! ../internals/fails */
+      "0Dky");
+
       var getPrototypeOf = __webpack_require__(
       /*! ../internals/object-get-prototype-of */
       "4WOD");
@@ -16880,9 +16884,14 @@
         }
       }
 
-      if (IteratorPrototype == undefined) IteratorPrototype = {}; // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
+      var NEW_ITERATOR_PROTOTYPE = IteratorPrototype == undefined || fails(function () {
+        var test = {}; // FF44- legacy iterators case
 
-      if (!IS_PURE && !has(IteratorPrototype, ITERATOR)) {
+        return IteratorPrototype[ITERATOR].call(test) !== test;
+      });
+      if (NEW_ITERATOR_PROTOTYPE) IteratorPrototype = {}; // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
+
+      if ((!IS_PURE || NEW_ITERATOR_PROTOTYPE) && !has(IteratorPrototype, ITERATOR)) {
         createNonEnumerableProperty(IteratorPrototype, ITERATOR, returnThis);
       }
 
