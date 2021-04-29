@@ -6,9 +6,9 @@ const users = require('../../models/user_model.js');
 // Get a sentence from the database
 router.get('/', function (req, res, next) {
   posts.aggregate([{ $sample: {size: 4}}, { $lookup: {from: 'users', localField: 'user_id', foreignField: 'user_id', as: 'user_info'} }]).then(function(posts){
-    for(i in posts) {
+    /*for(i in posts) {
       posts[i].username = posts[i].user_info[0].user_name;
-    }
+    }*/
     res.send(posts);
   });
 });

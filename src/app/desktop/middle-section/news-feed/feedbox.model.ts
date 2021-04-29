@@ -7,5 +7,8 @@ export interface Feedbox  {
   is_fact: boolean;
   fact_ref: string;
   no_comments: number;
+  user_info: [{user_id: number;
+              user_name: string;
+              pic_filename: string}];
   username: string;
 }

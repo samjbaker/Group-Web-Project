@@ -68,6 +68,9 @@ export class NewsFeedComponent implements OnInit {
           "is_fact": false,
           "fact_ref": "blah",
           "no_comments": 0,
+          "user_info": [{"user_id": 100,
+              "user_name": "You",
+              "pic_filename": "Je ne sais pas"}],
           "username": "You"
         }
       );
