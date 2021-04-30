@@ -31,6 +31,7 @@ export class NewsFeedComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.data.subscribe(data => {
         this.feeds = data.feeds;
+        console.log(this.feeds[0].user_info);
     });
   }
 
