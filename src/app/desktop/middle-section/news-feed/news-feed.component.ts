@@ -89,4 +89,8 @@ export class NewsFeedComponent implements OnInit {
     }
     form.resetForm();
   }
+
+   goToRef(url: string){
+      window.open(url, "_blank");
+   }
 }

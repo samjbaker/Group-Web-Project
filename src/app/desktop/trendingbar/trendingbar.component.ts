@@ -8,7 +8,7 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 })
 export class TrendingbarComponent implements OnInit {
 
-  trends: string[] = [ "I love soup", "Cats", "Jake Paul", "Simps", "Meghan Markle"];
+  trends: string[] = [ "I love soup", "Cats", "Jake Paul", "Nonsense", "Meghan Markle"];
   constructor() { }
 
   ngOnInit(): void {
