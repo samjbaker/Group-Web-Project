@@ -20,7 +20,7 @@ public class Main {
     {
         setUpFacts();
         setupFile();
-        for(int i = 0; i < 100; i++){
+        for(int i = 0; i < 1000; i++){
             seeder();
             JSONify(true, i,false,"null");
         }
@@ -66,29 +66,30 @@ public class Main {
         fact_ref.add("https://doi.org/10.1016/j.chb.2014.03.003");
         facts.add("A 2017 study in the journal for Computers in Human Behavior found a correlation between the number of social media platforms used by an individual, and their levels of anxiety and depression.");
         fact_ref.add("https://doi.org/10.1016/j.chb.2016.11.013");
+        facts.add("When social media users receive positive feedback (eg likes), their brains produce dopamine");
+        fact_ref.add("https://online.king.edu/news/psychology-of-social-media/");
+        facts.add("Social media addiction has been found to be associated with a host of emotional, relational, health, and performance problems");
+        fact_ref.add("https://cyberpsychology.eu/article/viewFile/11562/10369");
+        facts.add("It has been reported that social media addiction affects approximately 12% of users across social networking sites");
+        fact_ref.add("https://cyberpsychology.eu/article/viewFile/11562/10369");
     }
 
     void seeder()
     {
         int seed1, seed2;
-        seed1 = rand.nextInt(3);
+        seed1 = rand.nextInt(4);
         output = choose(seed1);
         if((seed1 < 2) && (rand.nextInt(3)  < 1)){
             output += "and ";
             seed2 = rand.nextInt(2);
             output += choose(seed2);
         }
-                /*
-        if(seed1 != 2) {
-            output += ".";
-        }
-                 */
-        if(seed1 != 2){
+        if(seed1 < 2){
             StringBuilder out = new StringBuilder(output);
             out.setCharAt(out.lastIndexOf(" "),'.');
             output = out.toString();
         }
-        else {
+        else if(seed1 == 2) {
             StringBuilder out = new StringBuilder(output);
             out.setCharAt(out.lastIndexOf(" "),'?');
             output = out.toString();
@@ -105,7 +106,7 @@ public class Main {
         Main m = new Main();
     }
 
-    //Chooses which
+    //Chooses which sentence structure to follow
     private String choose(int seed)
     {
         String out = "";
@@ -121,7 +122,10 @@ public class Main {
             case 2:
                 t = new Tree3();
                 out += t.sentenceToString();
-                //out += "?";
+                break;
+            case 3:
+                t = new Tree4();
+                out += t.sentenceToString();
         }
         return out;
     }
@@ -134,17 +138,16 @@ public class Main {
 
     private void JSONify(boolean comma, int post_num, boolean fact, String fact_ref)
     {
-        //Kanye condones Boris Johnson's golden dogs.
         File file = new File("posts.json");
         JSONObject json = new JSONObject();
-        json.put("user_id",rand.nextInt(25));
+        json.put("user_id",(rand.nextInt(35) + 1));
         json.put("post_text",output);
         json.put("timestamp","25/12/2021");
-        json.put("likes",rand.nextInt(2500));
+        json.put("likes",rand.nextInt(3001));
         json.put("post_number",post_num);
         json.put("is_fact",fact);
         json.put("fact_ref",fact_ref);
-        json.put("no_comments",rand.nextInt(7));
+        json.put("no_comments",rand.nextInt(100));
         String jsonString = json.toString();
         //next, saves the file:
         BufferedWriter bw = null;
