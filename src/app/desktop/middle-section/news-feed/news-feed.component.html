@@ -17,7 +17,7 @@
           <div class="username">
             @FAKEBOOK-FACT
           </div>
-          <div class="feed_content">
+          <div class="feed_content" (click)="goToRef(feedbox.fact_ref)">
             {{feedbox.post_text}}
           </div>
           <a class="reference" href="{{feedbox.fact_ref}}">

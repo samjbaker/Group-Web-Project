@@ -40,6 +40,7 @@ public class addons {
         a.add("It's a joke!");
         a.add("Politics eh?");
         a.add("#heinzcreamoftomato");
+        a.add("#soupgate");
         a.add("No siree!");
         a.add("Not on my watch!");
         a.add("Not if I have anything to say about it!");
@@ -47,6 +48,20 @@ public class addons {
         a.add("*sigh*");
         a.add("You go gurl!");
         a.add("It's all nonsense!");
+        a.add("#sympathy");
+        a.add("#belieber");
+        a.add("#nonsense");
+        a.add("#socialmedia");
+        a.add("#postCOVID");
+        a.add("#PlagueRave");
+        a.add("#gossip");
+        a.add("#AcidHouse");
+        a.add("#hiphop");
+        a.add("#bristol");
+        a.add("#0117");
+        a.add("#bitcoin");
+        a.add("#webdevelopment");
+        a.add("#randomizeme");
     }
 
     private void construct()

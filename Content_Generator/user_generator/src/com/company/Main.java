@@ -110,27 +110,37 @@ public class Main {
         names.add("Ibrahim Bot");
         names.add("Smith Jones II Bot");
         names.add("Abdi AI");
-        names.add("Camilla Circuitboard");
+        names.add("Camilla Circuitry");
         names.add("Beatrice Botter");
         names.add("Jemima JSON");
-        names.add("Tronald Dump");
+        names.add("Tronald Dump Bot");
         names.add("Clarence C++");
         names.add("Patrizia Python");
-        names.add("Noel Nilsson");
-        names.add("Nina Nonsense");
-        names.add("Roger Rank");
-        names.add("Sarah Cho");
+        names.add("Aditi AI");
+        names.add("Nina Nonsense Bot");
+        names.add("Roger Robot");
+        names.add("Sarah Cho Bot");
         names.add("Botty Robotnick");
         names.add("Betty Boolean");
         names.add("Aaron Botmas");
         names.add("Botthew McCarthy");
         names.add("Harry Botter");
         names.add("Veronica Automatron");
-        names.add("Fakob Black");
-        names.add("Klaus Machinen");
+        names.add("Fakob Bot");
+        names.add("Klaus Machine");
         names.add("Sally Script");
-        names.add("Tina Codswallop");
-        names.add("George Grumple");
+        names.add("Tina Codswallop AI");
+        names.add("Rahul Bot");
+        names.add("Yusef Bot");
+        names.add("Li Min Bot");
+        names.add("Pierre Bot");
+        names.add("Rowena Bot");
+        names.add("Artemis AI");
+        names.add("Ricardo Robot");
+        names.add("Ludwig Bot");
+        names.add("Fernando AI");
+        names.add("Moritz Macro");
+        names.add("Juan AI");
     }
 
     public static void main(String[] args)
