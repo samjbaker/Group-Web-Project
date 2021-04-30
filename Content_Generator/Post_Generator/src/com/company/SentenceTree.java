@@ -65,6 +65,7 @@ public class SentenceTree {
         state.add("happy about");
         state.add("confused about");
         state.add("out of touch with");
+        state.add("taking a selfie with");
         state.add("sad about");
         state.add("living for");
     }
@@ -207,6 +208,8 @@ public class SentenceTree {
     private void setUpAdj()
     {
         Adj.add("big");
+        Adj.add("cool");
+        Adj.add("smart");
         Adj.add("blatant");
         Adj.add("English");
         Adj.add("ironic");

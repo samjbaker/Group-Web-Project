@@ -59,8 +59,8 @@ public class Main {
         fact_ref.add("https://www.brandwatch.com/blog/amazing-social-media-statistics-and-facts/");
         facts.add("The most liked picture on Instagram is one of an egg");
         fact_ref.add("https://www.brandwatch.com/blog/amazing-social-media-statistics-and-facts/");
-        facts.add("In a survey of 1,800 people, women reported being more stressed than men. Twitter was found to be a “significant contributor” because it increased their awareness of other people’s stress. "
-                +"Confusingly it seems Twitter also acted as a coping mechanism – the more women used it, the less stressed they were.");
+        facts.add("In a survey of 1,800 people, Twitter was found to be a “significant contributor” to stress because it increased their awareness of other people’s stress. "
+                +"Confusingly it seems it also acted as a coping mechanism – the more it was used, the less stressed they became.");
         fact_ref.add("https://www.bbc.com/future/article/20180104-is-social-media-bad-for-you-the-evidence-and-the-unknowns");
         facts.add("In a 2014 Austrian study, it was found that participants reported lower moods after using Facebook for 20 minutes vs other internet use.");
         fact_ref.add("https://doi.org/10.1016/j.chb.2014.03.003");

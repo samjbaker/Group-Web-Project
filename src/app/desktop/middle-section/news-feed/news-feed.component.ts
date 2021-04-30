@@ -58,19 +58,21 @@ export class NewsFeedComponent implements OnInit {
   postMessage(form: NgForm): void {
     var message:string = form.controls['post_text'].value;
     if (message != null && message.length > 0) {
+      var noLikes:number = Math.floor(Math.random() * 5000);
+      var noComments:number = Math.floor(Math.random() * 100);
       this.feeds.unshift(
         {
           "user_id": 100,
           "post_number": 100,
           "post_text": "" + message,
           "timestamp": "blah",
-          "likes": 0,
+          "likes": 0+noLikes,
           "is_fact": false,
           "fact_ref": "blah",
-          "no_comments": 0,
+          "no_comments": 0+noComments,
           "user_info": [{"user_id": 100,
               "user_name": "You",
-              "pic_filename": "Je ne sais pas"}],
+              "pic_filename": "assets/profile_pic.png"}],
           "username": "You"
         }
       );
@@ -79,10 +81,10 @@ export class NewsFeedComponent implements OnInit {
         "post_number":0,
         "post_text": "" + message,
         "timestamp": "blah",
-        "likes": 0,
+        "likes": 0+noLikes,
         "is_fact": false,
         "fact_ref": "blah",
-        "no_comments": 0
+        "no_comments": 0+noComments
       }).subscribe();
     }
     form.resetForm();

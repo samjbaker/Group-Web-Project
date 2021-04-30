@@ -29,7 +29,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! /Users/xuyangfang/Desktop/Computer_Science/Term2/segp/Group-Web-Project/src/main.ts */
+      /*! /Users/sambaker/Documents/MSc_Work/Software_Eng_Group_project/project/Front_end/src/main.ts */
       "zUnb");
       /***/
     },
@@ -291,7 +291,7 @@
       AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: AboutComponent,
         selectors: [["app-about"]],
-        decls: 5,
+        decls: 14,
         vars: 0,
         consts: [[1, "container"], [1, "header"]],
         template: function AboutComponent_Template(rf, ctx) {
@@ -306,7 +306,25 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia mollitia cum inventore qui dolor vel recusandae nobis rerum consequuntur quia, corporis voluptate, consequatur asperiores excepturi facere. Consectetur ad quisquam sed? Necessitatibus voluptatibus, quisquam illo qui quis, rerum accusamus, repudiandae esse unde asperiores harum ab vero? Impedit quisquam voluptatibus atque animi, quaerat qui, excepturi neque nisi maiores ab nulla harum repellendus sunt, repellat similique debitis distinctio officiis! Eius optio nisi mollitia in! Ratione nihil quasi dolore quia, rerum aspernatur molestias numquam sapiente sunt expedita culpa minus accusantium quo soluta qui consequuntur neque fugit dolorem eligendi incidunt ducimus ut? Molestiae inventore ab beatae dolores amet assumenda placeat quam accusamus sint nulla explicabo neque, eveniet labore reprehenderit possimus exercitationem, officia optio similique sed obcaecati! Soluta at unde omnis quae dignissimos quam, facere amet numquam alias suscipit atque adipisci commodi excepturi error molestias culpa inventore veritatis minima nostrum et accusantium odit iste corrupti. Ipsa, nulla fuga ut dolor beatae suscipit quia modi voluptate nemo, eius cupiditate ipsam corrupti molestiae impedit ullam ea magnam, reprehenderit enim alias. Illum, a veniam tempora ratione est dicta totam explicabo temporibus, architecto repellendus provident culpa ducimus praesentium impedit at pariatur. Deserunt recusandae dolores consequuntur earum ut nisi ullam eligendi.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "\nFakebook is a new site, designed to get us talking about social\nmedia. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, " The site is designed to emulate the experience of using a social\nnetworking website like Facebook or Twitter. However, rather\nthan posts from real people, our site is populated by friendly\nbots. You can get involved too- try posting on the home page\nand see your post appear on the timeline! Your posts may then appear\nin the timelines of other users in the future, contributing to\nthe nonsense! ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " On the timeline you\u2019ll also find fact boxes, offering thoughts\nabout how social media works, and how it may be affecting you.\nYou might find this just as addictive as a real social media\nsite- and that\u2019s the point. On fakebook, social media\u2019s addictive\nqualities won\u2019t just be driving engagement- they\u2019ll be helping\nyou to understand the modern internet. ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " On fakebook, we\u2019re using some of the features that keep you\nengaged on social media to start conversations about why social\nmedia works- and whether it\u2019s working for us.\n");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "\nFakebook. The posts are fake, but the addiction is real.\n");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -591,7 +609,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "div", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "a", 3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "fa-icon", 2);
 
@@ -612,7 +630,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("icon", ctx.faInfoCircle);
           }
         },
-        directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FaIconComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLink"]],
+        directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FaIconComponent"]],
         styles: [".content[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 40%;\n  display: flex;\n  flex-direction: column;\n}\n\n.link[_ngcontent-%COMP%] {\n  height: 20%;\n  margin-top: 25%;\n  font-size: 3.5vh;\n  display: flex;\n  align-items: center;\n  padding-left: 15%;\n  cursor: pointer;\n  text-decoration: none;\n  color: black;\n}\n\nfa-icon[_ngcontent-%COMP%] {\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2xlZnRzaWRlYmFyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7QUFDRjs7QUFFQTtFQUNFLFdBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxxQkFBQTtFQUNBLFlBQUE7QUFDRjs7QUFFQTtFQUNFLFlBQUE7QUFDRiIsImZpbGUiOiJsZWZ0c2lkZWJhci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogNDAlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xufVxuXG4ubGluayB7XG4gIGhlaWdodDogMjAlO1xuICBtYXJnaW4tdG9wOiAyNSU7XG4gIGZvbnQtc2l6ZTogMy41dmg7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIHBhZGRpbmctbGVmdDogMTUlO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgY29sb3I6IGJsYWNrO1xufVxuXG5mYS1pY29uIHtcbiAgY29sb3I6IHdoaXRlO1xufVxuIl19 */"],
         changeDetection: 0
       });
@@ -1151,7 +1169,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" @", feedbox_r2.username, " ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" @", feedbox_r2.user_info[0].user_name, " ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
 
@@ -1263,6 +1281,11 @@
                 "is_fact": false,
                 "fact_ref": "blah",
                 "no_comments": 0,
+                "user_info": [{
+                  "user_id": 100,
+                  "user_name": "You",
+                  "pic_filename": "Je ne sais pas"
+                }],
                 "username": "You"
               });
               this.newsFeedService.addPost({

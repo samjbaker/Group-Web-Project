@@ -10,7 +10,7 @@
   <div class="box" *ngFor="let feedbox of feeds">
     <div *ngIf="feedbox.is_fact==true; else elseBlock" class="feed" style="background-color:rgb(224, 228, 255);border-radius: 1vh;">
         <div class="feed_left">
-          <img src="assets/profile_pic.png" alt="little_keanu">
+          <img src="assets/fact.jpeg" alt="fact">
         </div>
 
         <div class="feed_right">
@@ -26,7 +26,7 @@
     <ng-template #elseBlock class="feed">
         <div class="feed">
           <div class="feed_left">
-            <img src="assets/profile_pic.png" alt="little_keanu">
+            <img src="{{feedbox.user_info[0].pic_filename}}" alt="assets/profile_pic.png">
           </div>
 
           <div class="feed_right">

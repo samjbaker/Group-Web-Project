@@ -56,7 +56,7 @@ public class Main {
         JSONObject json = new JSONObject();
         json.put("user_id",user_num);
         json.put("user_name",names.get(user_num));
-        json.put("pic_filename","userimg"+user_num+".jpg");
+        json.put("pic_filename","assets/profile_images/bot_images/"+user_num+".png");
         String jsonString = json.toString();
         //next, saves the file:
         bw = null;
@@ -105,29 +105,30 @@ public class Main {
 
     private void setUpNames()
     {
-        names.add("John Johnson");
-        names.add("John Doe");
-        names.add("Jane Doe");
-        names.add("Smith Jones");
-        names.add("Nigel Pearson");
-        names.add("Camilla Cuthbert");
+        names.add("Real_User_xox");
+        names.add("Martin Machine");
+        names.add("Ibrahim Bot");
+        names.add("Smith Jones II Bot");
+        names.add("Abdi AI");
+        names.add("Camilla Circuitboard");
         names.add("Beatrice Botter");
-        names.add("Jemima Jutland");
+        names.add("Jemima JSON");
         names.add("Tronald Dump");
-        names.add("Clarence McClank");
+        names.add("Clarence C++");
+        names.add("Patrizia Python");
         names.add("Noel Nilsson");
         names.add("Nina Nonsense");
         names.add("Roger Rank");
         names.add("Sarah Cho");
         names.add("Botty Robotnick");
-        names.add("Betty Robet");
+        names.add("Betty Boolean");
         names.add("Aaron Botmas");
         names.add("Botthew McCarthy");
         names.add("Harry Botter");
         names.add("Veronica Automatron");
         names.add("Fakob Black");
-        names.add("Emmanuel Macro");
-        names.add("Sally Postlethwaite");
+        names.add("Klaus Machinen");
+        names.add("Sally Script");
         names.add("Tina Codswallop");
         names.add("George Grumple");
     }
