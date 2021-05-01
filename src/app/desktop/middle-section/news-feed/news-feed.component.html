@@ -1,0 +1,60 @@
+<div class="writePost">
+  <form #form="ngForm" (ngSubmit)="postMessage(form)">
+    <textarea rows="2" required ngModel name="sentence" placeholder="What's happening"></textarea>
+    <input type="submit" value="post">
+  </form>
+</div>
+
+<div class="newsFeed"
+  (scroll)="onScroll()">
+  <div class="box" *ngFor="let feedbox of feeds">
+    <div *ngIf="feedbox.fact==true; else elseBlock" class="feed">
+        <div class="feed_left">
+          <img src="assets/profile_pic.png" alt="little_keanu">
+        </div>
+
+        <div class="feed_right">
+          <div class="username">
+            @FAKEBOOK-FACT
+          </div>
+          <div class="feed_content">
+            {{feedbox.sentence}}
+          </div>
+        </div>
+    </div>
+
+    <ng-template #elseBlock class="feed">
+        <div class="feed">
+          <div class="feed_left">
+            <img src="assets/profile_pic.png" alt="little_keanu">
+          </div>
+
+          <div class="feed_right">
+            <div class="username">
+              @{{feedbox.username}}
+            </div>
+            <div class="feed_content_post">
+              <div class="feed_content_text">
+                {{feedbox.sentence}}
+              </div>
+
+              <div class="feed_content_footer">
+                <div class="heart-container">
+                  <button class="heartButton" (click)="updateButtonColor()" [style.color]="heartColor">
+                    <fa-icon [icon]="faHeart" class="heart"></fa-icon>
+                  </button>
+                  <p class="heart_number">{{feedbox.noOfLikes}}</p>
+                </div>
+                <div class="comment-container">
+                  <button class="commentButton">
+                    <fa-icon [icon]="faComment" class="comment"></fa-icon>
+                  </button>
+                  <p class="comment_number">{{feedbox.noOfComments}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </ng-template>
+  </div>
+</div>

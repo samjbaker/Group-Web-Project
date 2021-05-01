@@ -20,8 +20,16 @@ COPY --chown=node:node . .
 #building website
 RUN ./node_modules/.bin/ng build
 
+RUN wget -O wait-for.sh https://raw.githubusercontent.com/eficode/wait-for/master/wait-for
+
+RUN chmod +x wait-for.sh
+
 # Add metadata to the image to describe which port the container is listening on at runtime.
 EXPOSE 3000
 
 # Run the specified command within the container.
-CMD [ "node", "server.js" ]
+#CMD [ "node", "seed.js" ]
+
+#CMD ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon server.js
+
+#RUN ./wait-for.sh db:27017 -- node seed.js

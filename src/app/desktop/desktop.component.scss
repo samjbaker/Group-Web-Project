@@ -1,0 +1,63 @@
+@import "src/styles";
+
+.home-container {
+  background-color: #F0F2F5;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .home-header {
+    height: 18vh;
+    width: 99vw;
+    margin: 1vh;
+    position: relative;
+    background-color: rgb(67, 91, 238);
+    border-radius: 1vh;
+  }
+  .home-body {
+    margin-left:1vh;
+    height: 100%;
+    width: 99vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  .home-header-content {
+    margin-top: 4vh;
+    margin-left: 6vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .title {
+      font-style: italic;
+      font-size: 5.5vh;
+      color: white;
+    }
+    .description {
+      font-style: italic;
+      color: white;
+      font-size: 3vh;
+    }
+  }
+}
+
+.leftSideBar {
+  background-color: rgb(150, 165, 255);
+  width: 13vw;
+  border-radius: 1vh;
+}
+
+.middleSection {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 64vw;
+  flex-direction: column;
+}
+
+.trendingBar {
+  background-color: rgb(210, 216, 255);
+  width: 20vw;
+  border-radius: 1vh;
+}
