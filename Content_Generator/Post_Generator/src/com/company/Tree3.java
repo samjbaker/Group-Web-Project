@@ -14,20 +14,32 @@ public class Tree3 extends SentenceTree {
         sentence.add(question.get(rand.nextInt(question.size())));
         cw++;
         boolean plural = rand.nextBoolean();
-        if(plural){
-            if(rand.nextBoolean()) {
-                sentence.add("do");
+        if(!sentence.get(0).contains("why")){
+            if(plural){
+                if(sentence.get(0).contains("Why")) {
+                    sentence.add("do");
+                }
+                else{
+                    if(rand.nextBoolean()){
+                        sentence.add("can");
+                    }
+                    else {
+                        sentence.add("should");
+                    }
+                }
             }
             else {
-                sentence.add("can");
-            }
-        }
-        else {
-            if(rand.nextBoolean()) {
-                sentence.add("does");
-            }
-            else {
-                sentence.add("can");
+                if(sentence.get(0).contains("Why")) {
+                    sentence.add("does");
+                }
+                else {
+                    if(rand.nextBoolean()){
+                        sentence.add("could");
+                    }
+                    else {
+                        sentence.add("can");
+                    }
+                }
             }
         }
         cw++;
@@ -37,10 +49,13 @@ public class Tree3 extends SentenceTree {
             sentence.add(QAdverb.get(rand.nextInt(QAdverb.size())));
             cw++;
         }
-        sentence.add(opverb.get(rand.nextInt(opverb.size())));
+        if(sentence.get(0).contains("why") && !plural){
+            sentence.add(opverbSing.get(rand.nextInt(opverbSing.size())));
+        }
+        else {
+            sentence.add(opverb.get(rand.nextInt(opverb.size())));
+        }
         cw++;
         NP(true);
-        //sentence.add("?");
-        //cw++;
     }
 }

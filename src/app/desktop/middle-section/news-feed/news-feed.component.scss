@@ -27,7 +27,6 @@
   }
 }
 
-
 .newsFeed {
   margin-top: 2%;
   width: 100%;
@@ -55,7 +54,7 @@
   .feed_left {
     height: 100%;
     width: 16.66%;
-    img[alt="little_keanu"] {
+    img {
       height: 50%;
       margin: 10%;
       border-radius: 50%;
@@ -158,4 +157,21 @@
 .comment_number {
   color: rgb(189, 197, 252);
   font-size: 88%;
+}
+
+.reference {
+  padding-left:75%;
+  height: 27%;
+  font-size: 2.5vh;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.reference:hover {
+  color: red;
+  padding-left:75%;
+  height: 27%;
+  font-size: 2.5vh;
+  cursor: pointer;
+  text-decoration: underline;
 }

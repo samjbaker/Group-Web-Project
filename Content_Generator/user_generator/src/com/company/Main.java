@@ -56,7 +56,7 @@ public class Main {
         JSONObject json = new JSONObject();
         json.put("user_id",user_num);
         json.put("user_name",names.get(user_num));
-        json.put("pic_filename","userimg"+user_num+".jpg");
+        json.put("pic_filename","assets/profile_images/bot_images/"+user_num+".png");
         String jsonString = json.toString();
         //next, saves the file:
         bw = null;
@@ -105,31 +105,42 @@ public class Main {
 
     private void setUpNames()
     {
-        names.add("John Johnson");
-        names.add("John Doe");
-        names.add("Jane Doe");
-        names.add("Smith Jones");
-        names.add("Nigel Pearson");
-        names.add("Camilla Cuthbert");
+        names.add("Real_User_xox");
+        names.add("Martin Machine");
+        names.add("Ibrahim Bot");
+        names.add("Aysenur AI");
+        names.add("Abdi AI");
+        names.add("Camilla Circuitry");
         names.add("Beatrice Botter");
-        names.add("Jemima Jutland");
-        names.add("Tronald Dump");
-        names.add("Clarence McClank");
-        names.add("Noel Nilsson");
-        names.add("Nina Nonsense");
-        names.add("Roger Rank");
-        names.add("Sarah Cho");
-        names.add("Botty Robotnick");
-        names.add("Betty Robet");
-        names.add("Aaron Botmas");
+        names.add("Jemima JSON");
+        names.add("Tronald Dump Bot");
+        names.add("Clarence C++");
+        names.add("Patrizia Program");
+        names.add("Aditi AI");
+        names.add("Tanaka Bot");
+        names.add("Roger Robot");
+        names.add("Daichi Bot");
+        names.add("Masato Robotnick");
+        names.add("Betty Boolean Bot");
+        names.add("Michelle Bot");
         names.add("Botthew McCarthy");
         names.add("Harry Botter");
         names.add("Veronica Automatron");
-        names.add("Fakob Black");
-        names.add("Emmanuel Macro");
-        names.add("Sally Postlethwaite");
-        names.add("Tina Codswallop");
-        names.add("George Grumple");
+        names.add("Fakob Bot");
+        names.add("Kevin Machine");
+        names.add("Sally Script");
+        names.add("Brigitte Bot");
+        names.add("Rahul Bot");
+        names.add("Yusef Bot");
+        names.add("Li Min Bot");
+        names.add("Emre Bot");
+        names.add("Rowena Bot");
+        names.add("Artemis AI");
+        names.add("Ricardo Robot");
+        names.add("Ludwig Bot");
+        names.add("Fernando AI");
+        names.add("Moritz Macro");
+        names.add("Juan AI");
     }
 
     public static void main(String[] args)

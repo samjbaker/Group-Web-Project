@@ -43,8 +43,8 @@ conn.db.listCollections({name: 'posts'})
          });
         } else {
             let post_data = fs.readFileSync(postPath);
-            let posty = JSON.parse(post_data);
-            Post.insertMany(posty).then(function(){
+            let post_insert = JSON.parse(post_data);
+            Post.insertMany(post_insert).then(function(){
                 console.log("Data inserted")  // Success
             }).catch(function(error){
                 console.log(error)      // Failure

@@ -1,40 +1,18 @@
 import {Feedbox} from './feedbox.model';
+import {Post} from './post.model';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { of } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root',
 })
 export class NewsFeedService {
+  constructor(private http: HttpClient) {}
   getFeeds(): Observable<Feedbox[]> {
-    return of([
-      {
-        "username": "David",
-        "sentence": "U shall not pass",
-        "noOfLikes": 32,
-        "noOfComments": 47,
-        "fact": false
-      },
-      {
-        "username": "tony",
-        "sentence": "I hate html",
-        "noOfLikes": 69,
-        "noOfComments": 11,
-        "fact": false
-      },
-      {
-        "username": "",
-        "sentence": "Do you know that blah blah blah",
-        "noOfLikes": 3,
-        "noOfComments": 1,
-        "fact": true
-      },
-      {
-        "username": "Kanye",
-        "sentence": "I am a creative genius",
-        "noOfLikes": 14189,
-        "noOfComments": 1122,
-        "fact": false
-      }]);
+    return this.http.get(`http://localhost:3000/api`) as Observable<Feedbox[]>;
   }
+
+  addPost(post: Post): Observable<Post> {
+    return this.http.post<Post>(`http://localhost:3000/api`, post);
+  }  
 }

@@ -60,11 +60,20 @@ public class SentenceTree {
         state.add("intimidated by");
         state.add("hungry for");
         state.add("excited about");
+        state.add("upset by");
+        state.add("against");
+        state.add("not here for");
         state.add("soooo down with");
+        state.add("soooo up for");
         state.add("overwhelmed by");
         state.add("happy about");
+        state.add("unfussed about");
+        state.add("not bothered by");
+        state.add("running from");
+        state.add("drinking with");
         state.add("confused about");
         state.add("out of touch with");
+        state.add("taking a selfie with");
         state.add("sad about");
         state.add("living for");
     }
@@ -84,11 +93,19 @@ public class SentenceTree {
         gerund.add("insulting");
         gerund.add("tweeting about");
         gerund.add("going to see");
+        gerund.add("spreading");
+        gerund.add("making");
+        gerund.add("melting");
+        gerund.add("rubbing");
+        gerund.add("smelling");
+        gerund.add("impeaching");
+        gerund.add("protesting against");
         gerund.add("frying");
         gerund.add("poaching");
         gerund.add("eating");
         gerund.add("drinking with");
         gerund.add("buying");
+        gerund.add("smoking");
     }
 
     void setUpOpVerb()
@@ -100,7 +117,14 @@ public class SentenceTree {
         opverb.add("enjoy");
         opverb.add("support");
         opverb.add("condone");
+        opverb.add("trigger");
+        opverb.add("impress");
+        opverb.add("overwhelm");
         opverb.add("loathe");
+        opverb.add("nurture");
+        opverb.add("confuse");
+        opverb.add("improve");
+        opverb.add("allow");
     }
 
     //====================================================
@@ -141,11 +165,15 @@ public class SentenceTree {
         Nouns.add("bratwurst");
         Nouns.add("boy");
         Nouns.add("girl");
+        Nouns.add("bit coin");
+        Nouns.add("binary");
         Nouns.add("dog");
         Nouns.add("cat");
         Nouns.add("guitar");
         Nouns.add("wolf");
         Nouns.add("festival");
+        Nouns.add("sea shanty");
+        Nouns.add("wedding crasher");
         Nouns.add("owl");
         Nouns.add("fox");
         Nouns.add("robot");
@@ -170,12 +198,23 @@ public class SentenceTree {
         Nouns.add("political rally");
         Nouns.add("shooting range");
         Nouns.add("shoe shop");
+        Nouns.add("marmite");
+        Nouns.add("instant ramen");
+        Nouns.add("PS5");
+        Nouns.add("intellectual property");
+        Nouns.add("night club");
+        Nouns.add("warehouse");
+        Nouns.add("illegal rave");
+        Nouns.add("jazz");
     }
 
     private void setUpPluralNoun()
     {
         PlNouns.add("men");
         PlNouns.add("women");
+        PlNouns.add("tacos");
+        PlNouns.add("burritos");
+        PlNouns.add("bbqs");
         PlNouns.add("boys");
         PlNouns.add("girls");
         PlNouns.add("dogs");
@@ -183,6 +222,8 @@ public class SentenceTree {
         PlNouns.add("cats");
         PlNouns.add("owls");
         PlNouns.add("students");
+        PlNouns.add("cigarettes");
+        PlNouns.add("crypto currency miners");
         PlNouns.add("policemen");
         PlNouns.add("foxes");
         PlNouns.add("robots");
@@ -193,6 +234,11 @@ public class SentenceTree {
         PlNouns.add("politicians");
         PlNouns.add("right-handed people");
         PlNouns.add("techno DJs");
+        PlNouns.add("country musicians");
+        PlNouns.add("guitarists");
+        PlNouns.add("internet pranksters");
+        PlNouns.add("4chan posters");
+        PlNouns.add("barn dancers");
         PlNouns.add("nerds");
         PlNouns.add("lecturers");
         PlNouns.add("lawyers");
@@ -201,18 +247,24 @@ public class SentenceTree {
         PlNouns.add("football players");
         PlNouns.add("linguists");
         PlNouns.add("computer scientists");
+        PlNouns.add("coffee snobs");
     }
 
     private void setUpAdj()
     {
         Adj.add("big");
+        Adj.add("cool");
+        Adj.add("smart");
         Adj.add("blatant");
+        Adj.add("English");
+        Adj.add("ironic");
         Adj.add("fat");
         Adj.add("stunning");
         Adj.add("gorgeous");
         Adj.add("omnipotent");
         Adj.add("scary");
         Adj.add("sly");
+        Adj.add("lit");
         Adj.add("pink");
         Adj.add("purple");
         Adj.add("swollen");
@@ -224,7 +276,8 @@ public class SentenceTree {
         Adj.add("golden");
         Adj.add("silver");
         Adj.add("pickled");
-        Adj.add("drunken");
+        Adj.add("drunk");
+        Adj.add("turnt");
         Adj.add("sober");
         Adj.add("spotted");
         Adj.add("rare");
@@ -235,6 +288,13 @@ public class SentenceTree {
         Adj.add("electronic");
         Adj.add("fine");
         Adj.add("colourless");
+        Adj.add("mysterious");
+        Adj.add("spooky");
+        Adj.add("unidentified");
+        Adj.add("noble");
+        Adj.add("efficient");
+        Adj.add("peng");
+        Adj.add("genre-defining");
     }
 
     //====================================================
@@ -244,19 +304,30 @@ public class SentenceTree {
     private void setUpPropNoun()
     {
         PropNouns.add("Kylie Jenner");
+        PropNouns.add("Frida Kahlo");
         PropNouns.add("the Sphinx");
         PropNouns.add("David Bowie");
         PropNouns.add("Taylor Swift");
         PropNouns.add("my uncle");
+        PropNouns.add("my nan");
+        PropNouns.add("Berlin");
         PropNouns.add("Beyonce");
+        PropNouns.add("Meghan Markle");
+        PropNouns.add("Prince Harry");
         PropNouns.add("Shrek");
+        PropNouns.add("Shakespeare");
         PropNouns.add("Elton John");
         PropNouns.add("Brad Pitt");
-        PropNouns.add("Scarlett Johanson");
+        PropNouns.add("Scarlett Johansson");
+        PropNouns.add("The Titanic");
+        PropNouns.add("Bristol Museum");
         PropNouns.add("Mo Salah");
+        PropNouns.add("Fakebook");
+        PropNouns.add("Twitter");
         PropNouns.add("David Beckham");
         PropNouns.add("Charles Dickens");
         PropNouns.add("Kanye");
+        PropNouns.add("J.K. Rowling");
         PropNouns.add("Elon Musk");
         PropNouns.add("Mark Zuckerberg");
         PropNouns.add("Queen Elizabeth II");
@@ -265,10 +336,20 @@ public class SentenceTree {
         PropNouns.add("London");
         PropNouns.add("Germany");
         PropNouns.add("The EU");
+        PropNouns.add("The patriarchy");
         PropNouns.add("Donald Trump");
         PropNouns.add("Boris Johnson");
         PropNouns.add("The Eiffel Tower");
-
+        PropNouns.add("The Pope");
+        PropNouns.add("Cristiano Ronaldo");
+        PropNouns.add("Justin Bieber");
+        PropNouns.add("Beyonce");
+        PropNouns.add("Billie Eilish");
+        PropNouns.add("Lionel Messi");
+        PropNouns.add("Kim Kardashian");
+        PropNouns.add("Selena Gomez");
+        PropNouns.add("The Rock");
+        PropNouns.add("Ariana Grande");
     }
 
     private void setUpPropNounPl()
@@ -280,15 +361,24 @@ public class SentenceTree {
         PropNounsPl.add("The Tate Modern");
         PropNounsPl.add("Londoners");
         PropNounsPl.add("Parisians");
-        PropNounsPl.add("The Kardashians");
+        PropNounsPl.add("the Kardashians");
         PropNounsPl.add("New Yorkers");
         PropNounsPl.add("Maroon 5");
-        PropNounsPl.add("Backstreet Boys");
+        PropNounsPl.add("the Backstreet Boys");
         PropNounsPl.add("the Alps");
         PropNounsPl.add("the Spice Girls");
         PropNounsPl.add("The Beatles");
-        PropNounsPl.add("The people of Slough");
+        PropNounsPl.add("the people of Slough");
         PropNounsPl.add("Glastonbury festival");
+        PropNounsPl.add("Destiny's Child");
+        PropNounsPl.add("the cast of Game of Thrones");
+        PropNounsPl.add("goblins");
+        PropNounsPl.add("UWE students");
+        PropNounsPl.add("Facebook");
+        PropNounsPl.add("Instagram");
+        PropNounsPl.add("Whatsapp");
+        PropNounsPl.add("Twitter");
+        PropNounsPl.add("TikTok");
     }
 
     void setUpOpVerbSing()
@@ -306,7 +396,8 @@ public class SentenceTree {
         opverbSing.add("develops");
         opverbSing.add("provokes");
         opverbSing.add("advertises");
-        opverbSing.add("yodels");
+        opverbSing.add("retweets");
+        opverbSing.add("blocks");
         opverbSing.add("launches");
         opverbSing.add("plays");
         opverbSing.add("embezzles");
@@ -371,10 +462,24 @@ public class SentenceTree {
         QAdverb.add("sometimes");
         QAdverb.add("rarely");
         QAdverb.add("never");
+        QAdverb.add("slyly");
         QAdverb.add("occasionally");
         QAdverb.add("often");
         QAdverb.add("frequently");
+        QAdverb.add("furiously");
+        QAdverb.add("rightly");
+        QAdverb.add("nervously");
+        QAdverb.add("vindictively");
+        QAdverb.add("carefully");
+        QAdverb.add("pompously");
+        QAdverb.add("weirdly");
+        QAdverb.add("softly");
+        QAdverb.add("gently");
         QAdverb.add("repeatedly");
+        QAdverb.add("unfairly");
+        QAdverb.add("supposedly");
+        QAdverb.add("allegedly");
+        QAdverb.add("covertly");
         QAdverb.add("continuously");
         QAdverb.add("continually");
         QAdverb.add("casually");
@@ -407,15 +512,16 @@ public class SentenceTree {
     public String sentenceToString()
     {
         String output = "";
+        /*
         for(int i = 0; i < sentence.size() -1; i++){
             output += sentence.get(i) + " ";
         }
+
         output += sentence.get(sentence.size()-1);
-        /*
+         */
         for(String s : sentence){
             output += s + " ";
         }
-         */
         return output;
     }
 }

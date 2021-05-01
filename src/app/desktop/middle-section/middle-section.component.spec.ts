@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { MiddleSectionComponent } from './middle-section.component';
 
 describe('MiddleSectionComponent', () => {
@@ -8,7 +8,8 @@ describe('MiddleSectionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MiddleSectionComponent ]
+      declarations: [ MiddleSectionComponent ],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA],
     })
     .compileComponents();
   });
