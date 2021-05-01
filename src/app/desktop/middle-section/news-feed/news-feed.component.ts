@@ -73,7 +73,7 @@ export class NewsFeedComponent implements OnInit {
           "no_comments": 0+noComments,
           "user_info": [{"user_id": 100,
               "user_name": "You",
-              "pic_filename": "assets/profile_pic.png"}],
+              "pic_filename": "assets/profile_images/bot_images/0.png"}],
           "username": "You"
         }
       );

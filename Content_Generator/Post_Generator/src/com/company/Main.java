@@ -59,8 +59,8 @@ public class Main {
         fact_ref.add("https://www.brandwatch.com/blog/amazing-social-media-statistics-and-facts/");
         facts.add("The most liked picture on Instagram is one of an egg");
         fact_ref.add("https://www.brandwatch.com/blog/amazing-social-media-statistics-and-facts/");
-        facts.add("In a survey of 1,800 people, Twitter was found to be a “significant contributor” to stress because it increased their awareness of other people’s stress. "
-                +"Confusingly it seems it also acted as a coping mechanism – the more it was used, the less stressed they became.");
+        facts.add("Twitter has been found to be a significant contributor to people's stress as it raised their awareness of the stress of others."
+                + "However it can also be used as a coping mechanism. Increased use can decrease stress.");
         fact_ref.add("https://www.bbc.com/future/article/20180104-is-social-media-bad-for-you-the-evidence-and-the-unknowns");
         facts.add("In a 2014 Austrian study, it was found that participants reported lower moods after using Facebook for 20 minutes vs other internet use.");
         fact_ref.add("https://doi.org/10.1016/j.chb.2014.03.003");
@@ -72,6 +72,28 @@ public class Main {
         fact_ref.add("https://cyberpsychology.eu/article/viewFile/11562/10369");
         facts.add("It has been reported that social media addiction affects approximately 12% of users across social networking sites");
         fact_ref.add("https://cyberpsychology.eu/article/viewFile/11562/10369");
+        facts.add("An average user spent 145 minutes per day on social media in 2020, up from 90 minutes in 2012.");
+        fact_ref.add("https://www.statista.com/statistics/433871/daily-social-media-usage-worldwide/");
+        facts.add("50.1% of the time spent on mobile devices was spent on social media apps in 2020.");
+        fact_ref.add("https://wearesocial.com/blog/2020/01/digital-2020-3-8-billion-people-use-social-media");
+        facts.add("29% of people in the U.K. felt social media impacted their mental well-being in a negative way.");
+        fact_ref.add("https://blog.globalwebindex.com/chart-of-the-week/social-media-amid-the-outbreak/");
+        facts.add("In the U.S. and U.K. 57% of people say social media has helped them feel less lonely during the pandemic.");
+        fact_ref.add("https://blog.globalwebindex.com/chart-of-the-week/social-media-amid-the-outbreak/");
+        facts.add("4 out of 10 internet users in July 2020 reported being on social media platforms more than before the pandemic.");
+        fact_ref.add("https://review42.com/resources/how-much-time-do-people-spend-on-social-media");
+        facts.add("People aged 16 to 24 spend the most time on social media.");
+        fact_ref.add("https://www.digitalinformationworld.com/2019/01/how-much-time-do-people-spend-social-media-infographic.html");
+        facts.add("According to a survey of 1,500 people, social media sites make more than half of users feel inadequate.");
+        fact_ref.add("https://www.huffingtonpost.co.uk/2014/07/25/social-media-mental-healt_n_5619728.html?ir=UK+Tech");
+        facts.add("Half of 18 to 34-year-olds say going on social media makes them feel unattractive.");
+        fact_ref.add("https://www.huffingtonpost.co.uk/2014/07/25/social-media-mental-healt_n_5619728.html?ir=UK+Tech");
+        facts.add("A study of 7,000 19 to 32-year-olds found that those who spend the most time on social media were twice as likely to report experiencing social isolation.");
+        fact_ref.add("https://www.ajpmonline.org/article/S0749-3797(17)30016-8/fulltext");
+        facts.add("In a study of 600 adults, roughly a third said that social media made them feel more envious.");
+        fact_ref.add("https://www.hu-berlin.de/en/press-portal/nachrichten-en/archive/nr1301/nr_130121_00");
+        facts.add("Social media can really help reduce loneliness among elderly people");
+        fact_ref.add("https://www.karger.com/article/fulltext/346818");
     }
 
     void seeder()
