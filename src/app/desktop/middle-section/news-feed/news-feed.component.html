@@ -1,0 +1,63 @@
+<div class="writePost">
+  <form #form="ngForm" (ngSubmit)="postMessage(form)">
+    <textarea rows="2" required ngModel name="post_text" placeholder="What's happening"></textarea>
+    <input type="submit" value="post">
+  </form>
+</div>
+
+<div class="newsFeed"
+  (scroll)="onScroll($event)">
+  <div class="box" *ngFor="let feedbox of feeds">
+    <div *ngIf="feedbox.is_fact==true; else elseBlock" class="feed" style="background-color:rgb(224, 228, 255);border-radius: 1vh;">
+        <div class="feed_left">
+          <img src="assets/fact.jpeg" alt="fact">
+        </div>
+
+        <div class="feed_right">
+          <div class="username">
+            @FAKEBOOK-FACT
+          </div>
+          <div class="feed_content">
+            {{feedbox.post_text}}
+          </div>
+          <a class="reference" (click)="goToRef(feedbox.fact_ref)">
+            go to source
+          </a>
+        </div>
+    </div>
+
+    <ng-template #elseBlock class="feed">
+        <div class="feed">
+          <div class="feed_left">
+            <img src="{{feedbox.user_info[0].pic_filename}}" alt="assets/profile_pic.png">
+          </div>
+
+          <div class="feed_right">
+            <div class="username">
+              @{{feedbox.user_info[0].user_name}}
+            </div>
+            <div class="feed_content_post">
+              <div class="feed_content_text">
+                {{feedbox.post_text}}
+              </div>
+
+              <div class="feed_content_footer">
+                <div class="heart-container">
+                  <button class="heartButton" (click)="updateButtonColor()" [style.color]="heartColor">
+                    <fa-icon [icon]="faHeart" class="heart"></fa-icon>
+                  </button>
+                  <p class="heart_number">{{feedbox.likes}}</p>
+                </div>
+                <div class="comment-container">
+                  <button class="commentButton">
+                    <fa-icon [icon]="faComment" class="comment"></fa-icon>
+                  </button>
+                  <p class="comment_number">{{feedbox.no_comments}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </ng-template>
+  </div>
+</div>

@@ -3,6 +3,8 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const bodyParser = require('body-parser');
+const db = require('./db');
+const seed = require('./seed');
 
 // Get our API routes
 const api = require('./server/routes/api');
@@ -14,14 +16,14 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 // Point static path to dist (folder where build files are located)
-app.use(express.static(path.join(__dirname, 'dist/dashboard')));
+app.use(express.static(path.join(__dirname, 'dist/testsite')));
 
 // Set our api routes
 app.use('/api', api);
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist/index.html'));
+  res.sendFile(path.join(__dirname, 'dist/testsite/index.html'));
 });
 
 /**
