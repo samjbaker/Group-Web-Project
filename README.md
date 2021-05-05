@@ -5,6 +5,7 @@ abstract/video goes here
 ## Build Instructions
 To serve
 ```bash
+cd code
 docker-compose up --build
 ```
 To test
