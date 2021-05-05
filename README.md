@@ -35,7 +35,7 @@ picture and role description goes here
 
 ## Project Report Content
 
-###  [Introduction](https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/Introduction.md)
+###  [Introduction](report/Introduction.md)
 
 ### [Background and Motivation](report/BackgroundAndMotivation.md)
 
