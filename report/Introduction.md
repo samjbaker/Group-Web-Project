@@ -2,7 +2,7 @@
 
 ###  [Back to Landing Page](../README.md)
 
-###  [Introduction](Introduction.md) <--------------------------
+###  [Introduction](Introduction.md) 
 
 <strong>1.1) Abstract</strong>
 
@@ -42,5 +42,5 @@ Our video gives more detail of the concept of our webpage. Please refer to the l
 
 **FIGURE OUT HOW TO INSERT A LINK TO THE VIDEO SOMEHOW**
 
-Next section:
+
 ### [Background and Motivation](BackgroundAndMotivation.md)
