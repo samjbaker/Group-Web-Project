@@ -1,7 +1,8 @@
-# FAKEBOOK: A Generative Nonsense Social Media Feed
+<img title="FAKEBOOK: A Generative Nonsense Social Media Feed" alt="Header" src="/Documentation/Top_Header.png">
 
-abstract/video goes here
+abstract goes here
 
+####Video
 [![Group Project Video Presentation](https://img.youtube.com/vi/Zl2IwmQ15Hg/0.jpg)](https://youtu.be/Zl2IwmQ15Hg)
 
 
