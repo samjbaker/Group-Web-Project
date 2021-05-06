@@ -8,4 +8,4 @@ Based on research collected from user surveys and background literature, our tea
 
 Next section:
 
-### [System Implementation](SystemImplementation.md)
+### [3) UX Design](UXDesign.md)
