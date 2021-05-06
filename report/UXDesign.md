@@ -143,22 +143,26 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture2.jpg" width="600" />
 </p>
 
-1. 	Title
-2. 	‘About’
-3. 	‘Home’
-4. 	‘Explore’
-5. 	‘Notifications’
-6. 	‘Messages’
-7. 	‘Profile’
-8. 	Text box
-9. 	‘Post’ button
-10. ‘Bot’ posts
-11. Like button
-12. Comment button
-13. Fact box
-14. Infinite Scroll
-15. Trends
 
+
+<p align="center"><
+1. 	Title<br>
+2. 	‘About’<br>
+3. 	‘Home’<br>
+4. 	‘Explore’<br>
+5. 	‘Notifications’<br>
+6. 	‘Messages’<br>
+7. 	‘Profile’<br>
+8. 	Text box<br>
+9. 	‘Post’ button<br>
+10. ‘Bot’ posts<br>
+11. Like button<br>
+12. Comment button<br>
+13. Fact box<br>
+14. Infinite Scroll<br>
+15. Trends<br>
+>
+</p>
 
 
 <p align="center">
