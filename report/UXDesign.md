@@ -69,5 +69,17 @@ There was a strong correlation with between how often respondents used social me
   <strong>Figure 1: Key insights collected from our initial user survey</strong>
   </p>
 
+This correlation could be from external factors- social media sites are so popular that it stands to reason that people who use social media sites less regularly probably use the internet less regularly as well. However, we felt that the responses validated our suppositions that
+
+- As the most prolific users of social media, young people were the most appropriate target demographic for our product.
+- Individuals who used social media regularly would find an interface which was very reminiscent of popular social media sites very easy to navigate.
+
+It was also interesting to see a correlation in our survey results between people’s understanding of social media and their age group, although as the level of understanding was self-reported and our survey very small, it would be unwise to draw any serious conclusions on this topic.
+One interesting stakeholder we identified in our feedback were the users themselves. This was raised by a respondent to our questionnaire who said:
+
+<strong>“I think the overall idea is really good, but there is one part that bothers me. In your description, you say the aim is to get people to stay on the site longer. Social media also has quite an addictive quality to it, and while I think the aims of this site are beneficial, how does this play into overall ethics? If you accidentally create an addictive social media stream that feeds people information that keeps them on the site, could this be used by others to do what you're raising awareness for?”</strong>
+
+
+
 
 ### [>> 4) Sprints & Project Management](SprintsAndProjectManagements.md)
