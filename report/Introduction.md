@@ -42,17 +42,5 @@ Our video gives more detail of the concept of our webpage. Please refer to the l
 
 **FIGURE OUT HOW TO INSERT A LINK TO THE VIDEO SOMEHOW**
 
-### [Background and Motivation](BackgroundAndMotivation.md)
-
-### [UX Design](UXDesign.md)
-
-### [System Implementation](SystemImplementation.md)
-
-### [Sprints & Project Management](SprintsAndProjectManagements.md)
-
-### [Evaluation](Evaluation.md)
-
-### [Conclusion](Conclusion.md)
-
 Next section:
 ### [Background and Motivation](BackgroundAndMotivation.md)
