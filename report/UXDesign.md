@@ -65,5 +65,9 @@ There was a strong correlation with between how often respondents used social me
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Documentation/Picture1.png" />
 </p>
 
+<p align="center">
+Figure X: Key insights collected from our initial user survey
+  </p>
+
 
 ### [Sprints & Project Management](SprintsAndProjectManagements.md)
