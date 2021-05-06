@@ -7,7 +7,7 @@ The site will mainly be targeting young people (aged 18 - 25) who are very relia
 The site’s concept is that it will provide an infinite feed of randomly generated posts - simulating the seemingly endless scroll of information that we engage with every day. The playful aspect will simulate the ‘reward’ element of social media and draw attention to the random or superficial nature of a lot of the content we consume. In amongst the nonsense posts we will include some informative facts about the positive and negative aspects of social media, so as to educate visitors to the site. All of this serves to make a point about how much time we waste on social media & how addictive it is. We may also learn something about our relationship with social media: will we still find it compelling if we are interacting with artificial people rather than our friends?
 
 
-[![Group Project Video Presentation](https://img.youtube.com/vi/Zl2IwmQ15Hg/0.jpg)](https://youtu.be/Zl2IwmQ15Hg)
+[![Group Project Video Presentation](Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
 
 ![](/Documentation/Video/Group_Project.mp4)
 
