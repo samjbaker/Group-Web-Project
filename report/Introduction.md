@@ -40,8 +40,6 @@ The success criteria of our project can be defined as:
 
 Our video gives more detail of the concept of our webpage. Please refer to the link to our video 
 
-<br>
-
 [![Group Project Video Presentation](https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
 
 
