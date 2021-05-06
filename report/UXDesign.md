@@ -135,7 +135,42 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
 
 <strong>Touchpoints Graph 1:</strong>
 
+<p align="center">
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture2.jpg" width="800" />
+</p>
 
+1. 	Title
+2. 	‘About’
+3. 	‘Home’
+4. 	‘Explore’
+5. 	‘Notifications’
+6. 	‘Messages’
+7. 	‘Profile’
+8. 	Text box
+9. 	‘Post’ button
+10. ‘Bot’ posts
+11. Like button
+12. Comment button
+13. Fact box
+14. Infinite Scroll
+15. Trends
+
+<strong>Touchpoints Graph 2:</strong>
+
+<p align="center">
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture3.jpg" width="800" />
+</p>
+
+1. 	Title
+2. 	‘Home’
+3. 	‘Explore’
+4. 	‘Notifications’
+5. 	‘Messages’
+6. 	‘Profile’
+7. 	About box
+8. 	Trends
+
+As the interface of our design was quite simple, we concluded that it was not important which order users navigated around the site in. This process educated our next stage of decision making in relation to the site.
 
 
 ### [>> 4) Sprints & Project Management](SprintsAndProjectManagements.md)
