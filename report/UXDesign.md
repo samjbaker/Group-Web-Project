@@ -61,7 +61,7 @@ In contrast, a greater percentage of 25–34-year-olds said they believed that t
 The responses in the older age groups indicated even less engagement with social media, with only 25% of responses indicating that they used social media sites every day.
 There was a strong correlation with between how often respondents used social media and how confident there were with our interface, with most responses from users who used social media ‘every day’ or ‘a few times a week’ indicating that they would be ‘extremely confident’ or ‘very confident’ using both prototype pages we gave them to look at. 
 
-
+Format: ![Alt Text](https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Documentation/Picture1.png)
 
 
 ### [Sprints & Project Management](SprintsAndProjectManagements.md)
