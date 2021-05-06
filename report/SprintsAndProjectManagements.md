@@ -1,5 +1,3 @@
-### Sprints and Project Management
-
 ## Project Report Contents
 
 ###  [Back to Landing Page](../README.md)
