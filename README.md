@@ -2,9 +2,8 @@
 
 abstract/video goes here
 
-<video width="320" controls autoplay>
-  <source src="/Documentation/Video/Group_Project.mp4" type="video/mp4">
-</video>
+[![Group Project Video Presentation](https://img.youtube.com/vi/Zl2IwmQ15Hg/0.jpg)](https://youtu.be/Zl2IwmQ15Hg)
+
 
 ![](/Documentation/Video/Group_Project.mp4)
 
