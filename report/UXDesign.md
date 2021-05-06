@@ -139,7 +139,6 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture2.jpg" width="800" />
 </p>
 
-<p align="center"><
 1. 	Title
 2. 	‘About’
 3. 	‘Home’
@@ -155,8 +154,6 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
 13. Fact box
 14. Infinite Scroll
 15. Trends
->
-</p>
 
 <strong>Touchpoints Graph 2:</strong>
 
