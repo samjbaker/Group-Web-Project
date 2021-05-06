@@ -50,10 +50,9 @@ picture and role description goes here
 
 ### [Background and Motivation](report/BackgroundAndMotivation.md)
 
+### [UX Design](report/UXDesign.md)
 
 ### [System Implementation](report/SystemImplementation.md)
-
-### [UX Design](report/UXDesign.md)
 
 ### [Sprints & Project Management](report/SprintsAndProjectManagements.md)
 
