@@ -94,19 +94,19 @@ Following our first user survey, we completed some User Journey Mapping to give 
 <strong>Sarah:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard1.jpg" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard1.jpg" width="600" />
 </p>
 
 <strong>Josh:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard2.jpg" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard2.jpg" width="600" />
 </p>
 
 <strong>Betty:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard3.jpg" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard3.jpg" width="600" />
 </p>
 
 We then created Empathy Maps for all the users we had defined.
@@ -114,19 +114,19 @@ We then created Empathy Maps for all the users we had defined.
 <strong>Sarah:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Sarah-eMap.jpg" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Sarah-eMap.jpg" width="600" />
 </p>
 
 <strong>Josh:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Josh-eMap.jpg" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Josh-eMap.jpg" width="600" />
 </p>
 
 <strong>Betty:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Betty-eMap.jpg" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Betty-eMap.jpg" width="600" />
 </p>
 
 These empathy maps were based on a template by Dave Gray, accessed through [UX Planet](https://uxplanet.org/a-beginners-guide-to-user-journey-mapping-bd914f4c517c).
@@ -136,7 +136,7 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
 <strong>Touchpoints Graph 1:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture2.jpg" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture2.jpg" width="600" />
 </p>
 
 1. 	Title
@@ -158,7 +158,7 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
 <strong>Touchpoints Graph 2:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture3.jpg" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture3.jpg" width="600" />
 </p>
 
 1. 	Title
