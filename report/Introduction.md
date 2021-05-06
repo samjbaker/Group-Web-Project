@@ -43,8 +43,7 @@ Our video gives more detail of the concept of our webpage. Please refer to the l
 <br>
 
 [![Group Project Video Presentation](Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
-
-![](/Documentation/Video/Group_Project.mp4)
+<p align="center"><a href="https://youtu.be/Zl2IwmQ15Hg">Have an introduction to Fakebook! </a></p>
 
 
 ### [Background and Motivation](BackgroundAndMotivation.md)
