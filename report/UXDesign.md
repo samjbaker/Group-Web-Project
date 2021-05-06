@@ -17,3 +17,7 @@
 ### [Conclusion](Conclusion.md) 
 
 UX Design goes here
+
+Next section:
+
+### [Sprints & Project Management](SprintsAndProjectManagements.md)
