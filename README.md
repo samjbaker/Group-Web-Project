@@ -26,25 +26,6 @@ ng test
 
 <img title="Team members" alt="Team member images" src="/Documentation/Header.jpg">
 
-### Abby Exon
-
-picture and role description goes here
-
-### April Bates
-
-picture and role description goes here
-### Ercan Kilic
-
-picture and role description goes here
-
-### Sam Baker
-
-picture and role description goes here
-
-### Xuyang (Tony) Fang
-
-picture and role description goes here
-
 ## Project Report Content
 
 ###  [Introduction](report/Introduction.md)
