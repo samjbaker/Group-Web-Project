@@ -2,9 +2,11 @@
 
 abstract/video goes here
 
-<video controls>
-  <source src="/Documentation/Video/Group_Project.mp4" alt="Group project preview film" type="video/mp4">
+<video width="320" controls autoplay>
+  <source src="/Documentation/Video/Group_Project.mp4" type="video/mp4">
 </video>
+
+![](/Documentation/Video/Group_Project.mp4)
 
 ## Build Instructions
 To serve
