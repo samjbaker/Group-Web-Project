@@ -1,4 +1,4 @@
-<img title="FAKEBOOK: A Generative Nonsense Social Media Feed" alt="Header" src="/Documentation/Top_Header.png">
+<img title="FAKEBOOK: A Generative Nonsense Social Media Feed" alt="Header" src="/Documentation/Top_Header.jpg">
 
 Fakebook - the nonsense social media feed - is a novel way of engaging people with facts about social media, and the impact it has on society. The site will use social media’s tricks against them - both pointing out the destructive influence of social media, and encouraging self-awareness about the way those tricks are used.
 
