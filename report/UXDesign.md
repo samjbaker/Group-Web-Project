@@ -6,9 +6,9 @@ Previous section:
 
 ### [Background and Motivation](BackgroundAndMotivation.md)
 
-### [UX Design](UXDesign.md) <----------------------------------
+### [UX Design](UXDesign.md)
 
-**3.1) Early Design Process and Ideation**
+## 3.1) Early Design Process and Ideation
 
 Our design process was intended to be as agile as possible. To help enable this, we split our development process into stages and tried to gain the insight of possible users at every stage of our process. 
 
