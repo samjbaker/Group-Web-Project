@@ -1,12 +1,11 @@
 Introduction goes here
 ## Project Report Contents
 
-###  [Back to Landing Page] (../README.md)
+###  [Back to Landing Page](../README.md)
 
 ###  [Introduction](Introduction.md) <--------------------------
 
 ### [Background and Motivation](BackgroundAndMotivation.md)
-
 
 ### [System Implementation](SystemImplementation.md)
 
