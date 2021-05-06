@@ -1,8 +1,8 @@
 ## Project Report Contents
 
-###  [Back to Landing Page](../README.md)
+###  [<< Back to Landing Page](../README.md)
 
-###  [Introduction](Introduction.md) 
+###  [1) Introduction](Introduction.md) 
 
 # 1.1) Abstract
 
@@ -45,4 +45,4 @@ Our video gives more detail of the concept of our webpage. Please refer to the l
 [![Group Project Video Presentation](Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
 
 
-### [Background and Motivation](BackgroundAndMotivation.md)
+### [>> Background and Motivation](BackgroundAndMotivation.md)
