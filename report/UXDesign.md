@@ -52,5 +52,16 @@ In answer to the question ‘do you think you would be more likely to use the si
  
 Feedback from this interview helped us to hone our goals going into the next sprint. In response to this feedback, we decided to focus on finishing our minimum viable product and making it look as ‘polished’ as possible, rather than adding extra functionality to the site. From this feedback we settled on our [final design](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Design/working%20wireframes/final-design).
 
+## 3.3) Interacting with Users and Broad Stakeholders
+
+Early in the process we identified young people of age 18-25 as a key user group for our product. This is because we believed that young people were more likely to spend more time on social media and therefore would be more familiar with the interface we were trying to emulate. Because social media plays a bigger part in their lives, we also thought they would be more interested in, and receptive to, the education elements of the site. The belief that young people were the primary users of social media was backed up by what we learned from our academic review. As Victoria A. Goodyear and Kathleen M. Armour states in their chapter ‘What young people tell us about health-related social media and why we should listen’, [“It has been reported from numerous international and socio-economic contexts that young people have the highest rates of social media use of any age group”](https://library.oapen.org/bitstream/handle/20.500.12657/28205/9781138493957_text.pdf?sequence=1#page=19).
+
+In our own (admittedly small) initial [user survey](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Documentation/Questionnaires%20and%20Surveys/Questionnaire%2028:03), all the users who self-identified as 18-24 said that they used social media ‘every day’. Most of the 18–24-year-olds questioned said they believed they had only an ‘Average’ level of knowledge about social media, where the named areas of knowledge were ‘how social media sites operate’, ‘privacy’, and ‘the effect of social media on mental health’. All respondents in that age category also all answered ‘Extremely confident’ to all questions relating to how easy to navigate they would find our social-media-esque interface.
+In contrast, a greater percentage of 25–34-year-olds said they believed that they had an ‘Above average’ level of knowledge about social media (50%, compared with 25% of respondents answering ‘Above Average’ in the 18-24 age group). The responses of the 25–34-year-olds to the question ‘how often do you use social networking or micro-blogging sites’ were also more scattered, with only 50% of users responding, “Every day”.
+The responses in the older age groups indicated even less engagement with social media, with only 25% of responses indicating that they used social media sites every day.
+There was a strong correlation with between how often respondents used social media and how confident there were with our interface, with most responses from users who used social media ‘every day’ or ‘a few times a week’ indicating that they would be ‘extremely confident’ or ‘very confident’ using both prototype pages we gave them to look at. 
+
+
+
 
 ### [Sprints & Project Management](SprintsAndProjectManagements.md)
