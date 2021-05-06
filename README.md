@@ -4,7 +4,6 @@ abstract goes here
 
 [![Group Project Video Presentation](https://img.youtube.com/vi/Zl2IwmQ15Hg/0.jpg)](https://youtu.be/Zl2IwmQ15Hg)
 
-
 ![](/Documentation/Video/Group_Project.mp4)
 
 ## Build Instructions
