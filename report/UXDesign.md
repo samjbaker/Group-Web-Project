@@ -66,7 +66,7 @@ There was a strong correlation with between how often respondents used social me
 </p>
 
 <p align="center">
-  <strong>Figure X: Key insights collected from our initial user survey</strong>
+  <strong>Figure 1: Key insights collected from our initial user survey</strong>
   </p>
 
 
