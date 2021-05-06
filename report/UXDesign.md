@@ -114,19 +114,19 @@ We then created Empathy Maps for all the users we had defined.
 <strong>Sarah:</strong>
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Sarah-eMap.jpg" />
 </p>
 
 <strong>Josh:</strong>
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Josh-eMap.jpg" />
 </p>
 
 <strong>Betty:</strong>
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Betty-eMap.jpg" />
 </p>
 
 These empathy maps were based on a template by Dave Gray, accessed through [UX Planet](https://uxplanet.org/a-beginners-guide-to-user-journey-mapping-bd914f4c517c).
