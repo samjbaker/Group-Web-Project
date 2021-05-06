@@ -1,4 +1,3 @@
-Introduction goes here
 ## Project Report Contents
 
 ###  [Back to Landing Page](../README.md)
@@ -16,3 +15,8 @@ Introduction goes here
 ### [Evaluation](Evaluation.md)
 
 ### [Conclusion](Conclusion.md)
+
+Introduction goes here
+
+Next section:
+### [Background and Motivation](BackgroundAndMotivation.md)
