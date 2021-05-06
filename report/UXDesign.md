@@ -133,7 +133,7 @@ These empathy maps were based on a template by Dave Gray, accessed through [UX P
 
 Inspired by this process, we did a drawing of the site’s points of interest, highlighting in gold the links that our users would find particularly important. By doing this we hoped to refine our design into one in which the features that users most wanted were clearly available and not crowded out by anything else.
 
-
+<strong>Touchpoints Graph 1:</strong>
 
 
 
