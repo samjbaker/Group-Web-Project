@@ -13,9 +13,10 @@ Previous section:
 Our design process was intended to be as agile as possible. To help enable this, we split our development process into stages and tried to gain the insight of possible users at every stage of our process. 
 
 At the first stage of our design process, each team member designed one or two different paper prototypes for our website. We intentionally made these designs very diverse in terms of how they implemented the website's concept. The benefits of this approach were
-        - Not limiting our thinking about the way to approach the project too early.
-        - Giving our early interviewees greater say over the direction of the project.
-        - Broadening our thinking so that we could trigger productive conversations about good features of all versions and cherry-pick popular features from different designs.
+
+- Not limiting our thinking about the way to approach the project too early.
+- Giving our early interviewees greater say over the direction of the project.
+- Broadening our thinking so that we could trigger productive conversations about good features of all versions and cherry-pick popular features from different designs.
 
 These early designs were split into three broad categories:
         - 'Traditional' designs. Designs which mimicked very directly the interface of popular social media and micro-blogging sites [(source)](https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/prototypes/april/prototype-main.jpg).
