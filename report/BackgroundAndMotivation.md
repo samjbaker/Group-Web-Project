@@ -8,9 +8,9 @@
 
 ### [Background and Motivation](BackgroundAndMotivation.md) <--------------------------------
 
-### [System Implementation](SystemImplementation.md)
-
 ### [UX Design](UXDesign.md)
+
+### [System Implementation](SystemImplementation.md)
 
 ### [Sprints & Project Management](SprintsAndProjectManagements.md)
 
