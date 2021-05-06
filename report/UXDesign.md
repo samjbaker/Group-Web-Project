@@ -94,19 +94,19 @@ Following our first user survey, we completed some User Journey Mapping to give 
 <strong>Sarah:</strong>
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard1.jpg" width="800" />
 </p>
 
 <strong>Josh:</strong>
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard2.jpg" width="800" />
 </p>
 
 <strong>Betty:</strong>
 
 <p align="center">
-  <img src="" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard3.jpg" width="800" />
 </p>
 
 We then created Empathy Maps for all the users we had defined.
