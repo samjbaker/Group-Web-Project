@@ -1,10 +1,10 @@
 ## Project Report Contents
 
-###  [Back to Landing Page](../README.md)
+###  [<< Back to Landing Page](../README.md)
 
-### [Background and Motivation](BackgroundAndMotivation.md)
+### [2) Background and Motivation](BackgroundAndMotivation.md)
 
-### [UX Design](UXDesign.md)
+### [3) UX Design](UXDesign.md)
 
 ## 3.1) Early Design Process and Ideation
 
@@ -70,4 +70,4 @@ There was a strong correlation with between how often respondents used social me
   </p>
 
 
-### [Sprints & Project Management](SprintsAndProjectManagements.md)
+### [>> 4) Sprints & Project Management](SprintsAndProjectManagements.md)
