@@ -9,8 +9,7 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 <br>
 
 [![Group Project Video Presentation](Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
-
-![](/Documentation/Video/Group_Project.mp4)
+<p align="center"><a href="https://youtu.be/Zl2IwmQ15Hg">Have an introduction to Fakebook! </a></p>
 
 ## Build Instructions
 To serve
