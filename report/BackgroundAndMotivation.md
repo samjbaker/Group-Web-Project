@@ -1,4 +1,4 @@
-##### Background and Motivation
+# Background and Motivation
 
 ## Project Report Contents
 
