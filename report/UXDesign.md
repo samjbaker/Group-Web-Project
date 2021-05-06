@@ -79,6 +79,13 @@ One interesting stakeholder we identified in our feedback were the users themsel
 
 <strong>“I think the overall idea is really good, but there is one part that bothers me. In your description, you say the aim is to get people to stay on the site longer. Social media also has quite an addictive quality to it, and while I think the aims of this site are beneficial, how does this play into overall ethics? If you accidentally create an addictive social media stream that feeds people information that keeps them on the site, could this be used by others to do what you're raising awareness for?”</strong>
 
+This response raises an interesting question about user manipulation: if we set out to create a product which is addictive for individuals who are particularly receptive to social media addiction, how can we guarantee that our implementation wouldn’t be adopted by someone else with the aim of exacerbating the problem of social media addiction.
+Although we remained mindful of this concern within our development process, we ultimately concluded that other far more powerful implementations of the ‘social media bot’ existed (including ones that were already in operation on major social media platforms) and therefore the damage that was likely to be done by our social media bot was limited. However, we resolved to make exploration of this ethical issue part of our evaluation process, so that final say on this issue would be the stakeholders’ themselves.
+Another issue that was raised was the possibility of our bots saying things that were considered offensive, or even participating in hate speech by virtue of the fact that their output is random. The issue of offensive or hateful speech existing on the site is exacerbated by the fact that the site accepts input from users and regurgitates it anonymously onto the timelines of future users without filtering it. This issue was pointed out by a user in our first questionnaire, who wrote:
+
+<strong>“I would caution about your policy and expected moderation for real users of the site and potentially the automated behaviour of the bots. 'Tay' is a [good case study](https://en.wikipedia.org/wiki/Tay_(bot)) of needing caution in automation and public access”.</strong>
+
+
 
 
 
