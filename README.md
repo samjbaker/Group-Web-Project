@@ -28,16 +28,16 @@ ng test
 
 ## Project Report Content
 
-###  [Introduction](report/Introduction.md)
+###  [1) Introduction](report/Introduction.md)
 
-### [Background and Motivation](report/BackgroundAndMotivation.md)
+### [2) Background and Motivation](report/BackgroundAndMotivation.md)
 
-### [UX Design](report/UXDesign.md)
+### [3) UX Design](report/UXDesign.md)
 
-### [System Implementation](report/SystemImplementation.md)
+### [4) System Implementation](report/SystemImplementation.md)
 
-### [Sprints & Project Management](report/SprintsAndProjectManagements.md)
+### [5) Sprints & Project Management](report/SprintsAndProjectManagements.md)
 
-### [Evaluation](report/Evaluation.md)
+### [6) Evaluation](report/Evaluation.md)
 
-### [Conclusion](report/Conclusion.md)
+### [7) Conclusion](report/Conclusion.md)
