@@ -145,7 +145,7 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
 
 
 
-<p align="center"><
+<p align="center">
 1. 	Title<br>
 2. 	‘About’<br>
 3. 	‘Home’<br>
@@ -161,7 +161,6 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
 13. Fact box<br>
 14. Infinite Scroll<br>
 15. Trends<br>
->
 </p>
 
 
