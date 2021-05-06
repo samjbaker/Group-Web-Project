@@ -40,6 +40,8 @@ The success criteria of our project can be defined as:
 
 Our video gives more detail of the concept of our webpage. Please refer to the link to our video 
 
+<br>
+
 [![Group Project Video Presentation](Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
 
 ![](/Documentation/Video/Group_Project.mp4)
