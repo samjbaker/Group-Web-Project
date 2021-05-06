@@ -155,7 +155,9 @@ Inspired by this process, we did a drawing of the site’s points of interest, h
 14. Infinite Scroll
 15. Trends
 
+<p align="center">
 <strong>Touchpoints Graph 2:</strong>
+  </p>
 
 <p align="center">
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/Picture3.jpg" width="600" />
