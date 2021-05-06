@@ -4,7 +4,7 @@
 
 ###  [Introduction](Introduction.md) <--------------------------
 
-1.1) Abstract
+<strong>1.1) Abstract</strong>
 
 Fakebook - the nonsense social media feed - is a novel way of engaging people with facts about social media, and the impact it has on society. The site will use social media’s tricks against them - both pointing out the destructive influence of social media, and encouraging self-awareness about the way those tricks are used.
 
