@@ -2,8 +2,6 @@
 
 ###  [Back to Landing Page](../README.md)
 
-Previous section:
-
 ### [Background and Motivation](BackgroundAndMotivation.md)
 
 ### [UX Design](UXDesign.md)
