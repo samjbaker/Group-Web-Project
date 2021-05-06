@@ -2,6 +2,10 @@
 
 abstract/video goes here
 
+<video controls>
+  <source src="/Documentation/Video/Group_Project.mp4" alt="Group project preview film" type="video/mp4">
+</video>
+
 ## Build Instructions
 To serve
 ```bash
@@ -14,6 +18,8 @@ ng build
 ng test
 ```
 ## Team Members
+
+<img title="Team members" alt="Team member images" src="/Documentation/Header.jpg">
 
 ### Abby Exon
 
@@ -50,4 +56,3 @@ picture and role description goes here
 ### [Evaluation](report/Evaluation.md)
 
 ### [Conclusion](report/Conclusion.md)
-
