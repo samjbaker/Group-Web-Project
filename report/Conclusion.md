@@ -1,5 +1,3 @@
-Conclusion goes here
-
 ## Project Report Contents
 
 ###  [Back to Landing Page](../README.md)
@@ -17,3 +15,5 @@ Conclusion goes here
 ### [Evaluation](Evaluation.md)
 
 ### [Conclusion](Conclusion.md) <--------------------------
+
+Conclusion goes here
