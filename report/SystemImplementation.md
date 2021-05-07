@@ -63,7 +63,7 @@ Figure 3. Our data model, including a ‘comments’ collection which didn’t e
 ### 4.32) Schemas
 We chose to interact with the database from the middle tier using mongoose, as it provided a simple and clear schema based JavaScript interface with MongoDB from Node. Our API was then able to query the database for the required data, and also add items into the database as necessary. Mongoose schemas have the added bonus of allowing built-in data validation, which was very useful for adding items back into the database, as it bypassed the need for extra validity checks.
 
-![Mongoose Schema](../Documentation/Data_model/Mongoose_schema_example.png)
+![Mongoose Schema](../Documentation/Data_model/Mongoose_schema_example.png)  
 Figure 4. An example schema for one of the collections in our database.
 
 ### 4.33) Seeding the Database
