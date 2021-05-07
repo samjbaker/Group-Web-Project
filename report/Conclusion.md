@@ -83,7 +83,7 @@ Since face-to-face communication was not viable in many situations, many people 
 
 We have highlighted some of the Social and Ethical Issues raised by our project, along with a short discussion about each below:
 
-**Issue: Could the bots be mistaken for real people and cause the spread of misleading information?**
+- **Issue: Could the bots be mistaken for real people and cause the spread of misleading information?**
 
 Discussion: In our About section, we clearly state that our site serves as a satire and an educational tool for social media and that all posts by bots are fake. The majority of their posts are clearly nonsensical, so we don’t believe this should be too much of an issue. Also all usernames were intended to be clearly fake, as stated in the About section. Therefore it should be very difficult to mistake them for real people.
 
