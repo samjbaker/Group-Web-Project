@@ -36,7 +36,7 @@ ng test
 
 ### [4) System Implementation](report/SystemImplementation.md)
 
-### [5) Sprints & Project Management](report/SprintsAndProjectManagements.md)
+### [5) Sprints and Project Management](report/SprintsAndProjectManagements.md)
 
 ### [6) Evaluation](report/Evaluation.md)
 
