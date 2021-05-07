@@ -24,7 +24,7 @@ MONGO_PASSWORD=your_password
 MONGO_PORT=27017
 MONGO_DB=meantest
 ```
-You should change the your_username and your_password to your own. Save and go back to bash:
+You should change the ```bashyour_username``` and ```bashyour_password``` to your own. Save and go back to bash:
 ```bash
 docker-compose up --build
 ```
