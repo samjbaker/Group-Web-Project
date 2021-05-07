@@ -1,6 +1,6 @@
 # 6) Evaluation
 
-###  [Back to Landing Page](../README.md)
+###  [<< Back to Landing Page](../README.md)
 
 ### [<< Previous Section](SprintsAndProjectManagements.md)
 
