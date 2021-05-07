@@ -15,6 +15,17 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 To serve
 ```bash
 cd code
+vim .env
+```
+Then add the following:
+```bash
+MONGO_USERNAME=your_username
+MONGO_PASSWORD=your_password
+MONGO_PORT=27017
+MONGO_DB=meantest
+```
+Save and go back to bash:
+```bash
 docker-compose up --build
 ```
 To test
