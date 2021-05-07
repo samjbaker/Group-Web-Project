@@ -1,8 +1,6 @@
-## Project Report Contents
+# 1) Introduction
 
-###  [<< Back to Landing Page](../README.md)
-
-###  [1) Introduction](Introduction.md) 
+###  [<< Back to Landing Page](../README.md) 
 
 # 1.1) Abstract
 
