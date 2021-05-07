@@ -1,4 +1,4 @@
-###  [Back to Landing Page](../README.md)
+###  [<< Back to Landing Page](../README.md)
 
 # Background and Motivation
 
