@@ -18,13 +18,13 @@ cd code
 vim .env
 ```
 Then add the following:
-```bash
+```vim
 MONGO_USERNAME=your_username
 MONGO_PASSWORD=your_password
 MONGO_PORT=27017
 MONGO_DB=meantest
 ```
-Save and go back to bash:
+You should change the your_username and your_password to your own. Save and go back to bash:
 ```bash
 docker-compose up --build
 ```
