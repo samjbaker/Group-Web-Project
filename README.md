@@ -26,7 +26,7 @@ ng test
 
 <img title="Team members" alt="Team member images" src="/Documentation/Header.jpg">
 
-## Project Report Content
+## Project Report Contents
 
 ###  [1) Introduction](report/Introduction.md)
 
