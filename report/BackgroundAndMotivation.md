@@ -75,6 +75,6 @@ Other features or products that are currently on the market that aim to reduce t
 ### 2.33) Our product’s position in the industry 
 Fakebook is in a good position to help tackle the issue of social media addiction in a way that, besides for the application [Binky](http://www.binky.rocks/), is not being tackled yet through this type of channel. Our application will aim to educate users about social media, while providing users the opportunity to interact with the site through an interface that is not all that different from a social media platform. It will have features that are different enough from [Binky](http://www.binky.rocks/) to make it worthwhile however, despite their similar messages.
 
-Next section:
+#### Next section:
 
 ### [3) UX Design](UXDesign.md)
