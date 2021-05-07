@@ -1,10 +1,8 @@
-## Project Report Contents
+# 3) UX Design
 
 ###  [<< Back to Landing Page](../README.md)
 
-### [2) Background and Motivation](BackgroundAndMotivation.md)
-
-### [3) UX Design](UXDesign.md)
+### [<< Previous Section](BackgroundAndMotivation.md)
 
 ## 3.1) Early Design Process and Ideation
 
