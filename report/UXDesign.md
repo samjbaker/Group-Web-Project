@@ -127,7 +127,7 @@ We then created Empathy Maps for all the users we had defined.
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/empathy%20maps/Betty-eMap.jpg" width="600" />
 </p>
 
-These empathy maps were based on a template by Dave Gray, accessed through UX Planet ([source])(https://uxplanet.org/a-beginners-guide-to-user-journey-mapping-bd914f4c517c).
+These empathy maps were based on a template by Dave Gray, accessed through UX Planet [(source)](https://uxplanet.org/a-beginners-guide-to-user-journey-mapping-bd914f4c517c).
 
 Inspired by this process, we did a drawing of the site’s points of interest, highlighting in gold the links that our users would find particularly important. By doing this we hoped to refine our design into one in which the features that users most wanted were clearly available and not crowded out by anything else.
 
