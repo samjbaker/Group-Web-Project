@@ -87,19 +87,19 @@ We have highlighted some of the Social and Ethical Issues raised by our project,
 
 Discussion: In our About section, we clearly state that our site serves as a satire and an educational tool for social media and that all posts by bots are fake. The majority of their posts are clearly nonsensical, so we don’t believe this should be too much of an issue. Also all usernames were intended to be clearly fake, as stated in the About section. Therefore it should be very difficult to mistake them for real people.
 
-**Issue: Lack of filtering of content added by users could lead to the posting feature being misused or used in an abusive way. Posts could be overtly offensive with the use of swear words, but they could also be potentially offensive due to the spreading of derogatory opinions.**
+- **Issue: Lack of filtering of content added by users could lead to the posting feature being misused or used in an abusive way. Posts could be overtly offensive with the use of swear words, but they could also be potentially offensive due to the spreading of derogatory opinions.**
 
 Discussion: Currently it is true that the posting feature could be misused. However, as it is a prototype at this stage, and the only users have been test users, this has not been seen as a pressing issue. If we were to launch the site for real, we would have to improve this. For example we could mark each post with swear words or offensive language with a ‘Not Safe For Work’ tag and hide the content. The user would then have to confirm his/her age and if he/she is willing to take the risk to be offended to view the content. Of course, this would not be guaranteed to avoid offence. We have also tried to mitigate the possibility of offence and influencing opinions by displaying all posts from users under a fake name. This anonymity ensures that each person has just as much influence on others no matter the difference in social status, wealth, gender or numerous other factors. Even with our randomly generated posts, despite our best efforts to not include controversial topics, there is a chance that it could output something offensive due to its randomly constructed nature. 
 
-**Issue: What if the fact references are incorrect or unreliable? Could they miseducate the users about social media?**
+- **Issue: What if the fact references are incorrect or unreliable? Could they miseducate the users about social media?**
 
 Discussion: We attempted to source all of the facts for our factbox from reputable sources, although of course, as our site intends to highlight, this can be difficult to verify. Each reference is not necessarily guaranteed to be correct. Ultimately, it is the user’s responsibility to determine the credibility of the source.
 
-**Issue: Making use of the addictive features of social media to make a point about the addictive features of social media is hypocritical and irresponsible.**
+- **Issue: Making use of the addictive features of social media to make a point about the addictive features of social media is hypocritical and irresponsible.**
 
 Discussion: In our About section, we have tried to warn about the risks of the potential addictiveness of our product. Therefore, it is the user’s choice whether to be exposed to this potential danger. Although we believe our product has features that may be potentially addictive, we do not know for certain until the addictiveness of our product can be quantified following the user feedback. If we were to launch the product for real, we would certainly have to investigate this. Just because our product has the potential to be addictive, does not mean it will be addictive.
 
-**Issue: Have you considered the accessibility of the product?**
+- **Issue: Have you considered the accessibility of the product?**
 
 Discussion: This is something that we didn’t consider enough during our prototyping phase, and is something we would have to improve if we were to launch the page. For example we could look to integrate text to speech capability for visually impaired users.
 
