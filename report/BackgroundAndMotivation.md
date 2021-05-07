@@ -1,6 +1,7 @@
-###  [<< Back to Landing Page](../README.md)
-
 # Background and Motivation
+
+###  [<< Back to Landing Page](../README.md)
+### [<< Previous Section](Introduction.md)
 
 ## 2.1) Identifying and defining our problem 
 ### 2.11) Problem definition
