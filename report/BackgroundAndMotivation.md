@@ -25,7 +25,18 @@ Our design scope includes having 2 pages - a ‘Home’ page where the posts cou
 
 ## 2.2) Secondary Research
 
-Social media use has exploded in the last few years, and is on course to continue this trajectory. The number of worldwide social media users in 2021 is 3.78 billion people (approximately half the world’s population), with it set to increase every year (see Figure 1.) ([Source](https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/)). 
+Social media use has exploded in the last few years, and is on course to continue this trajectory. The number of worldwide social media users in 2021 is 3.78 billion people (approximately half the world’s population), with it set to increase every year (see Figure 1) ([Source](https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/)). 
+
+![Worldwide Social Media Use](report_images/fig1.png)  
+Figure 1. Projected increase in worldwide social media usage.
+
+Social media was initially defined as “web-based services that allow individuals to (1) construct a public or semipublic proﬁle within a bounded system, (2) articulate a list of other users with whom they share a connection, and (3) view and traverse their list of connections and those made by others within the system.” ([Source](https://ebookcentral.proquest.com/lib/bristol/reader.action?docID=1143700)) However, today that definition fails to capture the complex and multi-functional ecosystems of the big social media sites. There are now lots of different types of media (eg video, photograph, text) shared over these social networks, as well as a dizzying array of content. Social media has become a manifestation of the moods and trends of contemporary society. For example, it is possible to predict the movement of the stock market ([Source](https://pdfs.semanticscholar.org/119c/375a81588c5576644a56705a6b7a987592db.pdf)) and when an influenza outbreak will occur ([Source](https://ieeexplore.ieee.org/document/5928903)) using solely the content of social media posts, which is quite scary! 
+
+As the internet is global, and therefore has no centralized governing body, these social media sites have traditionally had ‘low levels of regulation’ ([Source](https://ebookcentral.proquest.com/lib/bristol/reader.action?docID=1143700)) put in place to enforce rules around their use. This is constantly evolving however, as different countries put into place restrictions over what types of content can be consumed by their citizens. For example, the recent ban of Facebook by the Australian government over a proposed law which would enforce the tech giant to have to pay news publishers for content ([Source](https://www.bbc.com/news/world-australia-56165015)). China is another country which is known for putting into place bans on Western social media sites, such as Google, Facebook and Twitter ([Source](https://www.nytimes.com/2018/08/06/technology/china-generation-blocked-internet.html)).
+
+The number of uses we have for social media has increased rapidly over the last few years. “The average person has 8.6 social media accounts in 2020, up from 4.8 in 2014” ([source](https://backlinko.com/social-media-users)), and the social media model has been applied, very successfully, to everything from the job market (eg LinkedIn) to dating sites (eg Tinder, Grindr). The evolution of social media has definitely caused problems as its power and influence have grown along with it. This has led to difficulties surrounding its regulation, and how best to educate people about using it responsibly. 
+
+![Worldwide Social Media Use](report_images/fig2.png) 
 
 Next section:
 
