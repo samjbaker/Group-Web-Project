@@ -42,10 +42,12 @@ Some key insights were:
 - “It does mimic the real Facebook cleverly”
 - “The colouring was calming. The subtle use of different hues helped”
 
-6.2) Functional Testing
+##6.2) Functional Testing
+
 We decided to test our website using both black-box and white-box testing methods; the former being where we are not aware of what the code contains and are navigating the site from the perspective of the user, and the latter being where we are aware of the code and its structures.
 
-## Functional Testing
+**Functional Testing**
+
 We decided to test our website using both black-box and white-box testing methods; the former being where we are not aware of what the code contains and are navigating the site from the perspective of the user, and the latter being where we are aware of the code and its structures.
 
 **Black Box Testing**
@@ -73,9 +75,6 @@ In the MVP, it was decided that functionality would not be added for a dynamical
 
 <p align="center">
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Layout.png" width="600" />
-</p>
-<p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Hierarchy.png" width="600" />
 </p>
 
 The news-feed section was not tested at all using this method for three reasons. Firstly, we had already ascertained that the news-feed section successfully fetched data from the backend without rendering issues after a Resolver was added. We confirmed this during our black box testing, and were sufficiently happy with this. Secondly, making the like-button switch colour when clicked was not included in the MVP, so therefore we deemed it unnecessary to test. Thirdly, the Service, Resolver and the news-feed Component are all tightly coupled, making testing extremely difficult. This resulted in the user post functionality (user submits a post which gets sent to the database to be stored) not being tested using Jasmine.
