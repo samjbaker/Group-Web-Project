@@ -222,7 +222,7 @@ In the MVP, it was decided that functionality would not be added for a dynamical
 <p align="center">
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Layout.png" width="800" />
 </p>
-```bash
+```
 app
 └── desktop
     ├── about
