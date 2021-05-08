@@ -83,6 +83,16 @@ In the MVP, it was decided that functionality would not be added for a dynamical
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Layout.png" width="800" />
 </p>
 
+```vim
+app
+└── desktop
+    ├── about
+    ├── leftsidebar
+    ├── middle-section
+    │   └── news-feed
+    └── trendingbar
+```
+
 The news-feed section was not tested at all using this method for three reasons. Firstly, we had already ascertained that the news-feed section successfully fetched data from the backend without rendering issues after a Resolver was added. We confirmed this during our black box testing, and were sufficiently happy with this. Secondly, making the like-button switch colour when clicked was not included in the MVP, so therefore we deemed it unnecessary to test. Thirdly, the Service, Resolver and the news-feed Component are all tightly coupled, making testing extremely difficult. This resulted in the user post functionality (user submits a post which gets sent to the database to be stored) not being tested using Jasmine.
 
 The routerLink that takes the page from Home to About or vice-versa successfully passed the testing.
