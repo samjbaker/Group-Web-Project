@@ -117,7 +117,7 @@ Our key results were as follows:
 - 100% of respondents said that they learned something about social media from our site.
 - All respondents rated the site either a 4 or 5 out of 5 for how effectively it educated about social media.
 - 4.2 out of 5 was the average score for how engaging the site was.
-- Most users said that they didn’t think that they’d be likely to spend more than five minutes on the site in one ‘session’, although many users disagreed.
+- Most users said that they didn’t think that they’d be likely to spend more than five minutes on the site in one ‘session’.
 - The majority of users said that they’d be ‘Very Likely’ to recommend the site to a friend.
 
 We also gathered some very insightful qualitative feedback, some of which related specifically to our success criteria and some of which was more general. Some choice pieces of qualitative feedback were:
