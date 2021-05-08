@@ -97,16 +97,30 @@ Instead we opted for a much simpler approach, based on the phrase structure rule
 ![Phrase Structure Rules](report_images/phrase_structure_rules.png)  
 Figure 6. Diagram of the basic components of a phrase ([Source](https://www.britannica.com/science/linguistics/Chomskys-grammar)).
 
-![Phrase Example](eport_images/phrase_examples.png)  
+![Phrase Example](report_images/phrase_examples.png)  
 Figure 7. The rules applied, step-by-step, to a rudimentary sentence ([Source](http://217.64.17.124:8080/xmlui/bitstream/handle/123456789/557/syntactic_structures%20(1).pdf?sequence=1)).
 
-[12] N. Chomsky, "Three models for the description of language," IRE Transactions on Information Theory, vol. 2, no. 3, pp. 113-124, September. 1956, doi: 10.1109/TIT.1956.1056813.
+Once you have defined the phrase structure rules for a particular sentence type, it is then simple to generate sentences by substituting words of the correct type for the symbols in the rule. This has the enormous benefit over other sentence generation methods of guaranteeing that, if the rules are correct, the sentences will be grammatically correct. However, on the other hand, it does not guarantee that the sentences will have any meaning ([Source](https://ieeexplore.ieee.org/document/1056813)) (see Fig. 8).
 
-[13] “Phrase Structure Rules”, Wikipedia. April. 16, 2021. Accessed: April 27, 2021 [Online]. Available: https://en.wikipedia.org/wiki/Phrase_structure_rules  
+![Phrase Tree Diagram](report_images/phrase_tree_diagram.png)  
+Figure 8. Chomsky’s most famous example of a sentence constructed using his original phrase structure rules. It is notable for being totally syntactically correct, but semantically meaningless ([Source](https://en.wikipedia.org/wiki/Phrase_structure_rules))
 
-[14] B. Rodriguez. “The Most Popular Celebrities on Instagram in 2021” Yahoo Finance, March. 30, 2021. Accessed: April 28, 2021. [Online]. Available: https://finance.yahoo.com/finance/news/top-10-most-followed-celebrities-195102901.html
+We used these phrase structure rules as a springboard to write a Java program containing trees for a variety of sentence types, providing a number of options for each category in the tree (such as Nouns, Verbs, Proper Nouns etc). The program then navigates through the tree, using a random number generator to ‘decide’ how to populate each category at each node of the tree, as well as choosing whether to add on additional parts to the sentence, such as using connectives, adjectives or adverbs. 
 
-[15] B. J. Jansen, K. Sobel, and G. Cook, “Gen X and Ys’ attitudes on Using Social Media Platforms for Opinion Sharing,” Extended Abstracts on Human Factors in Computing Systems, CHI EA ’10, (New York, NY ,USA), p. 3853–3858, Association for Computing Machinery, 2010. Accessed: April 27, 2021. [Online]. Available doi: 10.1145/1753846.1754068
+![Phrase Tree Diagram 2](report_images/phrase_tree_diagram2.png)  
+Figure 9. A simple example sentence and its phrasal categories, created by our post generator.
 
+As one of our goals was to have bots who were at least semi-plausibly human, we were able to tailor the content of each of the phrasal categories to have ‘social media like’ qualities. For example we inserted the names of commonly discussed celebrities ([Source](https://finance.yahoo.com/finance/news/top-10-most-followed-celebrities-195102901.html)) and characters into the proper nouns category and also included some common terminology from the vernacular of the internet including ‘woke’, ‘vlogger’ and ‘selfie’. Furthermore we included lots of opinion verbs, as the websites that we are attempting to parody are commonly used as a platform for people to share strong opinions ([Source](https://dl.acm.org/doi/10.1145/1753846.1754068)), for better or for worse. 
+
+After getting some feedback that the content seemed too similar, and grew boring quickly, we added in a greater variety of sentence structures. As well as this, we added some additional colloquialisms to make the posts seem more human. 
+
+## 4.5) Docker and Continuous Integration
+In order to achieve continuous integration, we made use of the version control software git. We attempted to maintain a regimented structure to our usage of github, to ensure that nothing was committed to the main branch that wasn’t 100% tested and approved. To achieve this we made use of our own feature branches: one for front end, one for the database and docker containers, and one for the middle stack and API development, which we merged into a ‘development’ branch whenever we were happy with our work for the rest of the team to review. Only once it had been reviewed and thoroughly tested to everyone’s satisfaction was it pushed on to our ‘main’ production branch. We continually added documentation to the main branch however, so that everyone had access to it throughout.
+
+We deployed our prototype using Docker, a containerization system, which allowed us to compartmentalize our development environments, storing the server in one container, and the database in another, and connecting them at run time. Docker was chosen due to our need for a consistent, predictable and isolated development environment. This was particularly useful for our group workflow, as it allowed us to avoid any inter-platform issues that may have arisen from members of our group using different operating systems. 
+
+We built our containers in a very similar manner to that suggested in the walkthrough lectures, with one container using an alpine image to run the server, and the other using an image provided by MongoDB for the database. We used a docker-compose script to spin up both containers, and used a bash script to make the server container wait for the database container to be running before attempting to connect to it. We were having some compatibility issues relating to errors caused by system-specific line endings in the bash script, so we adapted our server’s Dockerfile to include a step of downloading and creating the wait-for.sh script directly inside the container on build to avoid this, and ensure maximum portability. 
+
+We also made use of environmental variables during the construction of our docker containers. Using these allowed for increased flexibility when working collaboratively, as everyone could define their own variables in their own .env files, and these would be automatically used by the docker container. This helped keep the project more secure, as we weren’t passing around administrative usernames and passwords. We of course made sure that our respective .env files were included in our .gitignore, to avoid inadvertently pushing them on to our public repository. 
 
 ### [>> 5) Sprints and Project Management](SprintsAndProjectManagements.md)
