@@ -6,21 +6,21 @@
 
 ## 6.1) Evaluative Overview
 
-We collected user feedback after key milestones in order to make our design continuously responsive to feedback from the end user. We initially conducted a a series of casual interviews about very early paper prototypes. This then lead us to create a more complete paper prototype, which we wrote a questionnaire for. Once we had a website which was useable and interactive, we conducted a series of semi-structured interviews about it. The feedback we gained during the process of creating the product led to some interesting and unexpected insights, which ultimately shaped our final design. A complete timeline of user surveys is detailed in the report's UX Design section.
+We collected user feedback after key milestones in order to make our design continuously responsive to feedback from the end user. We initially conducted a a series of casual interviews about very early paper prototypes. This then led us to create a more complete paper prototype, which we wrote a questionnaire for. Once we had a website which was useable and interactive, we conducted a series of semi-structured interviews about it. The feedback we gained during the process of creating the product led to some interesting and unexpected insights, which ultimately shaped our final design. A complete timeline of user surveys is detailed in the report's UX Design section.
 
 For our final evaluation, we created a questionnaire which was structured around the success criteria which we defined at the start of the project.
 
-Overall, we found our process of evaluation effective for understanding our product. However, we faced some limitations due to time-pressure and the impact of the pandemic which prevented us from gaining feedback as thoroughly as we would have liked. For instance, approximately half of our semi-structured interviews had to be conducted online, which we worried prevented the users from being able to properly interact with and understand the design. Because the interviews were conducted online, we determined that it would be sensible to have only one interviewee per participant, due to both the technical complications of three way calls (i.e lag, sound quality) and because we worried that our respondants would find a three-way call intimidating in a way that a three-way in-person conversation wasn't. The result was that the interviewee had to take notes at the same time as interviewing, which limited the ability to build a 'rapport' with the interviewee. We were also more limited to friends and family in those we could interview because it was harder to go and access potential interviewees in person. This may have skewed our feedback more positively.
+Overall, we found our process of evaluation effective for understanding our product. However, we faced some limitations due to time-pressure and the impact of the pandemic which prevented us from gaining feedback as thoroughly as we would have liked. For instance, approximately half of our semi-structured interviews had to be conducted online, which we worried prevented the users from being able to properly interact with and understand the design. Because the interviews were conducted online, we determined that it would be sensible to have only one interviewee per participant, due to both the technical complications of three-way calls (i.e. lag, sound quality) and because we worried that our respondents would find a three-way call intimidating in a way that a three-way in-person conversation wasn't. The result was that the interviewee had to take notes at the same time as interviewing, which limited the ability to build a 'rapport' with the interviewee. We were also more limited to friends and family in those we could interview because it was harder to go and access potential interviewees in person. This may have skewed our feedback more positively.
 
-We were also worried about the use of 'casual interviews'. Although they were only used in instances where we had what we considered small and relatively simple issues to be resolved, we had no guarentee that they were conducted consistently and they were not formally documented in the same way as a semi-structured interview. Had we had more time we would have conducted more formal interviews, and we viewed casual-interviews as a flawed means of gaining feedback which we tried to compesate for by always closely following them with more comrehensive interviews and questionnaires.
+We were also worried about the use of 'casual interviews'. Although they were only used in instances where we had what we considered small and relatively simple issues to be resolved, we had no guarantee that they were conducted consistently, and they were not formally documented in the same way as a semi-structured interview. Had we had more time we would have conducted more formal interviews, and we viewed casual interviews as a flawed means of gaining feedback which we tried to compensate for by always closely following them with more comprehensive interviews and questionnaires.
 
-Conducting surveys while creating the product was an effective means of testing both the product and our ideation about it. In each survey we asked users about whether they found different elements of the interface easy to use, and this allowed us to continously test functionality and ease of use. It also helped to reveal errors in the product, such as when we realised that some users were not able to differentiate 'fact boxes' from the other posts on the timeline (which was discovered during our semi-structured interviews).
+Conducting surveys while creating the product was an effective means of testing both the product and our ideation about it. In each survey we asked users about whether they found different elements of the interface easy to use, and this allowed us to continuously test functionality and ease of use. It also helped to reveal errors in the product, such as when we realised that some users were not able to differentiate 'fact boxes' from the other posts on the timeline (which was discovered during our semi-structured interviews).
 
-We believe there were benefits in alternating between survey feedback and semi-structured interviews, as both means of evaluation gave us different types of understanding about our product. This ultimately gave us a understanding of the product which was more well rounded and comprehensive.
+We believe there were benefits in alternating between survey feedback and semi-structured interviews, as both means of evaluation gave us different types of understanding about our product. This ultimately gave us a understanding of the product which was more well-rounded and comprehensive.
 
 ## 6.2) Design Evaluation
 
-The key findings about design from the first questionnaire and semi-strctured interview were:
+The key findings about design from the first questionnaire and semi-structured interview were:
 - That users thought a ‘familiar’ social media layout was preferable to a more novel interface.
 - Users felt comfortable that they would be able to navigate our designs.
 - The design should be simplified by removing unnecessary features.
@@ -31,7 +31,7 @@ We therefore changed our final design by:
 - Attempting to emulate the 'seamless' experience of real social media sites by sharpening up our design.
 - Highlighting the fact box to differentiate it from the regular posts.
 
-Once we had a working prototype that fulfilled the criteria for our minimum viable product, we were able to conduct an evaluative questionnaire about the design. At the beginning of the project we established a number of success criteria, and this questionnaire was designed to straightforwardly evaluate how well we had accomplished these aims. The success criterion that related to design was:
+Once we had a working prototype that fulfilled the criteria for our minimum viable product, we were able to conduct an evaluative questionnaire about the design. At the beginning of the project, we established a number of success criteria, and this questionnaire was designed to straightforwardly evaluate how well we had accomplished these aims. The success criterion that related to design was:
 
 > **Aesthetically Pleasing: Our product will implement our designs effectively.** The prototype will execute the designs in such a way that it facilitates playful interaction and enables us to effectively impart our message to users.
 
@@ -52,11 +52,11 @@ Some key insights were:
 
 ## 6.3) Functional Testing
 
-We decided to test our website using both black-box and white-box testing methods. Black-box testing requires testers to emulate the experience of a user, and to test the product as if they were not aware of what the code contains. White-box testing requires an awareness of the code and its structures, and involves targetting components that a user may not be able to see or access.
+We decided to test our website using both black-box and white-box testing methods. Black-box testing requires testers to emulate the experience of a user, and to test the product as if they were not aware of what the code contains. White-box testing requires an awareness of the code and its structures and involves targeting components that a user may not be able to see or access.
 
 **Black Box Testing**
 
-For our black-box testing, the development team tested our webpage from the perspective of a user. For this, the team created test plan, making sure that we tested each of the key 4 functionalities of our webpage; the pulling of random posts from the database, the storing of posts back to the database by the user, our infinite scroll of posts, and navigating between our ‘About’ and ‘Home’ page.
+For our black-box testing, the development team tested our webpage from the perspective of a user. For this, the team created test plan, making sure that we tested each of the key 4 functionalities of our webpage: the pulling of random posts from the database, the storing of posts back to the database by the user, our infinite scroll of posts, and navigating between our ‘About’ and ‘Home’ page.
 
 <p align="center">
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Tests.png" width="600" />
@@ -89,7 +89,7 @@ app
     └── trendingbar
 ```
 
-The news-feed section was not tested at all using this method for three reasons. Firstly, we had already ascertained that the news-feed section successfully fetched data from the backend without rendering issues after a Resolver was added. We confirmed this during our black box testing, and were sufficiently happy with this. Secondly, making the like-button switch colour when clicked was not included in the MVP, so we deemed it unnecessary to test. Thirdly, the Service, Resolver and the news-feed Component were all tightly coupled, which made testing extremely difficult. As a result, the user post functionality (user submits a post which gets sent to the database to be stored) was not tested using Jasmine.
+The news-feed section was not tested at all using this method for three reasons. Firstly, we had already ascertained that the news-feed section successfully fetched data from the backend without rendering issues after a Resolver was added. We confirmed this during our black box testing and were sufficiently happy with this. Secondly, making the like-button switch colour when clicked was not included in the MVP, so we deemed it unnecessary to test. Thirdly, the Service, Resolver and the news-feed Component were all tightly coupled, which made testing extremely difficult. As a result, the user post functionality (user submits a post which gets sent to the database to be stored) was not tested using Jasmine.
 
 The routerLink that takes the page from Home to About or vice-versa successfully passed the testing.
 
@@ -108,7 +108,7 @@ All of this reassured us that our site was functioning as intended on the whole,
 
 ## 6.4) User Acceptance Testing
 
-We also set out to evaluate our product by seeking user opinions on the functionality, navigability and overall experience of using our prototype. This was done by asking users to fill in a survey following a few minutes of use of the prototype. The relevant success criteria we were testing were that the site was:
+We also set out to evaluate our product by seeking user opinions on the functionality, navigability, and overall experience of using our prototype. This was done by asking users to fill in a survey following a few minutes of use of the prototype. The relevant success criteria we were testing were that the site was:
 
 > **Relevant: Our product will be something our users want to use.** The creation of a working prototype of our webpage that is a product of our user feedback, exploration into our users’ experiences, and secondary research into social media.
 
