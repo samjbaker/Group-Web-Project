@@ -66,7 +66,7 @@ This was through the creation of a test plan, making sure that we tested each of
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Tests.png" width="600" />
 </p>
 <p align="center">
-  <strong>Figure X: A working copy of the tests performed in our test plan </strong>
+  <strong>Figure 1: A working copy of the tests performed in our test plan </strong>
 </p>
 
 We also made sure that the links to citations for facts were working correctly, as we wanted to ensure that users were able to verify the authenticity of the facts to ensure that our serious message was as strong as possible. We did this by scrolling through the feed and clicking the ‘go to source’ button provided for a number of different fact boxes and checking that we were taken to the correct place.
@@ -123,7 +123,7 @@ Our key results were as follows:
 - 100% of respondents said that they learned something about social media from our site.
 - All respondents rated the site either a 4 or 5 out of 5 for how effectively it educated about social media.
 - 4.2 out of 5 was the average score for how engaging the site was.
-- Most users said that they didn’t think that they’d be likely to spend more than five minutes on the site in one ‘session’, although many users disagreed.
+- Most users said that they didn’t think that they’d be likely to spend more than five minutes on the site in one ‘session’.
 - The majority of users said that they’d be ‘Very Likely’ to recommend the site to a friend.
 
 We also gathered some very insightful qualitative feedback, some of which related specifically to our success criteria and some of which was more general. Some choice pieces of qualitative feedback were:
