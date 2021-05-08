@@ -94,10 +94,11 @@ Another option was to use a pre-built machine learning algorithm or API. There i
 
 Instead we opted for a much simpler approach, based on the phrase structure rules first proposed by Noam Chomsky in 1957 [9]. They essentially involve breaking natural language into its constituent sections, or ‘phrasal categories’, which can be effectively visualized as a sentence tree. A basic example would be breaking a simple sentence (S) into 2 constituent parts, a noun-phrase (NP) followed by a verb-phrase (VP). A noun-phrase consists of an optional determiner (Det) such as ‘the’, followed by a noun (N). The noun can then be optionally preceded by an adjective-phrase (AP) or followed by a prepositional phrase (PP). A verb-phrase is constructed of a verb and optionally an adverb ([Source](http://217.64.17.124:8080/xmlui/bitstream/handle/123456789/557/syntactic_structures%20(1).pdf?sequence=1)) ([Source](http://www.colinphillips.net/wp-content/uploads/2015/09/chomsky1965-ch1.pdf)).
 
-![Phrase Structure Rules](report_images/phrase_structure_rules.jpeg) 
-Figure 6. Diagram of the basic components of a phrase ([Source](https://www.britannica.com/science/linguistics/Historical-diachronic-linguistics)).
+![Phrase Structure Rules](report_images/phrase_structure_rules.png)  
+Figure 6. Diagram of the basic components of a phrase ([Source](https://www.britannica.com/science/linguistics/Chomskys-grammar)).
 
-[11] “Chomsky’s Grammar”, Encyclopedia Britannica. Accessed: April. 16, 2021 [Online]. Available: https://www.britannica.com/science/linguistics/Historical-diachronic-linguistics
+![Phrase Example](eport_images/phrase_examples.png)  
+Figure 7. The rules applied, step-by-step, to a rudimentary sentence ([Source](http://217.64.17.124:8080/xmlui/bitstream/handle/123456789/557/syntactic_structures%20(1).pdf?sequence=1)).
 
 [12] N. Chomsky, "Three models for the description of language," IRE Transactions on Information Theory, vol. 2, no. 3, pp. 113-124, September. 1956, doi: 10.1109/TIT.1956.1056813.
 
