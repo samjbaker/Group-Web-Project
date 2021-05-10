@@ -9,7 +9,7 @@ Based on research collected from user surveys and background literature, our tea
 
 > ## “How might we create a solution that aims to educate young people on social media in a way that is engaging and entertaining?”
 
-([source](https://www.designkit.org/methods/3))
+([Source](https://www.designkit.org/methods/3))
 
 ### 2.12) Scope of project
 
