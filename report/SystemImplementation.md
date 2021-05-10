@@ -128,7 +128,7 @@ Instead we opted for a much simpler approach, based on the phrase structure rule
 </p>
 
 <p align="center">
-  <img src="report_images/phrase_examples.png" width="800" alt="Phrase Example"/>
+  <img src="report_images/phrase_examples.png" width="600" alt="Phrase Example"/>
 </p>
 
 <p align="center">
