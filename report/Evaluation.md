@@ -102,7 +102,7 @@ For our backend and database, since it was difficult to see whether data is bein
 - We deleted an item from the database, then destroyed and rebuilt the container and checked that it was still not present.
 - We then dropped a collection manually from MongoDB and rebuilt the container, checking that the starting data was re-seeded as it was supposed to be.
 
-Additionally, we made use of Postman ([source](https://learning.postman.com/)), an online tool that we used to test that our HTTP requests were working as predicted. This was very useful, as it allowed us to conduct tests at various points during development, without the need for a working front-end.
+Additionally, we made use of [Postman](https://learning.postman.com/)), an online tool that we used to test that our HTTP requests were working as predicted. This was very useful, as it allowed us to conduct tests at various points during development, without the need for a working front-end.
 
 All of this reassured us that our site was functioning as intended on the whole, to at least the standard required for a prototype. It also allowed us to catch some crucial errors that we were able to rectify.
 
