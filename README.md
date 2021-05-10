@@ -15,19 +15,15 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 To serve
 ```bash
 cd code
-vim .env
 ```
-Then add the following:
-```vim
-MONGO_USERNAME=your_username
-MONGO_PASSWORD=your_password
-MONGO_PORT=27017
-MONGO_DB=meantest
-```
-You should change the ```your_username``` and ```your_password``` to your own. Save and go back to bash:
+Make sure before running docker that you have a .env file with the appropriate environment variables. 
+
+Then run
 ```bash
 docker-compose up --build
 ```
+To view the site, go to the local host on your own machine (http://localhost:3000/).
+
 To test
 ```bash
 ng build
