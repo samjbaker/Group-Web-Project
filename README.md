@@ -12,19 +12,19 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 <p align="center"><a href="https://youtu.be/Zl2IwmQ15Hg">Have an introduction to Fakebook! </a></p>
 
 ## Build Instructions
-To serve
+1) Clone this repository on your local machine 
+2) To serve
 ```bash
 cd code
 ```
-Make sure before running docker that you have a .env file with the appropriate environment variables. 
-
-Then run
+3) Make sure before running docker that you have a .env file with the appropriate environment variables. 
+4) Then run
 ```bash
 docker-compose up --build
 ```
-To view the site, go to the local host on your own machine (http://localhost:3000/).
+5) To view the site, go to the local host on your own machine (http://localhost:3000/).
 
-To test
+6) To test
 ```bash
 ng build
 ng test
