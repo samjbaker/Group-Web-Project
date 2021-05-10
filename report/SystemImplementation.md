@@ -6,8 +6,13 @@
 
 ## 4.1) Stack Architecture and System Design
 
-[![MEAN logo](report_images/mean_logo.jpeg)](https://en.wikipedia.org/wiki/MEAN_(solution_stack))  
-Figure 1. MEAN stack logo ([Source](https://en.wikipedia.org/wiki/MEAN_(solution_stack)))
+<p align="center">
+  <img src="report_images/mean_logo.jpeg" width="800" alt="MEAN Stack Logo"/>
+</p>
+
+<p align="center">
+  <strong>Figure 1.</strong> MEAN stack logo (<a href="https://en.wikipedia.org/wiki/MEAN_(solution_stack)">Source</a>).
+</p>
 
 Our product was developed using the MEAN stack architecture:
 - **MongoDB** - database
@@ -17,8 +22,13 @@ Our product was developed using the MEAN stack architecture:
 
 This framework allows for full-stack JavaScript development, ensuring ease of data transfer between sections. In theory it would allow us to quickly and efficiently turn our designs into a working prototype. For details of the specifics of our use of each part of the stack and justifications for our decisions, please consult the respective section that follows.
 
-[![MEAN architecture](report_images/mean-stack-diagram.png)](https://www.mongodb.com/mean-stack)
-Figure 2. A diagram of the MEAN stack's architecture ([Source](https://www.mongodb.com/mean-stack))
+<p align="center">
+  <img src="report_images/mean-stack-diagram.png" width="800" alt="MEAN Stack Diagram"/>
+</p>
+
+<p align="center">
+  <strong>Figure 2.</strong> A diagram of the MEAN stack's architecture (<a href="https://www.mongodb.com/mean-stack">Source</a>).
+</p>
 
 ## 4.2) Front End: Angular 
 
@@ -57,14 +67,24 @@ We designed our data model in such a way that it would be easily scalable. We op
 
 Our data model naturally evolved as we honed in on which features our MVP was going to include, following feedback from users and following discussion with the team members responsible for the front end and middle tier. 
 
-![Data Model](../Documentation/Data_model/Updated_data_model.png)  
-Figure 3. Our data model, including a ‘comments’ collection which didn’t end up being implemented as part of our MVP. 
+<p align="center">
+  <img src="../Documentation/Data_model/Updated_data_model.png" width="800" alt="Data Model"/>
+</p>
+
+<p align="center">
+  <strong>Figure 3.</strong> Our data model, including a ‘comments’ collection which didn’t end up being implemented as part of our MVP.
+</p>
 
 ### 4.32) Schemas
 We chose to interact with the database from the middle tier using mongoose, as it provided a simple and clear schema based JavaScript interface with MongoDB from Node. Our API was then able to query the database for the required data, and also add items into the database as necessary. Mongoose schemas have the added bonus of allowing built-in data validation, which was very useful for adding items back into the database, as it bypassed the need for extra validity checks.
 
-![Mongoose Schema](../Documentation/Data_model/Mongoose_schema_example.png)  
-Figure 4. An example schema for one of the collections in our database.
+<p align="center">
+  <img src="../Documentation/Data_model/Mongoose_schema_example.png" width="800" alt="Mongoose Schema"/>
+</p>
+
+<p align="center">
+  <strong>Figure 4.</strong> An example schema for one of the collections in our database.
+</p>
 
 ### 4.33) Seeding the Database
 Our site required some data to be present in the database upon building the docker-containers, as posts needed to be populated immediately upon visiting the page. This posed an unexpected, but significant challenge, as it turned out to be much more difficult and time consuming than we’d envisaged to automatically seed the database. Our first thought was to edit the docker-compose file to include a step that would load in the data as JSON files, but we ran into issues to do with Mongo not yet being running in the container. We then tried using a bash script similar to the one used to wait for the connection between the containers to wait until Mongo was up and running, but this too proved to be complicated. We also tried seeding via a temporary extra docker container, but still to no avail. Eventually we settled on adding the data using mongoose from within a JavaScript file that is run whenever the containers are started, checks whether there is data present in the database, and adds the data if not.  
@@ -87,28 +107,53 @@ One of the biggest technical challenges we faced was trying to generate grammati
 
 There were several different paths we considered taking. The first was using Markov Chains. A Markov Chain is a mathematical model that uses probabilistic rules to determine which state it will transition to. Its defining characteristic is that the probability of transitioning to any state is dependent solely on the current state and time elapsed ([Source](https://brilliant.org/wiki/markov-chains/)). They have been applied successfully to modelling language ([Source](http://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf)) as they can be ‘trained’ by feeding in bodies of text and recording a matrix of each word, along with all the words that occur directly afterwards. You can quickly generate a sentence by starting at a word and randomly choosing one of the possible words that can occur after it. The benefits of this are that the generated sentence can have the ‘style’ or ‘tone’ of the piece of text that it has been trained on. For example there is a twitter account that uses markov chains on tweets scraped from the top 100 twitter accounts to generate new tweets ([Source](https://twitter.com/markovtop100)), or another site that uses a markov chain to generate Donald Trump-esque speeches ([Source](https://medium.com/@corrigan1247/how-to-imitate-trump-with-markov-chains)). It is also flexible and quick. The downside however, and ultimately the reason that we decided not to use Markov Chains is that they are not guaranteed to produce syntactically correct sentences. We felt that it would undermine our bots’ believability too greatly, and take away from the serious element of our site if the random content made absolutely no sense.
 
-![Markov Bot Tweet](report_images/markov_bot.png)   
-Figure 5. An example tweet from @MarkovTop100, illustrating the style of sentence generation possible using Markov chains, but also illustrating the unrealistic post content achieved by such a method ([Source](https://twitter.com/MarkovTop100/status/743034391752900609)). 
+<p align="center">
+  <img src="report_images/markov_bot.png" width="800" alt="Markov Bot Tweet"/>
+</p>
+
+<p align="center">
+  <strong>Figure 5.</strong> An example tweet from @MarkovTop100, illustrating the style of sentence generation possible using Markov chains, but also illustrating the unrealistic post content achieved by such a method (<a href="https://twitter.com/MarkovTop100/status/743034391752900609">Source</a>).
+</p>
 
 Another option was to use a pre-built machine learning algorithm or API. There is some amazingly sophisticated sentence generation software out there, such as ‘Generative Pre-trained Transformer 2’ (GPT-2) ([Source](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)) ([Source](https://openai.com/blog/better-language-models/)). However, it seemed like overkill to use something so powerful for such simple text generation. Also the style of the text can be unpredictable, as it uses an enormous corpus from across the internet. Some of the output appears to be more akin to prose than the informal social media tone we were looking for. This seems to be the case with a lot of off-the-shelf content generating software, as the majority of it is designed to produce long form text ([Source](https://minimaxir.com/2019/09/howto-gpt2/))
 
 Instead we opted for a much simpler approach, based on the phrase structure rules first proposed by Noam Chomsky in 1957 [9]. They essentially involve breaking natural language into its constituent sections, or ‘phrasal categories’, which can be effectively visualized as a sentence tree. A basic example would be breaking a simple sentence (S) into 2 constituent parts, a noun-phrase (NP) followed by a verb-phrase (VP). A noun-phrase consists of an optional determiner (Det) such as ‘the’, followed by a noun (N). The noun can then be optionally preceded by an adjective-phrase (AP) or followed by a prepositional phrase (PP). A verb-phrase is constructed of a verb and optionally an adverb ([Source](http://217.64.17.124:8080/xmlui/bitstream/handle/123456789/557/syntactic_structures%20(1).pdf?sequence=1)) ([Source](http://www.colinphillips.net/wp-content/uploads/2015/09/chomsky1965-ch1.pdf)).
 
-![Phrase Structure Rules](report_images/phrase_structure_rules.png)  
-Figure 6. A diagram of the basic components of a phrase ([Source](https://www.britannica.com/science/linguistics/Chomskys-grammar)).
+<p align="center">
+  <img src="report_images/phrase_structure_rules.png" width="400" alt="Phrase Structure Rules"/>
+</p>
 
-![Phrase Example](report_images/phrase_examples.png)  
-Figure 7. The rules applied, step-by-step, to a rudimentary sentence ([Source](http://217.64.17.124:8080/xmlui/bitstream/handle/123456789/557/syntactic_structures%20(1).pdf?sequence=1)).
+<p align="center">
+  <strong>Figure 6.</strong> A diagram of the basic components of a phrase (<a href="https://www.britannica.com/science/linguistics/Chomskys-grammar">Source</a>).
+</p>
+
+<p align="center">
+  <img src="report_images/phrase_examples.png" width="800" alt="Phrase Example"/>
+</p>
+
+<p align="center">
+  <strong>Figure 7.</strong> The rules applied, step-by-step, to a rudimentary sentence (<a href="http://217.64.17.124:8080/xmlui/bitstream/handle/123456789/557/syntactic_structures%20(1).pdf?sequence=1">Source</a>).
+</p>
 
 Once you have defined the phrase structure rules for a particular sentence type, it is then simple to generate sentences by substituting words of the correct type for the symbols in the rule. This has the enormous benefit over other sentence generation methods of guaranteeing that, if the rules are correct, the sentences will be grammatically correct. However, on the other hand, it does not guarantee that the sentences will have any meaning ([Source](https://ieeexplore.ieee.org/document/1056813)) (see Fig. 8).
 
-![Phrase Tree Diagram](report_images/phrase_tree_diagram.png)  
-Figure 8. Chomsky’s most famous example of a sentence constructed using his original phrase structure rules. It is notable for being totally syntactically correct, but semantically meaningless ([Source](https://en.wikipedia.org/wiki/Phrase_structure_rules))
+<p align="center">
+  <img src="report_images/phrase_tree_diagram.png" width="800" alt="Phrase Tree Diagram"/>
+</p>
+
+<p align="center">
+  <strong>Figure 8.</strong> Chomsky’s most famous example of a sentence constructed using his original phrase structure rules. It is notable for being totally syntactically correct, but semantically meaningless (<a href="https://en.wikipedia.org/wiki/Phrase_structure_rules">Source</a>).
+</p>
 
 We used these phrase structure rules as a springboard to write a Java program containing trees for a variety of sentence types, providing a number of options for each category in the tree (such as Nouns, Verbs, Proper Nouns etc). The program then navigates through the tree, using a random number generator to ‘decide’ how to populate each category at each node of the tree, as well as choosing whether to add on additional parts to the sentence, such as using connectives, adjectives or adverbs. 
 
-![Phrase Tree Diagram 2](report_images/phrase_tree_diagram2.png)  
-Figure 9. A simple example sentence and its phrasal categories, created by our post generator.
+<p align="center">
+  <img src="report_images/phrase_tree_diagram2.png" width="800" alt="Phrase Tree Diagram 2"/>
+</p>
+
+<p align="center">
+  <strong>Figure 9.</strong> A simple example sentence and its phrasal categories, created by our post generator.
+</p>
 
 As one of our goals was to have bots who were at least semi-plausibly human, we were able to tailor the content of each of the phrasal categories to have ‘social media like’ qualities. For example we inserted the names of commonly discussed celebrities ([Source](https://finance.yahoo.com/finance/news/top-10-most-followed-celebrities-195102901.html)) and characters into the proper nouns category and also included some common terminology from the vernacular of the internet including ‘woke’, ‘vlogger’ and ‘selfie’. Furthermore we included lots of opinion verbs, as the websites that we are attempting to parody are commonly used as a platform for people to share strong opinions ([Source](https://dl.acm.org/doi/10.1145/1753846.1754068)), for better or for worse. 
 
