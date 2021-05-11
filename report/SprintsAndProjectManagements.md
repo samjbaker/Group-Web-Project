@@ -33,7 +33,7 @@ In regard to communication, various channels were used to utilise a plethora of 
 intuitive way to communicate via text and VoIP, with various channels being set for the different departments. This allowed members to stay up to date on any details on
 departments such as the front and back-end. Any vital information that should be seen by all members would be posted in the main “general” channel of the discord
 server. To maintain a history of any official meetings held, we used our desk on the units Microsoft Teams server. This allowed us to separate meetings from general
-conduct, allowing for a cleaner workflow and more organised documentation [(source)](https://bris.on.worldcat.org/search?databaseList=638&queryString=the+structuring+of+organizations#/oclc/4195050) . Microsoft Teams was also used for meeting specific resources, such as links to
+conduct, allowing for a cleaner workflow and more organised documentation ([source)](https://bris.on.worldcat.org/search?databaseList=638&queryString=the+structuring+of+organizations#/oclc/4195050)). Microsoft Teams was also used for meeting specific resources, such as links to
 relevant research and notes of the meeting. Since the meeting lengths, times and present members are recorded on teams as well, it proved to be the optimal VOIP solution
 for our meetings. The final type of communication would surround shared working via solutions such as google docs, where the report and other shared documentation and
 files were shared between team members. The limit was set at these 3 channels to avoid a cluttered work environment and communication channel, while preventing any
@@ -81,7 +81,7 @@ Front-end:
 	  areas or checking the overall design and offering feedback.
 
 Abby Exon:
-Main duties lied in the Back-end department, ensuring smooth data transfer between front-end and database. As a secondary role, she aided Ercan Kilic in Product ownership,
+Main duties lay in the Back-end department, ensuring smooth data transfer between front-end and database. As a secondary role, she aided Ercan Kilic in Product ownership,
 focusing on aiding organization and structure.
 
 Back-end:
@@ -179,7 +179,7 @@ features can be implemented or other concerns arise.
 Main Sprint templates were created to ensure standardised documentation, which outlines the proposed goals, summarised from the initial sprint documents that outline the goals, the
 process, which highlights various difficulties encountered and how work was conducted, both in regards to discussions and coding, and Outcomes, which showcase which milestones have
 been achieved. The outcomes also mention any extra functionality achieved, even if its lies outside of the given sprints scope. The initial documents, chronologically ordered by
-letters, showcase the aims of the given departments, giving details on the specific milestone details to ensure that two members don’t accidentally work on the same topic [(source)](https://ebookcentral.proquest.com/lib/bristol/reader.action?docID=243071&ppg=212).
+letters, showcase the aims of the given departments, giving details on the specific milestone details to ensure that two members don’t accidentally work on the same topic ([source](https://ebookcentral.proquest.com/lib/bristol/reader.action?docID=243071&ppg=212)).
 For instance, for one Sprint it was outlined that the database would need certain amounts of data:
 
 - The amount of data should enable a long browse of the website without encountering replicated data
@@ -188,7 +188,7 @@ For instance, for one Sprint it was outlined that the database would need certai
 - If testing is done, document it well
 
 This clearly outlines the goals, leaving little ambiguity as to what needs to be achieved. The sprint documentation can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation).
-The rest of the documentation, including Meeting Agendas and Briefs can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation/Sprints)
+The rest of the documentation, including Meeting Agendas and Briefs can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation/Sprints).
 
 For meetings, any non-sprint Brief had a meeting brief, namely for the 2 weekly Monday and Friday meetings. Sprint briefs were deliberately excluded as the goals for the sprint
 documents were discussed in them. As a result, any points of discussion were recorded in the sprint document. Thus, creating a separate meeting brief would be pointless and cause
