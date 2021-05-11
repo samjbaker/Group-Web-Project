@@ -33,7 +33,7 @@ In regard to communication, various channels were used to utilise a plethora of 
 intuitive way to communicate via text and VoIP, with various channels being set for the different departments. This allowed members to stay up to date on any details on
 departments such as the front and back-end. Any vital information that should be seen by all members would be posted in the main “general” channel of the discord
 server. To maintain a history of any official meetings held, we used our desk on the units Microsoft Teams server. This allowed us to separate meetings from general
-conduct, allowing for a cleaner workflow and more organised documentation ([source)](https://bris.on.worldcat.org/search?databaseList=638&queryString=the+structuring+of+organizations#/oclc/4195050)). Microsoft Teams was also used for meeting specific resources, such as links to
+conduct, allowing for a cleaner workflow and more organised documentation ([source](https://bris.on.worldcat.org/search?databaseList=638&queryString=the+structuring+of+organizations#/oclc/4195050)). Microsoft Teams was also used for meeting specific resources, such as links to
 relevant research and notes of the meeting. Since the meeting lengths, times and present members are recorded on teams as well, it proved to be the optimal VOIP solution
 for our meetings. The final type of communication would surround shared working via solutions such as google docs, where the report and other shared documentation and
 files were shared between team members. The limit was set at these 3 channels to avoid a cluttered work environment and communication channel, while preventing any
