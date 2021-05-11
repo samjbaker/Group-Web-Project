@@ -24,7 +24,7 @@ with the other tools, plans and procedures, allowed us to quickly respond to cha
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/4-key-agile-values.png" width="600" />
 </p>
 <p align="center">
-  <strong>Key values of an agile methodology [(source)](https://www.geneca.com/what-is-agile-software-development/) </strong>
+  <strong>Key values of an agile methodology </strong>(<a href="https://www.geneca.com/what-is-agile-software-development/">Source</a>).
 </p>
 
 **Channels for communication**
