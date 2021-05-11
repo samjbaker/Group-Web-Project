@@ -171,7 +171,7 @@ separate and handled significantly differently, as their goals required a higher
 sprints and main sprints. Mini sprints encompass smaller goals over a very short timeframe, such as getting docker to work on all devices. These are treated less formally, and
 are usually implemented as a means to rectify short term setbacks or technical difficulties, Main sprints were 5 days to a week long and surrounded the implementation of major
 features, such as finalising the MVP, or finishing specified chunks of the report. They are treated more formal, with slightly less wiggle room to set harder milestones, preventing
-procrastination [(source)](https://iaap-journals-onlinelibrary-wiley-com.bris.idm.oclc.org/doi/pdfdirect/10.1111/1464-0597.00021). Main sprint goals were set in the day or two before a sprint, though they could easily be adjusted later on if some goals were found to be out of scope, more
+procrastination ([source](https://iaap-journals-onlinelibrary-wiley-com.bris.idm.oclc.org/doi/pdfdirect/10.1111/1464-0597.00021)). Main sprint goals were set in the day or two before a sprint, though they could easily be adjusted later on if some goals were found to be out of scope, more
 features can be implemented or other concerns arise.
 
 **Documentation:**
