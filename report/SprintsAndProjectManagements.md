@@ -1,4 +1,4 @@
-# 5) Sprints and Project Management (WIP)
+# 5) Sprints and Project Management
 
 ###  [<< Back to Landing Page](../README.md)
 
@@ -20,9 +20,12 @@ keeping the team up to date via social platforms as well as 2 weekly meetings. T
 sharing any issues experienced. Customer Collaboration came as a result of user testing, garnering vital user feedback. Our working software was git, which in tandem
 with the other tools, plans and procedures, allowed us to quickly respond to change, covering the 4th Agile Value.
 
-[Picture]
-
-Figure X: Key values of an agile methodology [(source)](https://www.geneca.com/what-is-agile-software-development/)
+<p align="center">
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/4-key-agile-values.png" width="600" />
+</p>
+<p align="center">
+  <strong>Key values of an agile methodology [(source)](https://www.geneca.com/what-is-agile-software-development/) </strong>
+</p>
 
 **Channels for communication
 
@@ -36,7 +39,7 @@ for our meetings. The final type of communication would surround shared working 
 files were shared between team members. The limit was set at these 3 channels to avoid a cluttered work environment and communication channel, while preventing any
 bottlenecks regarding the sharing of information and files.
 
-** 5.2) Team Structure
+## 5.2) Team Structure
 
 This scalable workflow was achieved by implementing a dual role system, aiming to bring a flat hierarchical structure into the group, so that work could be assigned to
 members who could focus on it throughout the project. Every member was given two roles, a primary role, which represents the brunt of their work, and a secondary role,
@@ -51,7 +54,11 @@ thereby put in place, should the unlikely event occur that two members of one de
 
 The team roles were split as follows:
 
-[Table]
+<p align="center">
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/roles.PNG" width="600" />
+</p>
+<p align="center">
+</p>
 
 April Bates:
 Being the primary Designer, April supplied the team with design assets and site mock-ups to aid us visualize and conceptualize the MVP. Her tasks also surrounded user
@@ -146,13 +153,61 @@ Front-end:
   database.
 
 	* Tony became accustomed to webtools such as angular before starting the final front-end, to avoid unnecessary code and time intensive reformatting. In the end he decided
-	  to split the front end into 3 main navigation columns, successfully implementing all outlined goals such as infinite scrolling and saving user posts. At the same time, Tony conducted testing to ensure that the tested elements of the front-end run stable and error free.
+	  to split the front end into 3 main navigation columns, successfully implementing all outlined goals such as infinite scrolling and saving user posts. At the same time,
+	  Tony conducted testing to ensure that the tested elements of the front-end run stable and error free.
 
 Database:
 - Assisting the database department in the functionality of the database and its connection to the front and back-end.
 
 	* Tony offered help to the database department when JSON file transfers were proving difficult to implement
 
+## 5.3) Documentation
 
+**Setting milestones and sprints
+
+To keep sprints and other milestones loosely settable, the timeframe to set any milestones was kept a few days before meetings, while also allowing for minor adjustments to the
+milestone, depending on findings from user feedback and discussions on features and the project’s scope. Sprints were similarly handled, although their documentation was kept
+separate and handled significantly differently, as their goals required a higher number of goals over a shorter time frame. Sprints themselves were divided into two types, mini
+sprints and main sprints. Mini sprints encompass smaller goals over a very short timeframe, such as getting docker to work on all devices. These are treated less formally, and
+are usually implemented as a means to rectify short term setbacks or technical difficulties, Main sprints were 5 days to a week long and surrounded the implementation of major
+features, such as finalising the MVP, or finishing specified chunks of the report. They are treated more formal, with slightly less wiggle room to set harder milestones, preventing
+procrastination [(source)](https://iaap-journals-onlinelibrary-wiley-com.bris.idm.oclc.org/doi/pdfdirect/10.1111/1464-0597.00021). Main sprint goals were set in the day or two before a sprint, though they could easily be adjusted later on if some goals were found to be out of scope, more
+features can be implemented or other concerns arise.
+
+**Documentation:
+
+Main Sprint templates were created to ensure standardised documentation, which outlines the proposed goals, summarised from the initial sprint documents that outline the goals, the
+process, which highlights various difficulties encountered and how work was conducted, both in regards to discussions and coding, and Outcomes, which showcase which milestones have
+been achieved. The outcomes also mention any extra functionality achieved, even if its lies outside of the given sprints scope. The initial documents, chronologically ordered by
+letters, showcase the aims of the given departments, giving details on the specific milestone details to ensure that two members don’t accidentally work on the same topic [(source)](https://ebookcentral.proquest.com/lib/bristol/reader.action?docID=243071&ppg=212).
+For instance, for one Sprint it was outlined that the database would need certain amounts of data:
+
+- The amount of data should enable a long browse of the website without encountering replicated data
+- Posts should ideally be in the 100s
+- Save profile pictures made by the design department
+- If testing is done, document it well
+
+This clearly outlines the goals, leaving little ambiguity as to what needs to be achieved. The sprint documentation can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation).
+The rest of the documentation, including Meeting Agendas and Briefs can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation/Sprints)
+
+For meetings, any non-sprint Brief had a meeting brief, namely for the 2 weekly Monday and Friday meetings. Sprint briefs were deliberately excluded as the goals for the sprint
+documents were discussed in them. As a result, any points of discussion were recorded in the sprint document. Thus, creating a separate meeting brief would be pointless and cause
+documentation clutter. In addition to this, simple catchup meetings were not given briefs or agendas, to prevent clutter in documentation and unnecessary documents. Records were taken
+during meetings, to note key points of interest and later document them in the form of a meeting brief. This would enable all members to recall what the topics of concern were for the
+week, how aims were being approached that week, and collect thoughts for the next meeting. For Project organisation, these documents served as ways to improve upon the structure of
+meetings as well. Whereas the first meetings experienced some issues in the form of slow progression, by the second and third meetings there were clear talking points in place and an
+organised way to enable all members to voice their input.
+
+## 5.4) Git Workflow
+
+**Adjusted Git Feature Workflow + Develop Branch
+
+To maintain coherency with the team’s agile workflow, we used GitHub and utilised a Git feature workflow, utilising a develop branch as well.  The master branch represented the final
+deliverable product. The developers were each given their own branch, with more being added should anyone require another branch. These would act as feature branches, which would be
+merged to the development branch once the necessary features were implemented. These merges would be planned, for instance at the end of a sprint. This would allow the team to collaborate
+in addressing any merge conflicts. Once these were all addressed and the develop branch was confirmed to be functional and satisfactorily stable, it was merged with the master branch.
+These “infinite” feature branches allowed for various features to be tested and cancelled should they prove to be undesirable. This way, the agile workflow was supplemented, allowing us
+to view everyone’s progress and actively supplement the work in question. This further enabled role fluidity, which allows members to quickly adjust to their new work should they have to,
+for example, work on front-end after finishing a back-end milestone.
 
 ### [>> 6) Evaluation](Evaluation.md)
