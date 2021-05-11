@@ -13,7 +13,7 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 
 ## Build Instructions
 1) Clone this repository on your local machine 
-2) To serve
+2) Change to correct directory
 ```bash
 cd code
 ```
