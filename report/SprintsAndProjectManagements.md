@@ -6,7 +6,7 @@
 
 ## 5.1) Group Working Methods
 
-**Agile methodology
+**Agile methodology**
 
 We decided to tackle this project with the proposed continuous integration model, utilising the agile workflow, and following the 4 key values of an agile methodology
 (see diagram). This was decided as a result of the adaptive and flexible nature of agile, though it became apparent early on that we would require an even higher level
@@ -27,7 +27,7 @@ with the other tools, plans and procedures, allowed us to quickly respond to cha
   <strong>Key values of an agile methodology [(source)](https://www.geneca.com/what-is-agile-software-development/) </strong>
 </p>
 
-**Channels for communication
+**Channels for communication**
 
 In regard to communication, various channels were used to utilise a plethora of communication tools. The main means of communication was discord, as it provides a quick
 intuitive way to communicate via text and VoIP, with various channels being set for the different departments. This allowed members to stay up to date on any details on
@@ -163,7 +163,7 @@ Database:
 
 ## 5.3) Documentation
 
-**Setting milestones and sprints
+**Setting milestones and sprints**
 
 To keep sprints and other milestones loosely settable, the timeframe to set any milestones was kept a few days before meetings, while also allowing for minor adjustments to the
 milestone, depending on findings from user feedback and discussions on features and the project’s scope. Sprints were similarly handled, although their documentation was kept
@@ -174,7 +174,7 @@ features, such as finalising the MVP, or finishing specified chunks of the repor
 procrastination [(source)](https://iaap-journals-onlinelibrary-wiley-com.bris.idm.oclc.org/doi/pdfdirect/10.1111/1464-0597.00021). Main sprint goals were set in the day or two before a sprint, though they could easily be adjusted later on if some goals were found to be out of scope, more
 features can be implemented or other concerns arise.
 
-**Documentation:
+**Documentation:**
 
 Main Sprint templates were created to ensure standardised documentation, which outlines the proposed goals, summarised from the initial sprint documents that outline the goals, the
 process, which highlights various difficulties encountered and how work was conducted, both in regards to discussions and coding, and Outcomes, which showcase which milestones have
@@ -200,7 +200,7 @@ organised way to enable all members to voice their input.
 
 ## 5.4) Git Workflow
 
-**Adjusted Git Feature Workflow + Develop Branch
+**Adjusted Git Feature Workflow + Develop Branch**
 
 To maintain coherency with the team’s agile workflow, we used GitHub and utilised a Git feature workflow, utilising a develop branch as well.  The master branch represented the final
 deliverable product. The developers were each given their own branch, with more being added should anyone require another branch. These would act as feature branches, which would be
