@@ -58,6 +58,8 @@ ng test
 
 ### [7) Conclusion](report/Conclusion.md)
 
+---
+
 <p align="center">
   <img src="report/report_images/fakebook_scroll.gif" width="1000" alt="Fakebook scroll gif"/>
 </p>
