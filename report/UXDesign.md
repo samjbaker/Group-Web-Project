@@ -59,7 +59,7 @@ The responses in the older age groups indicated even less engagement with social
 There was a strong correlation with between how often respondents used social media and how confident there were with our interface, with most responses from users who used social media ‘every day’ or ‘a few times a week’ indicating that they would be ‘extremely confident’ or ‘very confident’ using both prototype pages we gave them to look at.
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Documentation/Picture1.png" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Documentation/Picture1.png" width="600"/>
 </p>
 
 <p align="center">
