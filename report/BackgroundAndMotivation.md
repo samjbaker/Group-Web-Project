@@ -11,7 +11,7 @@ Based on research collected from user surveys and background literature, our tea
 
 ([Source](https://www.designkit.org/methods/3))
 
-### 2.12) Scope of project
+### 2.12) Project scope
 
 #### Technical Scope:
 From a technical perspective, our **Minimum Viable Product (MVP)** includes making use of the **MEAN** stack (refer to [System Implementation](SystemImplementation.md)) to send information from the database and on to the webpage, and vice-versa. Our MVP includes being able to store and receive sentences in the form of Fakebook posts, either from fake users (the bots) or created by the user. The user is able to interact with the site by creating their own Fakebook posts, and reading through a large array of posts. The posts from the bots must be created randomly and be semi-believably human.
