@@ -38,8 +38,9 @@ ng build
 ng test
 ```
 ## Team Members
-
-<img title="Team members" alt="Team member images" src="/Documentation/Header.jpg">
+<p align="center">
+   <img title="Team members" alt="Team member images" width="1000" src="/Documentation/Header.jpg">
+</p>
 
 ## Project Report Contents
 
