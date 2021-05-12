@@ -2,7 +2,7 @@
 
 ###  [<< Back to Landing Page](../README.md)
 
-### [<< Previous Section](SystemImplementation.md) 
+### [<< Previous Section](SystemImplementation.md)
 
 ## 5.1) Group Working Methods
 
@@ -187,10 +187,10 @@ For instance, for one Sprint it was outlined that the database would need certai
 - Save profile pictures made by the design department
 - If testing is done, document it well
 
-This clearly outlines the goals, leaving little ambiguity as to what needs to be achieved. The sprint documentation can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation).
-The rest of the documentation, including Meeting Agendas and Briefs can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation/Sprints).
+This clearly outlines the goals, leaving little ambiguity as to what needs to be achieved. The sprint documentation can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation/Sprints).
+The rest of the documentation, including Meeting Agendas and Briefs can be found [here](https://github.com/A-Madeline-Bates/Group-Web-Project/tree/main/Progress%20Documentation).
 
-For meetings, any non-sprint Brief had a meeting brief, namely for the 2 weekly Monday and Friday meetings. Sprint briefs were deliberately excluded as the goals for the sprint
+For meetings, any non-sprint Brief had a meeting brief, namely for the twice weekly Monday and Friday meetings. Sprint briefs were deliberately excluded as the goals for the sprint
 documents were discussed in them. As a result, any points of discussion were recorded in the sprint document. Thus, creating a separate meeting brief would be pointless and cause
 documentation clutter. In addition to this, simple catchup meetings were not given briefs or agendas, to prevent clutter in documentation and unnecessary documents. Records were taken
 during meetings, to note key points of interest and later document them in the form of a meeting brief. This would enable all members to recall what the topics of concern were for the
