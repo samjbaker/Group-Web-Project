@@ -32,7 +32,7 @@ docker-compose up --build
 ```
 5) To view the site, go to the local host on your own machine (http://localhost:3000/).
 
-6) To test, install npm and angular first. Then in directory ```code```, run
+6) To test the front end, first install npm and angular on your own machine (not in docker). Then in directory ```code```, run
 ```bash
 ng build
 ng test
