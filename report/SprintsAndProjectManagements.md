@@ -33,7 +33,7 @@ In regard to communication, various channels were used to utilise a plethora of 
 intuitive way to communicate via text and VoIP, with various channels being set for the different departments. This allowed members to stay up to date on any details on
 departments such as the front and back-end. Any vital information that should be seen by all members would be posted in the main “general” channel of the discord
 server. To maintain a history of any official meetings held, we used our desk on the units Microsoft Teams server. This allowed us to separate meetings from general
-conduct, allowing for a cleaner workflow and more organised documentation ([source](https://bris.on.worldcat.org/search?databaseList=638&queryString=the+structuring+of+organizations#/oclc/4195050)). Microsoft Teams was also used for meeting specific resources, such as links to
+conduct, allowing for a cleaner workflow and more organised documentation ([Source](https://bris.on.worldcat.org/search?databaseList=638&queryString=the+structuring+of+organizations#/oclc/4195050)). Microsoft Teams was also used for meeting specific resources, such as links to
 relevant research and notes of the meeting. Since the meeting lengths, times and present members are recorded on teams as well, it proved to be the optimal VOIP solution
 for our meetings. The final type of communication would surround shared working via solutions such as google docs, where the report and other shared documentation and
 files were shared between team members. The limit was set at these 3 channels to avoid a cluttered work environment and communication channel, while preventing any
@@ -171,7 +171,7 @@ separate and handled significantly differently, as their goals required a higher
 sprints and main sprints. Mini sprints encompass smaller goals over a very short timeframe, such as getting docker to work on all devices. These are treated less formally, and
 are usually implemented as a means to rectify short term setbacks or technical difficulties, Main sprints were 5 days to a week long and surrounded the implementation of major
 features, such as finalising the MVP, or finishing specified chunks of the report. They are treated more formal, with slightly less wiggle room to set harder milestones, preventing
-procrastination ([source](https://iaap-journals-onlinelibrary-wiley-com.bris.idm.oclc.org/doi/pdfdirect/10.1111/1464-0597.00021)). Main sprint goals were set in the day or two before a sprint, though they could easily be adjusted later on if some goals were found to be out of scope, more
+procrastination ([Source](https://iaap-journals-onlinelibrary-wiley-com.bris.idm.oclc.org/doi/pdfdirect/10.1111/1464-0597.00021)). Main sprint goals were set in the day or two before a sprint, though they could easily be adjusted later on if some goals were found to be out of scope, more
 features can be implemented or other concerns arise.
 
 **Documentation:**
@@ -179,7 +179,7 @@ features can be implemented or other concerns arise.
 Main Sprint templates were created to ensure standardised documentation, which outlines the proposed goals, summarised from the initial sprint documents that outline the goals, the
 process, which highlights various difficulties encountered and how work was conducted, both in regards to discussions and coding, and Outcomes, which showcase which milestones have
 been achieved. The outcomes also mention any extra functionality achieved, even if its lies outside of the given sprints scope. The initial documents, chronologically ordered by
-letters, showcase the aims of the given departments, giving details on the specific milestone details to ensure that two members don’t accidentally work on the same topic ([source](https://ebookcentral.proquest.com/lib/bristol/reader.action?docID=243071&ppg=212)).
+letters, showcase the aims of the given departments, giving details on the specific milestone details to ensure that two members don’t accidentally work on the same topic ([Source](https://ebookcentral.proquest.com/lib/bristol/reader.action?docID=243071&ppg=212)).
 For instance, for one Sprint it was outlined that the database would need certain amounts of data:
 
 - The amount of data should enable a long browse of the website without encountering replicated data
