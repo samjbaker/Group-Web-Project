@@ -24,7 +24,7 @@ MONGO_PASSWORD=<password>
 MONGO_PORT=27017
 MONGO_DB=meantest
 ```
-Where ```<username>``` and ```<password>``` should be set by the user.
+Where ```<username>``` and ```<password>``` should be set by the host.
 
 4) Then run
 ```bash
