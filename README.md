@@ -17,7 +17,14 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 ```bash
 cd code
 ```
-3) Make sure before running docker that you have a .env file with the appropriate environment variables. 
+3) In folder ```code``` add a new file called ```.env``` that contains the following variables:
+```vim
+MONGO_USERNAME=<username>
+MONGO_PASSWORD=<password>
+MONGO_PORT=27017
+MONGO_DB=meantest
+```
+Where ```<username>``` and ```<password>``` should be set by the user.
 4) Then run
 ```bash
 docker-compose up --build
