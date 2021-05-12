@@ -9,7 +9,7 @@ Based on research collected from user surveys and background literature, our tea
 
 > ## “How might we create a solution that aims to educate young people on social media in a way that is engaging and entertaining?”
 
-([source](https://www.designkit.org/methods/3))
+([Source](https://www.designkit.org/methods/3))
 
 ### 2.12) Scope of project
 
@@ -28,8 +28,13 @@ Our design scope includes having 2 pages - a ‘Home’ page where the posts cou
 
 Social media use has exploded in the last few years, and is on course to continue this trajectory. The number of worldwide social media users in 2021 is 3.78 billion people (approximately half the world’s population), with it set to increase every year (see Figure 1) ([Source](https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/)).
 
-![Number Social Media Users](report_images/fig1.png)
-**Figure 1.** Projected increase in worldwide social media usage ([Source](https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/)).
+<p align="center">
+  <img src="report_images/fig1.png" width="800" alt="Number Social Media Users"/>
+</p>
+
+<p align="center">
+  <strong>Figure 1.</strong> Projected increase in worldwide social media usage (<a href="https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users">Source</a>).
+</p>
 
 Social media was initially defined as “web-based services that allow individuals to (1) construct a public or semipublic proﬁle within a bounded system, (2) articulate a list of other users with whom they share a connection, and (3) view and traverse their list of connections and those made by others within the system.” ([Source](https://ebookcentral.proquest.com/lib/bristol/reader.action?docID=1143700)). However, today that definition fails to capture the complex and multi-functional ecosystems of the big social media sites. There are now lots of different types of media (eg. video, photograph, text) shared over these social networks, as well as a dizzying array of content. Social media has become a manifestation of the moods and trends of contemporary society. For example, it is possible to predict the movement of the stock market ([Source](https://pdfs.semanticscholar.org/119c/375a81588c5576644a56705a6b7a987592db.pdf)) and when an influenza outbreak will occur ([Source](https://ieeexplore.ieee.org/document/5928903)) using solely the content of social media posts, which is quite scary!
 
@@ -37,8 +42,13 @@ As the internet is global, and therefore has no centralized governing body, thes
 
 The number of uses we have for social media has increased rapidly over the last few years. “The average person has 8.6 social media accounts in 2020, up from 4.8 in 2014” ([Source](https://backlinko.com/social-media-users)), and the social media model has been applied, very successfully, to everything from the job market (e.g. LinkedIn) to dating sites (e.g. Tinder, Grindr). The evolution of social media has definitely caused problems as its power and influence have grown along with it. This has led to difficulties surrounding its regulation, and how best to educate people about using it responsibly.
 
-![Household Internet Access](report_images/fig2.png)
-**Figure 2.** Share of households with internet access in the United Kingdom (UK) from 1998 to 2020 ([Source](https://www.statista.com/statistics/275999/household-internet-penetration-in-great-britain/#:~:text=Household%20internet%20penetration%20in%20the%20United%20Kingdom%20(UK)%201998%2D2020&text=Following%20two%20consecutive%20years%20at,highest%20it%20has%20ever%20been.))
+<p align="center">
+  <img src="report_images/fig2.png" width="800" alt="Household Internet Access"/>
+</p>
+
+<p align="center">
+  <strong>Figure 2.</strong> Share of households with internet access in the United Kingdom (UK) from 1998 to 2020 (<a href="https://www.statista.com/statistics/275999/household-internet-penetration-in-great-britain/#:~:text=Household%20internet%20penetration%20in%20the%20United%20Kingdom%20(UK)%201998%2D2020&text=Following%20two%20consecutive%20years%20at,highest%20it%20has%20ever%20been.">Source</a>).
+</p>
 
 As the internet becomes cheaper and more accessible ([Source](https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage/bulletins/internetaccesshouseholdsandindividuals/2020 )) (see Figure 2), children are gaining access to social media from an earlier age. This is a new and complex issue. It is estimated that 95% of children aged 10 - 15 speak to people online ([Source](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/childrensonlinebehaviourinenglandandwales/yearendingmarch2020#:~:text=Estimates%20from%20the%20Crime%20Survey,years%20spoke%20to%20people%20online.)). Research has shown that there can be benefits, with social media access in children and adolescents enhancing communication, social connection, and even technical skills ([Source](https://www.cooperativa.cl/noticias/site/artic/20110329/asocfile/20110329173752/reporte_facebook.PDF)) ([Source2](https://files.eric.ed.gov/fulltext/ED536072.pdf)). However there are areas of huge concern, such as its effect on mental health and a lack of education about how to use social media safely. For example, 1 in 25 children said they had spoken to someone on social media who they believed to be their own age, but later found out were much older ([Source](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/childrensonlinebehaviourinenglandandwales/yearendingmarch2020#:~:text=Estimates%20from%20the%20Crime%20Survey,years%20spoke%20to%20people%20online.)). Also, half of 12 - 15-year-olds say they have seen something hateful about a particular group of people online in the last year ([Source](https://www.ofcom.org.uk/__data/assets/pdf_file/0023/190616/children-media-use-attitudes-2019-report.pdf)).
 
@@ -62,14 +72,24 @@ Based on our current industry review, we have concluded that there is only one o
 ### 2.31) Apps for entertainment
 Fake social media applications that are used solely for entertainment purposes include the website [PrankMeNot](https://www.prankmenot.com/) (See figure 3). This claims to be used for pranking your friends into thinking that a certain person has posted something to Facebook or Twitter. There are other applications that perform a similar function but for other forms of social media, for example imitating Yahoo answers and Whatsapp Messenger ([Source](https://techwiser.com/fake-social-media-generators-web-mobile/)). There is also a fake social media site (of the same name), [Fakebook](https://appsliced.co/app?n=fakebook-your-fake-social-media-app), which allows you to become fake friends with celebrities, and message them. These sites are primarily for comedic effect, taking advantage of the addictive qualities of social media, or using it to spread false content to friends.
 
-![PrankMeNot example](report_images/fig3.png)
-**Figure 3.** A fake post generated by PrankMeNot
+<p align="center">
+  <img src="report_images/fig3.png" width="800" alt="PrankMeNot Screenshot"/>
+</p>
+
+<p align="center">
+  <strong>Figure 3.</strong> A fake post generated by PrankMeNot.
+</p>
 
 ### 2.32) Apps for social media addiction
 One application, [Binky](http://www.binky.rocks/), is described as “serving as a digital pacifier (to) try to wean (the users) from real social media” ([Source](https://www.vice.com/en/article/ev4a3w/i-used-nothing-but-a-fake-social-media-app-for-the-weekend)) ([Source](https://www.theatlantic.com/technology/archive/2017/06/the-app-that-does-nothing/529764/)). Its aim is described as keeping users busy and less irritated, while fulfilling the need to endlessly scroll through social media. As stated [here](https://mashable.com/2017/06/12/binky-app-fake-social-media/), “Binky demonstrates that the reason we scroll through social media is not because we want to keep up with the news or see photos of friends who are happier than us. We do it because we want to scroll through stuff on our phones.” Binky is an application whose purpose seems to not just be for entertainment, but also aims to solve the society-wide problem of social media addiction with a playful approach.
 
-![Binky example](report_images/fig4.jpeg)
-Figure 4. Screenshots of a fake social media feed from Binky. ([Source](https://www.eyerys.com/articles/news/nothing-matters-binky-social-media-without-socializing))
+<p align="center">
+  <img src="report_images/fig4.jpeg" width="800" alt="Binky Example"/>
+</p>
+
+<p align="center">
+  <strong>Figure 4.</strong> Screenshots of a fake social media feed from Binky (<a href="https://www.eyerys.com/articles/news/nothing-matters-binky-social-media-without-socializing">Source</a>).
+</p>
 
 Other popular tools that aim to help reduce time spent on social media are the ones that are built into the social media platforms and providers themselves. For example, the social media app TikTok has implemented a feature which allows its users to limit their daily screen time on the application - under ‘Wellbeing’ ([Source](https://www.businessinsider.com/tiktok-time-spent-parental-controls-2020-2)). Apple has also implemented features which may help to prevent users from becoming as addicted to their phones. Users of Apple phones have the option to limit their time spent on certain applications ([Source](https://www.wired.com/story/how-to-use-screen-time-ios-12/)), or to change your phone screen to black and white - as the bright colours and candy-coloured interface can trigger your brain into using your phone more often ([Source](https://betterhumans.pub/how-to-make-your-iphone-black-and-white-and-why-you-should-42e70deb92c7)).
 

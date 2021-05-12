@@ -76,7 +76,7 @@ For our white-box testing methods we made use of the testing framework Jasmine, 
 In the MVP, it was decided that functionality would not be added for a dynamically loading trending bar, about, middle-section and desktop. Therefore, testing of these components only included whether they were successfully built.
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Layout.png" width="800" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Layout.png" width="800" alt="Angular Components" />
 </p>
 
 ```vim
@@ -102,7 +102,7 @@ For our backend and database, since it was difficult to see whether data is bein
 - We deleted an item from the database, then destroyed and rebuilt the container and checked that it was still not present.
 - We then dropped a collection manually from MongoDB and rebuilt the container, checking that the starting data was re-seeded as it was supposed to be.
 
-Additionally, we made use of Postman ([source](https://learning.postman.com/)), an online tool that we used to test that our HTTP requests were working as predicted. This was very useful, as it allowed us to conduct tests at various points during development, without the need for a working front-end.
+Additionally, we made use of [Postman](https://learning.postman.com/), an online tool that we used to test that our HTTP requests were working as predicted. This was very useful, as it allowed us to conduct tests at various points during development, without the need for a working front-end.
 
 All of this reassured us that our site was functioning as intended on the whole, to at least the standard required for a prototype. It also allowed us to catch some crucial errors that we were able to rectify.
 
@@ -132,12 +132,20 @@ Our key results were as follows:
 - Most users said that they didn’t think that they’d be likely to spend more than five minutes on the site in one ‘session’, although it was not uncommon for users to give outlying answers.
 - The majority of users said that they’d be ‘Very Likely’ to recommend the site to a friend.
 
+<p align="center">
+  <img src="report_images/key_results.png" width="800" alt="Key Results" />
+</p>
+
 We also gathered some very insightful qualitative feedback, some of which related specifically to our success criteria and some of which was more general. Some choice pieces of qualitative feedback were:
 - “I definitely found it more engaging than I thought I would from the description”
 - “I think this would be a very useful tool for teaching young people about social media.”
 - “I found the Fakebook facts quite shocking and enlightening.”
 - “I was ridiculously pleased when my fake post instantly got over 1000 likes!”
 - “I'd be much more likely to recommend it to friends if I could customize what names the bots would talk about.”
+
+<p align="center">
+  <img src="report_images/user_insights.png" width="800" alt="User Insights" />
+</p>
 
 In one instance, we ran out of time to implement a feature that was requested by users in our early feedback. This missing feature was highlighting on the title of the current page in the left navigation bar. The feature was implemented in the final design, but not in the final working prototype. However, the feature was not requested by users in the following semi-structured interview, and its absence was not noted by users who responded to the final evaluative questionnaire. Although it was an oversight for this feature to be missing, it can also be seen as testament to our success in stream-lining the design. The concern which initially motivated the request (the idea that users might get 'lost' when navigating the site) was not mentioned once the links in the left navigation bar were streamlined down to 'Home' and 'About'. The high score the site was given on 'ease of use' suggests that the original problem was resolved by our UX ideation process and consequent 'streamlining' of the page.
 
