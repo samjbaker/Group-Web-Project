@@ -25,6 +25,7 @@ MONGO_PORT=27017
 MONGO_DB=meantest
 ```
 Where ```<username>``` and ```<password>``` should be set by the user.
+
 4) Then run
 ```bash
 docker-compose up --build
