@@ -92,7 +92,7 @@ Following our first user survey, we completed some User Journey Mapping to give 
 <strong>Sarah:</strong>
 
 <p align="center">
-  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Design/user%20stories/storyboards/Storyboard1.jpg" width="600" />
+  <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/keyinsights.PNG" width="600" />
 </p>
 
 <strong>Josh:</strong>
