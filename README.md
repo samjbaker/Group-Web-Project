@@ -17,7 +17,7 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 ```bash
 cd code
 ```
-3) In folder ```code``` add a new file called ```.env``` that contains the following variables:
+3) In directory ```code``` add a new file called ```.env``` that contains the following variables:
 ```vim
 MONGO_USERNAME=<username>
 MONGO_PASSWORD=<password>
@@ -32,7 +32,7 @@ docker-compose up --build
 ```
 5) To view the site, go to the local host on your own machine (http://localhost:3000/).
 
-6) To test
+6) To test, install npm and angular first. Then in directory ```code```, run
 ```bash
 ng build
 ng test
