@@ -56,3 +56,11 @@ ng test
 ### [6) Evaluation](report/Evaluation.md)
 
 ### [7) Conclusion](report/Conclusion.md)
+
+<p align="center">
+  <img src="report/report_images/fakebook_scroll.gif" width="1000" alt="Fakebook scroll gif"/>
+</p>
+
+<p align="center">
+  An example scroll through the timeline.
+</p>
