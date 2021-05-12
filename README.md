@@ -9,7 +9,7 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 <br>
 
 [![Group Project Video Presentation](Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
-<p align="center"><a href="https://youtu.be/Zl2IwmQ15Hg">Have an introduction to Fakebook! </a></p>
+<p align="center"><a href="https://youtu.be/Zl2IwmQ15Hg">Click here to have an introduction to Fakebook! </a></p>
 
 ## Build Instructions
 1) Clone this repository on your local machine 
