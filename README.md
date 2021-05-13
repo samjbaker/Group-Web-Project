@@ -11,6 +11,15 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 [![Group Project Video Presentation](Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
 <p align="center"><a href="https://youtu.be/Zl2IwmQ15Hg">Click here to have an introduction to Fakebook! </a></p>
 
+## Dependencies
+The followings are links to installation instructions of each dependency:
+
+[1)npm](https://github.com/segp-uob/segp/blob/main/dev/Worksheets/0_gettingstarted.md)
+
+[2)angular](https://github.com/segp-uob/segp/blob/main/dev/Worksheets/0_gettingstarted.md)
+
+[3)docker](https://github.com/segp-uob/segp/blob/main/dev/Worksheets/1_DevOps_Docker_CI.md)
+
 ## Build Instructions
 1) Clone this repository on your local machine 
 2) Change to correct directory
@@ -32,7 +41,7 @@ docker-compose up --build
 ```
 5) To view the site, go to the local host on your own machine (http://localhost:3000/).
 
-6) To test the front end, first install npm and angular on your own machine (not in docker). Then in directory ```code```, run
+6) To test the front end, run
 ```bash
 ng build
 ng test
