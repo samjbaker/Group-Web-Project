@@ -17,8 +17,7 @@ to any changes throughout the entire work process. These changes were numerous i
 achieved by the use of GitHub, where any additions could easily be monitored and responded to. The different departments and developers set up their own branches, which
 would be merged to main if the changes were stable. Any resulting conflicts were handled as a team. Transparent communication served as the first of the Agile values,
 keeping the team up to date via social platforms as well as 2 weekly meetings. This also allowed for technical issues to be promptly resolved, by working together and
-sharing any issues experienced. Customer Collaboration came as a result of user testing, garnering vital user feedback. Our working software was git, which in tandem
-with the other tools, plans and procedures, allowed us to quickly respond to change, covering the 4th Agile Value.
+sharing any issues experienced. Customer Collaboration came as a result of user testing, garnering vital user feedback. We prioritized making our prototype fully functional before writing comprehensive documentation of it, to ensure that we adhered to the agile values.
 
 <p align="center">
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/4-key-agile-values.png" width="600" />
