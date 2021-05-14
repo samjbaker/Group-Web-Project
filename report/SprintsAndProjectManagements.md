@@ -103,7 +103,7 @@ Product Owner:
 	* If any documentation needed a second opinion, Abby would study over any unfinished documents to suggest changes if necessary
 
 Ercan Kilic:
-Main duties for Ercan lied in Product Ownership, engaging with the documentation of aggregate progress, to enable members to continuously stay aware of their goals and
+Main duties for Ercan lay in Product Ownership, engaging with the documentation of aggregate progress, to enable members to continuously stay aware of their goals and
 tasks and maintain advancement. In addition to this, communication and organization were also handled by Ercan. He was also tasked with secondary work for the back-end.
 
 Product Owner:
