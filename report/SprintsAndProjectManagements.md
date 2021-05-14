@@ -58,7 +58,7 @@ The team roles were split as follows:
 <p align="center">
 </p>
 
-April Bates:
+**April Bates:**
 Being the primary Designer, April supplied the team with design assets and site mock-ups to aid us visualize and conceptualize the MVP. Her tasks also surrounded user
 testing and surveys, to garner the effectiveness of our website and its design in achieving its goal of educating users on social media. She also offered assistance to
 the front-end.
@@ -78,7 +78,7 @@ Front-end:
 	* April made sure to assist the front-end in terms of the necessary design features to be implemented, such as clarifying the mock-ups colour code in various
 	  areas or checking the overall design and offering feedback.
 
-Abby Exon:
+**Abby Exon:**
 Main duties lay in the Back-end department, ensuring smooth data transfer between front-end and database. As a secondary role, she aided Ercan Kilic in Product ownership,
 focusing on aiding organization and structure.
 
@@ -102,7 +102,7 @@ Product Owner:
 
 	* If any documentation needed a second opinion, Abby would study over any unfinished documents to suggest changes if necessary
 
-Ercan Kilic:
+**Ercan Kilic:**
 Main duties for Ercan lay in Product Ownership, engaging with the documentation of aggregate progress, to enable members to continuously stay aware of their goals and
 tasks and maintain advancement. In addition to this, communication and organization were also handled by Ercan. He was also tasked with secondary work for the back-end.
 
@@ -124,7 +124,7 @@ Back-end:
 	* When file transfer to the database and the querying of random database data proved difficult to implement, Ercan offered research into the topic to outline potential
 	  approaches to take. Similar research and help were offered throughout the project.
 
-Sam Baker:
+**Sam Baker:**
 Sam’s tasks mainly surrounded the site’s database, where all assets required for the page to function are to be stored, retrieved and randomly queried, depending on the requests
 issued by the front-end or back-end. He also conducted extra work in the Design department.
 
@@ -142,7 +142,7 @@ Design:
 
 	* Sam offered April help in gathering user feedback for the website and offered help in designing surveys
 
-Tony Fang:
+**Tony Fang:**
 Working mainly in the front-end, Tony took the website’s mock design and turned it into a navigable front page using angular. The main goals lied in achieving stability and an
 intuitive front-end, making it easy to use and simplifying communication with the back-end and database. Tony was also tasked with helping the database department.
 
@@ -150,9 +150,9 @@ Front-end:
 - Creating the front-page with all the necessary features of the MVP as discussed with the team. This included the implementation of data transfer to and from the back-end and
   database.
 
-	* Tony became accustomed to webtools such as angular before starting the final front-end, to avoid unnecessary code and time intensive reformatting. In the end he decided
+	* Tony became accustomed to web tools such as angular before starting the final front-end, to avoid unnecessary code and time intensive refactoring. In the end he decided
 	  to split the front end into 3 main navigation columns, successfully implementing all outlined goals such as infinite scrolling and saving user posts. At the same time,
-	  Tony conducted testing to ensure that the tested elements of the front-end run stable and error free.
+	  Tony conducted unit testing to ensure that the elements of the front-end are stable and error free.
 
 Database:
 - Assisting the database department in the functionality of the database and its connection to the front and back-end.
