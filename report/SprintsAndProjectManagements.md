@@ -12,13 +12,12 @@ We decided to tackle this project with the proposed continuous integration model
 (see diagram). This was decided as a result of the adaptive and flexible nature of agile, though it became apparent early on that we would require an even higher level
 of flexibility to accommodate for other deadlines during the course of the term, and unpredictable events such as team members being unavailable or falling ill.
 Adjusting the agile workflow to our needs also enabled the team to move workloads between members, adjusting quickly. This occurred once during the final stages of
-production when a member fell Ill. Their work was promptly split between the members to prevent any delays. This overall flexibility enabled our team to rapidly respond
+production when a member fell ill. Their work was promptly split between the members to prevent any delays. This overall flexibility enabled our team to rapidly respond
 to any changes throughout the entire work process. These changes were numerous in scale and encompassed the entire project. A continuous and flexible workflow was
 achieved by the use of GitHub, where any additions could easily be monitored and responded to. The different departments and developers set up their own branches, which
 would be merged to main if the changes were stable. Any resulting conflicts were handled as a team. Transparent communication served as the first of the Agile values,
 keeping the team up to date via social platforms as well as 2 weekly meetings. This also allowed for technical issues to be promptly resolved, by working together and
-sharing any issues experienced. Customer Collaboration came as a result of user testing, garnering vital user feedback. Our working software was git, which in tandem
-with the other tools, plans and procedures, allowed us to quickly respond to change, covering the 4th Agile Value.
+sharing any issues experienced. Customer Collaboration came as a result of user testing, garnering vital user feedback. We prioritized making our prototype fully functional before writing comprehensive documentation of it, to ensure that we adhered to the agile values.
 
 <p align="center">
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/4-key-agile-values.png" width="600" />
@@ -34,9 +33,8 @@ intuitive way to communicate via text and VoIP, with various channels being set 
 departments such as the front and back-end. Any vital information that should be seen by all members would be posted in the main “general” channel of the discord
 server. To maintain a history of any official meetings held, we used our desk on the units Microsoft Teams server. This allowed us to separate meetings from general
 conduct, allowing for a cleaner workflow and more organised documentation ([Source](https://bris.on.worldcat.org/search?databaseList=638&queryString=the+structuring+of+organizations#/oclc/4195050)). Microsoft Teams was also used for meeting specific resources, such as links to
-relevant research and notes of the meeting. Since the meeting lengths, times and present members are recorded on teams as well, it proved to be the optimal VOIP solution
-for our meetings. The final type of communication would surround shared working via solutions such as google docs, where the report and other shared documentation and
-files were shared between team members. The limit was set at these 3 channels to avoid a cluttered work environment and communication channel, while preventing any
+relevant research and notes of the meeting. Since the meeting lengths, times and present members are recorded on Teams as well, it proved to be the optimal VoIP solution
+for our meetings. The final communication technique was making use of collaborative working tools such as google docs, where the report and other documentation could be shared between team members. The limit was set at these 3 channels to avoid a cluttered work environment, while also preventing any
 bottlenecks regarding the sharing of information and files.
 
 ## 5.2) Team Structure
@@ -45,7 +43,7 @@ This scalable workflow was achieved by implementing a dual role system, aiming t
 members who could focus on it throughout the project. Every member was given two roles, a primary role, which represents the brunt of their work, and a secondary role,
 in which they would act as a supporting position, taking care of some of the work, and potentially stepping in for the primary role holder in case they aren’t able to
 keep up with their workload. For instance, the front-end department would have a primary role, taking care of building the MVP as modelled by the design team, while the
-secondary front-end member helps with minor adjustments or bug fixes.
+secondary front-end member would help with minor adjustments or bug fixes.
 
 To prevent team members from being locked into their departments, a flat hierarchical structure was adopted, so that everyone could get involved with the other parts of
 the project. This facilitated everyone’s continuous learning about all aspects of web development as a team. Additionally, as all members are aware of the current state
