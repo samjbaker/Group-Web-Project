@@ -43,7 +43,7 @@ This scalable workflow was achieved by implementing a dual role system, aiming t
 members who could focus on it throughout the project. Every member was given two roles, a primary role, which represents the brunt of their work, and a secondary role,
 in which they would act as a supporting position, taking care of some of the work, and potentially stepping in for the primary role holder in case they aren’t able to
 keep up with their workload. For instance, the front-end department would have a primary role, taking care of building the MVP as modelled by the design team, while the
-secondary front-end member helps with minor adjustments or bug fixes.
+secondary front-end member would help with minor adjustments or bug fixes.
 
 To prevent team members from being locked into their departments, a flat hierarchical structure was adopted, so that everyone could get involved with the other parts of
 the project. This facilitated everyone’s continuous learning about all aspects of web development as a team. Additionally, as all members are aware of the current state
