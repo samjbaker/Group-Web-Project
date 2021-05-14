@@ -9,29 +9,47 @@ The site’s concept is that it will provide an infinite feed of randomly genera
 <br>
 
 [![Group Project Video Presentation](Documentation/Video_thumbnail.jpg)](https://youtu.be/Zl2IwmQ15Hg)
-<p align="center"><a href="https://youtu.be/Zl2IwmQ15Hg">Have an introduction to Fakebook! </a></p>
+<p align="center"><a href="https://youtu.be/Zl2IwmQ15Hg">Click here to have an introduction to Fakebook! </a></p>
+
+## Dependencies
+In order to run our site you must have Docker, npm and Angular installed. Here are installation instructions for each, if required:
+
+[1) npm](https://github.com/segp-uob/segp/blob/main/dev/Worksheets/0_gettingstarted.md)
+
+[2) Angular](https://github.com/segp-uob/segp/blob/main/dev/Worksheets/0_gettingstarted.md)
+
+[3) Docker](https://github.com/segp-uob/segp/blob/main/dev/Worksheets/1_DevOps_Docker_CI.md)
 
 ## Build Instructions
 1) Clone this repository on your local machine 
-2) To serve
+2) Change to correct directory
 ```bash
 cd code
 ```
-3) Make sure before running docker that you have a .env file with the appropriate environment variables. 
+3) In directory ```code``` add a new file called ```.env``` that contains the following variables:
+```vim
+MONGO_USERNAME=<username>
+MONGO_PASSWORD=<password>
+MONGO_PORT=27017
+MONGO_DB=meantest
+```
+Where ```<username>``` and ```<password>``` should be set by the host.
+
 4) Then run
 ```bash
 docker-compose up --build
 ```
 5) To view the site, go to the local host on your own machine (http://localhost:3000/).
 
-6) To test
+6) To test the front end, run
 ```bash
 ng build
 ng test
 ```
 ## Team Members
-
-<img title="Team members" alt="Team member images" src="/Documentation/Header.jpg">
+<p align="center">
+   <img title="Team members" alt="Team member images" width="1000" src="/Documentation/Header.jpg">
+</p>
 
 ## Project Report Contents
 
@@ -48,3 +66,13 @@ ng test
 ### [6) Evaluation](report/Evaluation.md)
 
 ### [7) Conclusion](report/Conclusion.md)
+
+---
+
+<p align="center">
+  <img src="report/report_images/fakebook_scroll.gif" width="1000" alt="Fakebook scroll gif"/>
+</p>
+
+<p align="center">
+  An example scroll through the timeline.
+</p>

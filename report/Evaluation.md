@@ -6,7 +6,7 @@
 
 ## 6.1) Evaluative Overview
 
-We collected user feedback after key milestones in order to make our design continuously responsive to feedback from the end user. We initially conducted a a series of casual interviews about very early paper prototypes. This then led us to create a more complete paper prototype, which we wrote a questionnaire for. Once we had a website which was useable and interactive, we conducted a series of semi-structured interviews about it. The feedback we gained during the process of creating the product led to some interesting and unexpected insights, which ultimately shaped our final design. A complete timeline of user surveys is detailed in the report's UX Design section.
+We collected user feedback after key milestones in order to make our design continuously responsive to feedback from the end user. We initially conducted a series of casual interviews about very early paper prototypes. This then led us to create a more complete paper prototype, which we wrote a questionnaire for. Once we had a website which was useable and interactive, we conducted a series of semi-structured interviews about it. The feedback we gained during the process of creating the product led to some interesting and unexpected insights, which ultimately shaped our final design. A complete timeline of user surveys is detailed in the report's UX Design section.
 
 For our final evaluation, we created a questionnaire which was structured around the success criteria which we defined at the start of the project.
 
@@ -14,7 +14,7 @@ Overall, we found our process of evaluation effective for understanding our prod
 
 We were also worried about the use of 'casual interviews'. Although they were only used in instances where we had what we considered small and relatively simple issues to be resolved, we had no guarantee that they were conducted consistently, and they were not formally documented in the same way as a semi-structured interview. Had we had more time we would have conducted more formal interviews, and we viewed casual interviews as a flawed means of gaining feedback which we tried to compensate for by always closely following them with more comprehensive interviews and questionnaires.
 
-Conducting surveys while creating the product was an effective means of testing both the product and our ideation about it. In each survey we asked users about whether they found different elements of the interface easy to use, and this allowed us to continuously test functionality and ease of use. It also helped to reveal errors in the product, such as when we realised that some users were not able to differentiate 'fact boxes' from the other posts on the timeline (which was discovered during our semi-structured interviews).
+Conducting surveys while creating the product was an effective means of testing both the product and our ideation about it. In each survey we asked users about whether they found different elements of the interface easy to use, and this allowed us to continuously test functionality and ease of use. It also helped to reveal errors in the product, such as when we realised that some users were not able to differentiate 'fact boxes' from the other posts on the timeline (which was discovered during our [semi-structured interviews](https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/Documentation/Questionnaires%20and%20Surveys/Semi-Structured%20Interview%2027:04/User%20Survey%20Results%2027:4:2021.docx)).
 
 We believe there were benefits in alternating between survey feedback and semi-structured interviews, as both means of evaluation gave us different types of understanding about our product. This ultimately gave us a understanding of the product which was more well-rounded and comprehensive.
 
@@ -35,7 +35,7 @@ Once we had a working prototype that fulfilled the criteria for our minimum viab
 
 > **Aesthetically Pleasing: Our product will implement our designs effectively.** The prototype will execute the designs in such a way that it facilitates playful interaction and enables us to effectively impart our message to users.
 
-We therefore asked users to rate how aesthetically pleasing they found the site, in an attempt to quantify the success of our design. We also allowed for a qualitative response about how it could be improved.
+We therefore asked users to rate how aesthetically pleasing they found the site in an attempt to quantify the success of our design. We also allowed for a qualitative response about how it could be improved.
 
 Our main finding was:
 - 3.4 out of 5 was the overall score for how aesthetically pleasing the prototype was.
@@ -78,16 +78,6 @@ In the MVP, it was decided that functionality would not be added for a dynamical
 <p align="center">
   <img src="https://github.com/A-Madeline-Bates/Group-Web-Project/blob/main/report/report_images/Layout.png" width="800" alt="Angular Components" />
 </p>
-
-```vim
-app
-└── desktop
-    ├── about
-    ├── leftsidebar
-    ├── middle-section
-    │   └── news-feed
-    └── trendingbar
-```
 
 The news-feed section was not tested at all using this method for three reasons. Firstly, we had already ascertained that the news-feed section successfully fetched data from the backend without rendering issues after a Resolver was added. We confirmed this during our black box testing and were sufficiently happy with this. Secondly, making the like-button switch colour when clicked was not included in the MVP, so we deemed it unnecessary to test. Thirdly, the Service, Resolver and the news-feed Component were all tightly coupled, which made testing extremely difficult. As a result, the user post functionality (user submits a post which gets sent to the database to be stored) was not tested using Jasmine.
 
