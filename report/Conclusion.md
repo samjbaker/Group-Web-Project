@@ -6,17 +6,17 @@
 
 Looking back at our product development phase, on the whole we believe that our working practices were a success. There were, of course, some aspects that we could have improved upon.
 
-## 7.11) Adopting an agile framework
+### 7.11) Adopting an agile framework
 
 We applied the agile framework effectively and tried to always bear in mind the four values ([Source](https://www.productboard.com/glossary/agile-values/)). For instance, we prioritised getting user feedback & experience (individuals) over tools and processes. We also prioritised getting our software working first over comprehensive documentation of it. Additionally, we remained open to change of our design by trying not to have a too clearly pre-defined idea of it, allowing it to evolve in response to feedback.
 
 One issue we faced during the development phase was burnout. This was due to a number of factors, not least the difficulty in communication due to COVID. However, we could have done more to mitigate these effects. For example, we could have had more numerous, smaller objectives, by adopting a hybrid working methodology which combined elements of waterfall and agile ([Source](https://www.lucidchart.com/blog/is-agile-waterfall-hybrid-right-for-your-team)) and distributed these objectives more evenly in each sprint.
 
-## 7.12) Evaluation of our MVP
+### 7.12) Evaluation of our MVP
 
 We delivered all of the elements that were defined in our MVP. The design was developed effectively. The entire user interface prototype was implemented as accurately as possible via Angular. The required HTTP requests were correctly set up and tested via Postman. The database was successfully seeded upon building our docker container, and was able to deliver the correct information to the front end when required. We created our own random post generator, which we believe worked effectively. The details of each sprint were well documented and logged (please refer to [Sprints Management section](SprintsAndProjectManagements.md)).
 
-## 7.13) Technical Development
+### 7.13) Technical Development
 
 During the software development phase, we faced issues with ensuring that the correct data was delivered from the back end. We tried to define the data structures that would be transferred between front end and back end at the beginning of the project. However, we learnt from our experience that realistically, it is hard to guarantee that our initial design of the data structures actually contained ALL the information that the front end required. This was especially true due to the evolving nature of our design, based on user feedback. Therefore, it may have been a safer choice to prioritize building the front end as soon as the design prototypes were finished, and then trying to fit in the back end afterwards.
 
@@ -26,7 +26,7 @@ In terms of back end, however, perhaps a cloud database platform such as Firebas
 
 For all of us, this was our first experience of working on a group project such as this using git. Consequently there were definitely ways we could have improved our usage of it. For example, we struggled to merge the front and back end together after each part was finished. This was partly because we did not stick rigorously enough to the continuous integration workflow that we defined at the beginning of the project. We should have divided the frontend and backend into more feature branches. Then, after each feature was successfully implemented, it should have been merged immediately into the develop branch and deleted. We should also have been more mindful about potential merge conflicts and made sure not to track unnecessary files from the beginning, such as the folder containing the node modules.
 
-# 7.2) Project Success
+## 7.2) Project Success
 
 From the results of our final user acceptance tests, in combination with some of the qualitative feedback we received, it is clear that our project was overall a success. The information collected from users suggests that we met the majority of our success criteria:
 
@@ -66,7 +66,7 @@ All of which I believe, and I think the evidence shows, we completed.
 
 With regards to the brief of ‘Serious Play’, I think the user feedback shows that we definitely managed to highlight some of the serious issues that we discussed in our literature review. As all users learned something from our site, I think the serious element was certainly fulfilled. I think we were slightly less successful with our playful element. Users didn’t think they’d use the site for very long and the responses about engagement weren’t so positive. However, all users found the site to be at least somewhat entertaining and several users commented that with a bit of refinement they thought it could be great. Therefore I don’t think we completely missed the mark on playfulness, and would argue that the evidence suggests that we did fulfil the brief on balance.
 
-# 7.3) Effect of Corona-Virus
+## 7.3) Effect of Corona-Virus
 
 
 The most obvious effect of COVID-19 was that, instead of working alongside each other in person, we (ironically) had to communicate via social media.
@@ -79,7 +79,7 @@ It also affected our user testing, as we had a much smaller pool of people to dr
 
 Since face-to-face communication was not viable in many situations, many people have had to rely on social media almost exclusively for social contact much. Students, for example, have spent much more time on Discord and Teams rather than casual conversation in libraries. Sadly this seems to make the message behind our project even more pertinent.
 
-# 7.4) Social and Ethical Implications
+## 7.4) Social and Ethical Implications
 
 We have highlighted some of the Social and Ethical Issues raised by our project, along with a short discussion about each below:
 
@@ -103,7 +103,7 @@ Discussion: In our About section, we have tried to warn about the risks of the p
 
 Discussion: This is something that we didn’t consider enough during our prototyping phase, and is something we would have to improve if we were to launch the page. For example we could look to integrate text to speech capability for visually impaired users.
 
-# 7.5) Discussion of Future Work
+## 7.5) Discussion of Future Work
 
 We have implemented a very simple parody of social media that contains only the most basic functionalities: a user can submit text-based posts and a user can scroll through the existing posts on the timeline. There are many ways we could improve or expand upon our prototype, to make it more engaging and to more effectively convey our message.
 
