@@ -12,7 +12,7 @@ We decided to tackle this project with the proposed continuous integration model
 (see diagram). This was decided as a result of the adaptive and flexible nature of agile, though it became apparent early on that we would require an even higher level
 of flexibility to accommodate for other deadlines during the course of the term, and unpredictable events such as team members being unavailable or falling ill.
 Adjusting the agile workflow to our needs also enabled the team to move workloads between members, adjusting quickly. This occurred once during the final stages of
-production when a member fell Ill. Their work was promptly split between the members to prevent any delays. This overall flexibility enabled our team to rapidly respond
+production when a member fell ill. Their work was promptly split between the members to prevent any delays. This overall flexibility enabled our team to rapidly respond
 to any changes throughout the entire work process. These changes were numerous in scale and encompassed the entire project. A continuous and flexible workflow was
 achieved by the use of GitHub, where any additions could easily be monitored and responded to. The different departments and developers set up their own branches, which
 would be merged to main if the changes were stable. Any resulting conflicts were handled as a team. Transparent communication served as the first of the Agile values,
